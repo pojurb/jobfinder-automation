@@ -1,0 +1,45 @@
+{
+  "name": "remote-job-radar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx src/db/migrate.ts",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
+    "fetch": "tsx src/index.ts fetch",
+    "score": "tsx src/index.ts score",
+    "report": "tsx src/index.ts report",
+    "daily": "npm run fetch && npm run score && npm run report",
+    "list": "tsx src/index.ts list",
+    "export": "tsx src/index.ts export",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^2.9.0",
+    "axios": "^1.18.0",
+    "axios-retry": "^4.5.0",
+    "better-sqlite3": "^12.11.1",
+    "commander": "^15.0.0",
+    "csv-stringify": "^6.8.0",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "yaml": "^2.9.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^26.0.0",
+    "@types/yaml": "^1.9.6",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  }
+}

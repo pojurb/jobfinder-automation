@@ -1,0 +1,42 @@
+role: "Senior Product Manager"
+location: "Indonesia / APAC / Worldwide Remote"
+
+scoring_weights:
+  roleMatch: 30
+  remoteEligibilityForIndonesia: 25
+  seniorityMatch: 15
+  domainMatch: 15
+  aiOrTechnicalProductRelevance: 10
+  freshness: 5 # Computed locally based on postedAt date
+
+preferences:
+  domains:
+    - "SaaS"
+    - "FinTech"
+    - "Financial Technology"
+    - "B2B SaaS"
+
+hard_rejects:
+  locations_only:
+    - "us only"
+    - "eu only"
+    - "uk only"
+    - "canada only"
+    - "americas only"
+    - "north america only"
+    - "europe only"
+    - "must be located in us"
+  work_types:
+    - "onsite"
+    - "on-site"
+    - "hybrid"
+    - "in office"
+    - "in-office"
+  seniorities:
+    - "junior"
+    - "associate"
+    - "intern"
+    - "internship"
+    - "unpaid"
+    - "entry level"
+    - "entry-level"

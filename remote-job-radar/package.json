@@ -15,7 +15,9 @@
     "daily": "npm run fetch && npm run score && npm run report",
     "list": "tsx src/index.ts list",
     "export": "tsx src/index.ts export",
-    "test": "vitest run"
+    "test": "vitest run",
+    "build-cv": "node scripts/build-cv.js",
+    "dashboard": "tsx src/server/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -38,6 +40,8 @@
     "@types/node": "^26.0.0",
     "@types/yaml": "^1.9.6",
     "drizzle-kit": "^0.31.10",
+    "md-to-pdf": "^5.2.5",
+    "pdf-parse": "^2.4.5",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3",
     "vitest": "^4.1.9"

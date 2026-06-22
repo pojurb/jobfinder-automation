@@ -26,6 +26,16 @@ function formatTimestamp(): string {
   return new Date().toLocaleTimeString('en-US', { hour12: false });
 }
 
+let logCallbacks: ((level: LogLevel, msg: string) => void)[] = [];
+
+export function addLogListener(cb: (level: LogLevel, msg: string) => void) {
+  logCallbacks.push(cb);
+}
+
+export function removeLogListener(cb: (level: LogLevel, msg: string) => void) {
+  logCallbacks = logCallbacks.filter(c => c !== cb);
+}
+
 function log(level: LogLevel, message: string, ...args: unknown[]): void {
   if (LEVEL_ORDER[level] < LEVEL_ORDER[currentLevel]) return;
 
@@ -33,6 +43,15 @@ function log(level: LogLevel, message: string, ...args: unknown[]): void {
   const color = LEVEL_COLORS[level];
   const label = level.toUpperCase().padEnd(5);
   const prefix = `${RESET}[${timestamp}] ${color}${label}${RESET}`;
+
+  // Notify listeners
+  let fullMessage = message;
+  if (args.length > 0) {
+    fullMessage += ' ' + args.map(a => typeof a === 'object' ? JSON.stringify(a) : String(a)).join(' ');
+  }
+  logCallbacks.forEach(cb => {
+    try { cb(level, fullMessage); } catch (e) {}
+  });
 
   if (args.length > 0) {
     console.log(`${prefix} ${message}`, ...args);

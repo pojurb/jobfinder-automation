@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remote Job Radar — Johannes Purba</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-hover: #334155;
+      --border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --primary: #6366f1;
+      --primary-hover: #4f46e5;
+      --accent: #a855f7;
+      --success: #10b981;
+      --warn: #f59e0b;
+      --danger: #ef4444;
+      --font-title: 'Outfit', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .logo-container h1 {
+      font-family: var(--font-title);
+      font-size: 1.75rem;
+      font-weight: 800;
+      background: linear-gradient(to right, #818cf8, #c084fc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.25rem;
+    }
+
+    .logo-container p {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+
+    .actions {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    .btn {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      font-family: var(--font-title);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease-in-out;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+
+    .btn:hover {
+      background: var(--primary-hover);
+      transform: translateY(-1px);
+    }
+
+    .btn:active {
+      transform: translateY(1px);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    .btn-secondary:hover {
+      background: var(--card-bg);
+    }
+
+    /* Main Content */
+    .dashboard-container {
+      display: grid;
+      grid-template-columns: 350px 1fr;
+      flex: 1;
+      height: calc(100vh - 84px);
+    }
+
+    /* Left Sidebar: List & Search */
+    .sidebar {
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      background: #0b0f19;
+    }
+
+    .search-container {
+      padding: 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .search-input-wrapper {
+      position: relative;
+    }
+
+    .search-input {
+      width: 100%;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.75rem 1rem;
+      padding-left: 2.5rem;
+      border-radius: 0.5rem;
+      font-size: 0.875rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--primary);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 0.875rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      border-bottom: 1px solid var(--border);
+      background: #0f172a;
+    }
+
+    .tab {
+      flex: 1;
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 1rem 0;
+      font-size: 0.85rem;
+      font-weight: 600;
+      font-family: var(--font-title);
+      cursor: pointer;
+      transition: all 0.2s;
+      border-bottom: 2px solid transparent;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .tab.active {
+      color: var(--text);
+      border-bottom-color: var(--primary);
+      background: rgba(99, 102, 241, 0.05);
+    }
+
+    .tab .badge {
+      background: var(--card-bg);
+      color: var(--text-muted);
+      padding: 0.125rem 0.5rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+    }
+
+    .tab.active .badge {
+      background: var(--primary);
+      color: white;
+    }
+
+    /* Job List */
+    .job-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .job-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 1rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .job-card:hover {
+      border-color: var(--primary);
+      background: var(--card-hover);
+      transform: translateX(3px);
+    }
+
+    .job-card.active {
+      border-color: var(--primary);
+      background: rgba(99, 102, 241, 0.1);
+      box-shadow: inset 4px 0 0 var(--primary);
+    }
+
+    .job-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.5rem;
+    }
+
+    .job-card h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.3;
+      padding-right: 2rem;
+    }
+
+    .job-card-score {
+      font-family: var(--font-title);
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 0.25rem;
+    }
+
+    .score-high { color: var(--success); background: rgba(16, 185, 129, 0.1); }
+    .score-mid { color: var(--warn); background: rgba(245, 158, 11, 0.1); }
+    .score-low { color: var(--danger); background: rgba(239, 68, 68, 0.1); }
+
+    .job-card-meta {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .job-card-meta span {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    /* Right Panel: Job Detail */
+    .detail-panel {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      overflow-y: auto;
+      padding: 2rem;
+      background: #0f172a;
+    }
+
+    .empty-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      color: var(--text-muted);
+      gap: 1rem;
+    }
+
+    .empty-state svg {
+      width: 48px;
+      height: 48px;
+      stroke: var(--text-muted);
+    }
+
+    .detail-header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .detail-title-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.75rem;
+    }
+
+    .detail-title {
+      font-family: var(--font-title);
+      font-size: 1.75rem;
+      font-weight: 700;
+    }
+
+    .detail-company {
+      font-size: 1.125rem;
+      color: var(--primary);
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .detail-meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      background: var(--card-bg);
+      padding: 1rem;
+      border-radius: 0.5rem;
+      border: 1px solid var(--border);
+      font-size: 0.875rem;
+    }
+
+    .detail-meta-item strong {
+      display: block;
+      color: var(--text-muted);
+      margin-bottom: 0.25rem;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Score Breakdown Section */
+    .score-breakdown-section {
+      margin-bottom: 2rem;
+    }
+
+    .score-breakdown-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .score-factor-card {
+      background: #131d31;
+      border: 1px solid var(--border);
+      padding: 0.875rem;
+      border-radius: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .score-factor-info {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .score-factor-title {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .progress-bar-bg {
+      width: 100%;
+      height: 6px;
+      background: var(--border);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: var(--primary);
+      border-radius: 3px;
+      transition: width 0.3s ease;
+    }
+
+    /* Bullet lists */
+    .reasons-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .reason-col {
+      background: rgba(15, 23, 42, 0.5);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 1.25rem;
+    }
+
+    .reason-col h4 {
+      font-family: var(--font-title);
+      font-size: 1rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .reason-col ul {
+      padding-left: 1.25rem;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .reason-col li {
+      margin-bottom: 0.5rem;
+    }
+
+    /* Description */
+    .job-desc-section h4 {
+      font-family: var(--font-title);
+      font-size: 1.15rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+    }
+
+    .job-desc-content {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #cbd5e1;
+      white-space: pre-wrap;
+      max-height: 500px;
+      overflow-y: auto;
+      background: #111827;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      border: 1px solid var(--border);
+    }
+
+    /* Loading overlay */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(15, 23, 42, 0.85);
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(8px);
+    }
+
+    .modal-content {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      width: 90%;
+      max-width: 700px;
+      border-radius: 0.75rem;
+      padding: 2rem;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      position: relative;
+    }
+
+    .close-modal {
+      position: absolute;
+      top: 1.25rem;
+      right: 1.25rem;
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    .close-modal:hover {
+      color: var(--text);
+    }
+
+    /* Loading state design */
+    .loader-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 1.5rem;
+    }
+
+    .spinner {
+      width: 64px;
+      height: 64px;
+      border: 6px solid var(--border);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      box-shadow: 0 0 15px rgba(99, 102, 241, 0.2);
+    }
+
+    .loader-title {
+      font-family: var(--font-title);
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    .terminal-output {
+      width: 100%;
+      height: 250px;
+      background: #020617;
+      border-radius: 0.5rem;
+      border: 1px solid #1e293b;
+      padding: 1rem;
+      font-family: 'Fira Code', monospace;
+      font-size: 0.8rem;
+      color: #38bdf8;
+      overflow-y: auto;
+      text-align: left;
+      line-height: 1.4;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* Tailoring Modal specific */
+    .tailor-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .tailor-tab-buttons {
+      display: flex;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 1rem;
+    }
+
+    .tailor-tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+    }
+
+    .tailor-tab-btn.active {
+      color: var(--primary);
+      border-bottom-color: var(--primary);
+    }
+
+    .prompt-box {
+      width: 100%;
+      height: 250px;
+      background: #0f172a;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      font-family: 'Fira Code', monospace;
+      font-size: 0.85rem;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      user-select: all;
+    }
+
+    .textarea-editor {
+      width: 100%;
+      height: 350px;
+      background: #0f172a;
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-family: 'Fira Code', monospace;
+      font-size: 0.85rem;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      resize: none;
+      outline: none;
+    }
+
+    .textarea-editor:focus {
+      border-color: var(--primary);
+    }
+
+    .form-group {
+      margin-bottom: 1.25rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    .form-input {
+      width: 100%;
+      background: #0f172a;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.75rem 1rem;
+      border-radius: 0.5rem;
+      outline: none;
+    }
+
+    .form-input:focus {
+      border-color: var(--primary);
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: var(--card-bg);
+      border: 1px solid var(--success);
+      color: var(--text);
+      padding: 1rem 1.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+      display: none;
+      align-items: center;
+      gap: 0.75rem;
+      z-index: 200;
+      animation: slideIn 0.3s ease-out;
+    }
+
+    @keyframes slideIn {
+      from { transform: translateY(100px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo-container">
+      <h1>Remote Job Radar</h1>
+      <p>Local PM Job shortlister & ATS optimizer</p>
+    </div>
+    <div class="actions">
+      <button class="btn" id="run-scraper-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+        Scrape & Score Jobs
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <div class="dashboard-container">
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+      <div class="search-container">
+        <div class="search-input-wrapper">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" class="search-input" id="search-box" placeholder="Search title, company...">
+        </div>
+      </div>
+      
+      <div class="tabs">
+        <button class="tab active" data-category="top">
+          <span>🌟 Top Matches</span>
+          <span class="badge" id="badge-top">0</span>
+        </button>
+        <button class="tab" data-category="manual">
+          <span>🤔 Manual Review</span>
+          <span class="badge" id="badge-manual">0</span>
+        </button>
+        <button class="tab" data-category="rejected">
+          <span>❌ Rejected</span>
+          <span class="badge" id="badge-rejected">0</span>
+        </button>
+      </div>
+
+      <div class="job-list" id="job-list-container">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+
+    <!-- Right Detail Panel -->
+    <div class="detail-panel" id="detail-panel-container">
+      <div class="empty-state">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        <p>Select a job card to view full match analysis & details</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Loading Modal (Running Scraper) -->
+  <div class="modal-overlay" id="loading-modal">
+    <div class="modal-content">
+      <div class="loader-container">
+        <div class="spinner"></div>
+        <div class="loader-title">Executing Local Radar Scraper Pipeline</div>
+        <p style="color: var(--text-muted);">Fetching greenhouse, lever, ashby boards & evaluating matches locally...</p>
+        <div class="terminal-output" id="terminal-log">
+          Initialising listener...
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tailor CV Modal -->
+  <div class="modal-overlay" id="tailor-modal">
+    <div class="modal-content" style="max-width: 800px;">
+      <button class="close-modal" id="close-tailor-btn">&times;</button>
+      <h2 style="font-family: var(--font-title); margin-bottom: 1.5rem;">AI CV Tailoring Assistant</h2>
+      
+      <div class="tailor-tab-buttons">
+        <button class="tailor-tab-btn active" id="btn-tab-prompt">1. Copy Prompt for Claude/ChatGPT</button>
+        <button class="tailor-tab-btn" id="btn-tab-editor">2. Paste Output Markdown & Build</button>
+      </div>
+
+      <div class="tailor-grid" id="tailor-prompt-tab">
+        <p style="font-size: 0.9rem; color: var(--text-muted);">Copy the pre-structured prompt below containing your base CV and the job description, paste it into ChatGPT/Claude to tailor the CV, and copy the markdown reply.</p>
+        <button class="btn btn-secondary" style="align-self: flex-start;" id="btn-copy-prompt">Copy Prompt to Clipboard</button>
+        <div class="prompt-box" id="prompt-box-text"></div>
+      </div>
+
+      <div class="tailor-grid" id="tailor-editor-tab" style="display: none;">
+        <div class="form-group">
+          <label>Company/Role Label</label>
+          <input type="text" class="form-input" id="tailor-filename-input" placeholder="e.g. Stripe">
+        </div>
+        <div class="form-group">
+          <label>Pasted tailored Markdown CV</label>
+          <textarea class="textarea-editor" id="tailor-markdown-editor" placeholder="Paste the generated markdown here..."></textarea>
+        </div>
+        <button class="btn" id="btn-generate-pdf">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          Build & Download PDF
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast-notify">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+    <div id="toast-text">PDF Generated Successfully!</div>
+  </div>
+
+  <!-- Base CV Content holder (embedded during load) -->
+  <div id="base-cv-data" style="display: none;"></div>
+
+  <script>
+    let currentJobs = [];
+    let activeCategory = 'top';
+    let selectedJobId = null;
+    let baseCvContent = '';
+
+    // Fetch Base CV content
+    fetch('/api/base-cv')
+      .then(res => res.json())
+      .then(data => {
+        baseCvContent = data.content;
+      });
+
+    // Load Jobs
+    function loadJobs() {
+      fetch('/api/jobs')
+        .then(res => res.json())
+        .then(jobs => {
+          currentJobs = jobs;
+          renderList();
+          updateBadges();
+          if (selectedJobId) {
+            selectJob(selectedJobId);
+          }
+        });
+    }
+
+    // Update Category Badges count
+    function updateBadges() {
+      const topCount = currentJobs.filter(j => (j.totalScore || 0) >= 70 && (!j.rejectionReasons || j.rejectionReasons.length === 0)).length;
+      const rejectedCount = currentJobs.filter(j => (j.totalScore || 0) <= 30 || (j.rejectionReasons && j.rejectionReasons.length > 0 && (j.totalScore || 0) < 70)).length;
+      const manualCount = currentJobs.length - topCount - rejectedCount;
+
+      document.getElementById('badge-top').innerText = topCount;
+      document.getElementById('badge-manual').innerText = manualCount;
+      document.getElementById('badge-rejected').innerText = rejectedCount;
+    }
+
+    // Category switch
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        activeCategory = tab.dataset.category;
+        renderList();
+      });
+    });
+
+    // Render left list
+    function renderList() {
+      const query = document.getElementById('search-box').value.toLowerCase();
+      const container = document.getElementById('job-list-container');
+      container.innerHTML = '';
+
+      const filtered = currentJobs.filter(j => {
+        const titleMatch = j.title.toLowerCase().includes(query);
+        const companyMatch = j.company.toLowerCase().includes(query);
+        
+        // Category filtering logic matching categoriseJobs in report/index.ts
+        const score = j.totalScore || 0;
+        let jobCat = 'manual';
+        if (score === 0 || score <= 30 || (j.rejectionReasons && j.rejectionReasons.length > 0 && score < 70)) {
+          jobCat = 'rejected';
+        } else if (score >= 70) {
+          jobCat = 'top';
+        }
+
+        return jobCat === activeCategory && (titleMatch || companyMatch);
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `<div style="text-align: center; color: var(--text-muted); padding: 2rem;">No jobs found</div>`;
+        return;
+      }
+
+      filtered.forEach(job => {
+        const card = document.createElement('div');
+        card.className = `job-card ${job.id === selectedJobId ? 'active' : ''}`;
+        card.onclick = () => selectJob(job.id);
+
+        let scoreClass = 'score-low';
+        if ((job.totalScore || 0) >= 70) scoreClass = 'score-high';
+        else if ((job.totalScore || 0) >= 31) scoreClass = 'score-mid';
+
+        card.innerHTML = `
+          <div class="job-card-header">
+            <h3>${job.title}</h3>
+            <span class="job-card-score ${scoreClass}">${job.totalScore || 0}</span>
+          </div>
+          <div class="job-card-meta">
+            <span style="color: var(--primary); font-weight: 500;">${job.company}</span>
+            <span>📍 ${job.remoteRegion || job.location || 'Remote'}</span>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // Select job & render detail
+    function selectJob(id) {
+      selectedJobId = id;
+      document.querySelectorAll('.job-card').forEach(card => card.classList.remove('active'));
+      
+      const card = Array.from(document.querySelectorAll('.job-card')).find(c => c.innerHTML.includes(`selectJob(${id})`));
+      // Re-render list to ensure correct active selection is drawn
+      renderList();
+
+      const job = currentJobs.find(j => j.id === id);
+      if (!job) return;
+
+      const detailContainer = document.getElementById('detail-panel-container');
+      
+      const roleFill = job.roleScore || 0;
+      const remoteFill = job.remoteScore || 0;
+      const seniorityFill = job.seniorityScore || 0;
+      const domainFill = job.domainScore || 0;
+      const aiFill = job.aiProductScore || 0;
+
+      const matchReasonsLi = (job.matchReasons || []).map(r => `<li>${r}</li>`).join('');
+      const rejectReasonsLi = (job.rejectionReasons || []).map(r => `<li>${r}</li>`).join('');
+
+      detailContainer.innerHTML = `
+        <div class="detail-header">
+          <div class="detail-title-wrapper">
+            <h2 class="detail-title">${job.title}</h2>
+            <button class="btn" onclick="openTailorModal(${job.id})">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              Tailor CV for this Role
+            </button>
+          </div>
+          <div class="detail-company">${job.company}</div>
+          
+          <div class="detail-meta-grid">
+            <div class="detail-meta-item">
+              <strong>Salary / Package</strong>
+              ${job.salary || 'Not disclosed'}
+            </div>
+            <div class="detail-meta-item">
+              <strong>Location Restrictions</strong>
+              📍 ${job.remoteRegion || job.location || 'Global Remote'}
+            </div>
+            <div class="detail-meta-item">
+              <strong>Source Portal</strong>
+              <a href="${job.url}" target="_blank" style="color: var(--primary); text-decoration: underline;">Open Board Listing ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="score-breakdown-section">
+          <h3 style="font-family: var(--font-title); margin-bottom: 0.5rem;">Match Scoring Breakdown (${job.totalScore || 0} / 100)</h3>
+          <div class="score-breakdown-grid">
+            <div class="score-factor-card">
+              <div class="score-factor-info">
+                <span class="score-factor-title">Role Matching</span>
+                <span>${roleFill}/30</span>
+              </div>
+              <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: ${(roleFill/30)*100}%"></div></div>
+            </div>
+            <div class="score-factor-card">
+              <div class="score-factor-info">
+                <span class="score-factor-title">Indonesia Remote</span>
+                <span>${remoteFill}/25</span>
+              </div>
+              <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: ${(remoteFill/25)*100}%"></div></div>
+            </div>
+            <div class="score-factor-card">
+              <div class="score-factor-info">
+                <span class="score-factor-title">Seniority Match</span>
+                <span>${seniorityFill}/15</span>
+              </div>
+              <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: ${(seniorityFill/15)*100}%"></div></div>
+            </div>
+            <div class="score-factor-card">
+              <div class="score-factor-info">
+                <span class="score-factor-title">SaaS/Fintech Domain</span>
+                <span>${domainFill}/15</span>
+              </div>
+              <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: ${(domainFill/15)*100}%"></div></div>
+            </div>
+            <div class="score-factor-card">
+              <div class="score-factor-info">
+                <span class="score-factor-title">AI / Tech Relevance</span>
+                <span>${aiFill}/10</span>
+              </div>
+              <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: ${(aiFill/10)*100}%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reasons-box">
+          <div class="reason-col" style="border-color: rgba(16, 185, 129, 0.2); background: rgba(16, 185, 129, 0.02);">
+            <h4 style="color: var(--success);">✔️ Match Strengths</h4>
+            <ul>${matchReasonsLi || '<li>Scoring engine rules satisfied</li>'}</ul>
+          </div>
+          <div class="reason-col" style="border-color: rgba(239, 68, 68, 0.2); background: rgba(239, 68, 68, 0.02);">
+            <h4 style="color: var(--danger);">⚠️ Rejection / Risks</h4>
+            <ul>${rejectReasonsLi || '<li>No immediate red flags flagged.</li>'}</ul>
+          </div>
+        </div>
+
+        <div class="job-desc-section">
+          <h4>Full Job Posting Description</h4>
+          <div class="job-desc-content">${job.description || 'Scraped description content was empty.'}</div>
+        </div>
+      `;
+    }
+
+    // Search events
+    document.getElementById('search-box').addEventListener('input', renderList);
+
+    // Scraper trigger with SSE
+    document.getElementById('run-scraper-btn').addEventListener('click', () => {
+      const modal = document.getElementById('loading-modal');
+      const termLog = document.getElementById('terminal-log');
+      modal.style.display = 'flex';
+      termLog.innerHTML = 'Starting scraper pipeline...\n';
+
+      const eventSource = new EventSource('/api/scrape/stream');
+
+      eventSource.onmessage = function(event) {
+        termLog.innerHTML += event.data + '\n';
+        termLog.scrollTop = termLog.scrollHeight;
+      };
+
+      eventSource.onerror = function() {
+        eventSource.close();
+        termLog.innerHTML += '\nScraper pipeline completed successfully!\n';
+        setTimeout(() => {
+          modal.style.display = 'none';
+          loadJobs();
+        }, 1500);
+      };
+    });
+
+    // CV Tailoring Modal flow
+    function openTailorModal(jobId) {
+      const job = currentJobs.find(j => j.id === jobId);
+      if (!job) return;
+
+      document.getElementById('tailor-modal').style.display = 'flex';
+      document.getElementById('tailor-filename-input').value = job.company.replace(/[^a-zA-Z0-9]/g, '_');
+      
+      const prompt = `Act as an expert ATS optimizer and resume writer.
+You are helping Johannes Purba tailor his Product Manager resume for a role as:
+Role: ${job.title}
+Company: ${job.company}
+
+Here is the exact job description:
+==================================
+${job.description || ''}
+==================================
+
+Here is Johannes's current base resume in Markdown:
+==================================
+${baseCvContent}
+==================================
+
+INSTRUCTIONS:
+1. Revise the "ABOUT" summary statement. Naturally weave in keywords matching the target domains (e.g. Risk, FinTech, APIs) while maintaining his actual background.
+2. In the "EXPERIENCE" section, tailor the bullet points for ASTRNT and Qoala to highlight matches with the job requirements. Keep the metrics and scope realistic to his base resume.
+3. Keep the layout, sections, contact details, and other formatting intact.
+4. Output the updated resume strictly in clean Markdown (no extra conversational text).`;
+
+      document.getElementById('prompt-box-text').innerText = prompt;
+    }
+
+    document.getElementById('close-tailor-btn').onclick = () => {
+      document.getElementById('tailor-modal').style.display = 'none';
+    };
+
+    // Tab buttons inside tailor modal
+    document.getElementById('btn-tab-prompt').onclick = () => {
+      document.getElementById('btn-tab-prompt').classList.add('active');
+      document.getElementById('btn-tab-editor').classList.remove('active');
+      document.getElementById('tailor-prompt-tab').style.display = 'grid';
+      document.getElementById('tailor-editor-tab').style.display = 'none';
+    };
+
+    document.getElementById('btn-tab-editor').onclick = () => {
+      document.getElementById('btn-tab-editor').classList.add('active');
+      document.getElementById('btn-tab-prompt').classList.remove('active');
+      document.getElementById('tailor-prompt-tab').style.display = 'none';
+      document.getElementById('tailor-editor-tab').style.display = 'grid';
+    };
+
+    document.getElementById('btn-copy-prompt').onclick = () => {
+      const promptText = document.getElementById('prompt-box-text').innerText;
+      navigator.clipboard.writeText(promptText);
+      
+      const btn = document.getElementById('btn-copy-prompt');
+      btn.innerText = 'Copied!';
+      btn.style.background = 'var(--success)';
+      setTimeout(() => {
+        btn.innerText = 'Copy Prompt to Clipboard';
+        btn.style.background = '';
+      }, 1500);
+    };
+
+    // Build PDF trigger
+    document.getElementById('btn-generate-pdf').onclick = () => {
+      const company = document.getElementById('tailor-filename-input').value.trim();
+      const markdown = document.getElementById('tailor-markdown-editor').value.trim();
+
+      if (!company || !markdown) {
+        alert('Please fill out the company name and paste the tailored CV markdown.');
+        return;
+      }
+
+      const btn = document.getElementById('btn-generate-pdf');
+      btn.disabled = true;
+      btn.innerText = 'Building PDF locally...';
+
+      fetch('/api/save-and-build', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ company, markdown })
+      })
+      .then(res => res.json())
+      .then(data => {
+        btn.disabled = false;
+        btn.innerHTML = `
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          Build & Download PDF
+        `;
+
+        if (data.success) {
+          document.getElementById('tailor-modal').style.display = 'none';
+          document.getElementById('tailor-markdown-editor').value = '';
+          
+          // Show success toast
+          const toast = document.getElementById('toast-notify');
+          document.getElementById('toast-text').innerHTML = `PDF Generated! <a href="${data.pdfUrl}" target="_blank" style="color: white; text-decoration: underline; margin-left: 5px;">Download PDF</a>`;
+          toast.style.display = 'flex';
+          
+          setTimeout(() => {
+            toast.style.display = 'none';
+          }, 6000);
+        } else {
+          alert('Error generating PDF: ' + data.error);
+        }
+      })
+      .catch(err => {
+        btn.disabled = false;
+        btn.innerText = 'Build & Download PDF';
+        alert('Request failed: ' + err.message);
+      });
+    };
+
+    // Load initial
+    window.onload = loadJobs;
+  </script>
+</body>
+</html>

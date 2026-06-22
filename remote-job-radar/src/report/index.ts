@@ -158,7 +158,7 @@ export async function generateDailyReport() {
     })
     .from(jobs)
     .innerJoin(jobScores, eq(jobs.id, jobScores.jobId))
-    .where(sql`date(${jobScores.createdAt}) >= date('now', '-1 day')`)
+    .where(sql`date(${jobScores.createdAt}, 'unixepoch') >= date('now', '-1 day')`)
     .orderBy(desc(jobScores.totalScore));
 
   if (recentJobs.length === 0) {

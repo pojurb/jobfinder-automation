@@ -1,4 +1,3 @@
-import { GoogleGenAI, Type } from '@google/genai';
 import { loadProfileConfig } from './pre-filter';
 import { logger } from '../utils/logger';
 
@@ -19,85 +18,151 @@ export async function evaluateJobWithGemini(job: {
   location?: string | null;
   description?: string | null;
 }): Promise<ScoreBreakdown | null> {
-  const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey) {
-    throw new Error('GEMINI_API_KEY is not set in the environment variables.');
-  }
-
-  const ai = new GoogleGenAI({ apiKey });
   const config = loadProfileConfig();
 
-  const prompt = `
-You are an expert technical recruiter evaluating a job posting for a candidate.
-Candidate Profile:
-- Role: ${config.role}
-- Location Requirement: ${config.location}
-- Preferred Domains: ${config.preferences.domains.join(', ')}
+  const titleLower = job.title.toLowerCase();
+  const locationLower = (job.location || '').toLowerCase();
+  const descLower = (job.description || '').toLowerCase();
+  const textToSearch = `${titleLower} ${locationLower} ${descLower}`;
 
-Job Details:
-- Title: ${job.title}
-- Company: ${job.company}
-- Location: ${job.location || 'Not specified'}
-- Description: ${job.description || 'No description provided'}
+  const matchReasons: string[] = [];
+  const rejectionReasons: string[] = [];
 
-Evaluate the job and assign scores based strictly on the following criteria:
-1. roleMatch (0 to ${config.scoring_weights.roleMatch} points): Is this a true Product Manager role matching the candidate's focus?
-2. remoteEligibilityForIndonesia (0 to ${config.scoring_weights.remoteEligibilityForIndonesia} points): Does this allow working remotely from Indonesia (APAC/Worldwide)? Score 0 if it strictly requires US/EU timezone overlap or work authorization.
-3. seniorityMatch (0 to ${config.scoring_weights.seniorityMatch} points): Is it a Senior level role? 
-4. domainMatch (0 to ${config.scoring_weights.domainMatch} points): Does the company operate in the preferred domains (SaaS, FinTech)?
-5. aiOrTechnicalProductRelevance (0 to ${config.scoring_weights.aiOrTechnicalProductRelevance} points): Does the role involve AI, technical products, or complex systems?
-
-Provide brief reasons for matches and rejections, and a short overall explanation.
-  `;
-
-  try {
-    const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
-      contents: prompt,
-      config: {
-        temperature: 0.1,
-        responseMimeType: 'application/json',
-        responseSchema: {
-          type: Type.OBJECT,
-          properties: {
-            roleScore: { type: Type.INTEGER, description: 'Score for role match' },
-            remoteScore: { type: Type.INTEGER, description: 'Score for remote eligibility' },
-            seniorityScore: { type: Type.INTEGER, description: 'Score for seniority match' },
-            domainScore: { type: Type.INTEGER, description: 'Score for domain match' },
-            aiProductScore: { type: Type.INTEGER, description: 'Score for AI/Technical relevance' },
-            matchReasons: { 
-              type: Type.ARRAY, 
-              items: { type: Type.STRING }, 
-              description: 'List of reasons why this is a good match' 
-            },
-            rejectionReasons: { 
-              type: Type.ARRAY, 
-              items: { type: Type.STRING }, 
-              description: 'List of reasons why this might be a bad match or have low scores' 
-            },
-            shortExplanation: { type: Type.STRING, description: 'A short 1-2 sentence overall verdict' },
-          },
-          required: [
-            'roleScore',
-            'remoteScore',
-            'seniorityScore',
-            'domainScore',
-            'aiProductScore',
-            'matchReasons',
-            'rejectionReasons',
-            'shortExplanation'
-          ],
-        },
-      },
-    });
-
-    if (!response.text) return null;
-
-    const parsed = JSON.parse(response.text) as ScoreBreakdown;
-    return parsed;
-
-  } catch (error) {
-    logger.error(`Gemini API Error: ${(error as Error).message}`);
-    return null;
+  // 1. Role Match (max config.scoring_weights.roleMatch, default 30)
+  let roleScore = 0;
+  const maxRoleMatch = config.scoring_weights.roleMatch;
+  if (titleLower.includes('product manager') || titleLower.includes('pm') || titleLower.includes('prod mgr')) {
+    roleScore = maxRoleMatch;
+    matchReasons.push('Role matches Product Manager');
+  } else if (titleLower.includes('product owner') || titleLower.includes('product lead')) {
+    roleScore = Math.round(maxRoleMatch * 0.8);
+    matchReasons.push('Role matches Product Owner / Lead Product');
+  } else if (titleLower.includes('director of product') || titleLower.includes('head of product') || titleLower.includes('vp of product')) {
+    roleScore = Math.round(maxRoleMatch * 0.9);
+    matchReasons.push('Role matches Leadership Product (Director/Head/VP)');
+  } else if (titleLower.includes('product')) {
+    roleScore = Math.round(maxRoleMatch * 0.5);
+    matchReasons.push('Role contains "Product" but is not explicitly Product Manager');
+  } else {
+    rejectionReasons.push('Job title does not clearly match a Product Management role');
   }
+
+  // 2. Remote Eligibility (max config.scoring_weights.remoteEligibilityForIndonesia, default 25)
+  let remoteScore = 0;
+  const maxRemoteScore = config.scoring_weights.remoteEligibilityForIndonesia;
+  const excludesIndo = /us only|canada only|uk only|europe only|eu only|emea only|north america only|americas only|us citizen|work authorization/i;
+  const explicitlyGlobal = /worldwide|global|anywhere|any location|international|indonesia|apac|asia|southeast asia/i;
+
+  if (excludesIndo.test(textToSearch)) {
+    remoteScore = 0;
+    rejectionReasons.push('Strict geographic restrictions or work authorization (US/EU/Canada only)');
+  } else if (explicitlyGlobal.test(textToSearch) || explicitlyGlobal.test(locationLower)) {
+    remoteScore = maxRemoteScore;
+    matchReasons.push('Job is explicitly open to Worldwide, APAC, or Indonesia remote candidates');
+  } else if (locationLower.includes('remote') || descLower.includes('remote friendly') || descLower.includes('remote work')) {
+    remoteScore = Math.round(maxRemoteScore * 0.7);
+    matchReasons.push('Job is listed as remote but region criteria is not explicitly stated');
+  } else {
+    remoteScore = Math.round(maxRemoteScore * 0.2);
+    rejectionReasons.push('No explicit worldwide or region-free remote availability found');
+  }
+
+  // 3. Seniority Match (max config.scoring_weights.seniorityMatch, default 15)
+  let seniorityScore = 0;
+  const maxSeniorityMatch = config.scoring_weights.seniorityMatch;
+  const isSenior = /senior|sr\.|lead|principal|director|head|vp|staff/i.test(titleLower);
+  const isJunior = /junior|jr\.|associate|intern|entry/i.test(titleLower);
+
+  if (isSenior) {
+    seniorityScore = maxSeniorityMatch;
+    matchReasons.push('Seniority matches target profile (Senior/Lead/Leadership)');
+  } else if (isJunior) {
+    seniorityScore = 0;
+    rejectionReasons.push('Seniority matches Junior/Associate/Intern (exclusionary)');
+  } else {
+    // Check years of experience in the description
+    const expMatch = descLower.match(/(\d+)\+?\s*(?:years|yrs)\s*(?:of)?\s*(?:experience|exp)/i);
+    if (expMatch) {
+      const years = parseInt(expMatch[1]);
+      if (years >= 5) {
+        seniorityScore = maxSeniorityMatch;
+        matchReasons.push(`Requires ${years}+ years of experience, indicating senior level`);
+      } else if (years >= 2) {
+        seniorityScore = Math.round(maxSeniorityMatch * 0.6);
+        matchReasons.push(`Requires ${years} years of experience (mid-level)`);
+      } else {
+        seniorityScore = Math.round(maxSeniorityMatch * 0.2);
+        rejectionReasons.push('Low experience requirement (junior level)');
+      }
+    } else {
+      // Default to mid-level score if not specified
+      seniorityScore = Math.round(maxSeniorityMatch * 0.7);
+      matchReasons.push('Mid-level or unspecified seniority');
+    }
+  }
+
+  // 4. Domain Match (max config.scoring_weights.domainMatch, default 15)
+  let domainScore = 0;
+  const maxDomainMatch = config.scoring_weights.domainMatch;
+  const matchedDomains: string[] = [];
+
+  for (const domain of config.preferences.domains) {
+    const cleanDomain = domain.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    const regex = new RegExp(`\\b${cleanDomain}\\b`, 'i');
+    if (regex.test(textToSearch)) {
+      matchedDomains.push(domain);
+    }
+  }
+
+  if (matchedDomains.length > 0) {
+    domainScore = Math.min(
+      maxDomainMatch,
+      matchedDomains.length * 5 + 5
+    );
+    matchReasons.push(`Matches preferred domain(s): ${matchedDomains.join(', ')}`);
+  } else {
+    domainScore = 0;
+    rejectionReasons.push('Does not match target domains (SaaS/FinTech)');
+  }
+
+  // 5. AI/Technical Relevance (max config.scoring_weights.aiOrTechnicalProductRelevance, default 10)
+  let aiProductScore = 0;
+  const maxTechScore = config.scoring_weights.aiOrTechnicalProductRelevance;
+  const aiKeywords = [
+    'ai', 'artificial intelligence', 'llm', 'machine learning', 'ml', 'nlp', 'gpt',
+    'generative', 'deep learning', 'neural', 'copilot', 'agentic', 'agents', 'technical product',
+    'api', 'developer platform', 'sdk', 'infrastructure', 'cloud', 'analytics', 'data platform'
+  ];
+
+  const matchedTech: string[] = [];
+  for (const word of aiKeywords) {
+    const regex = new RegExp(`\\b${word}\\b`, 'i');
+    if (regex.test(textToSearch)) {
+      matchedTech.push(word);
+    }
+  }
+
+  if (matchedTech.length > 0) {
+    aiProductScore = Math.min(
+      maxTechScore,
+      matchedTech.length * 3 + 4
+    );
+    matchReasons.push(`Has AI or technical relevance: matching ${matchedTech.slice(0, 3).join(', ')}`);
+  } else {
+    aiProductScore = 0;
+  }
+
+  const shortExplanation = `Locally scored ${roleScore + remoteScore + seniorityScore + domainScore + aiProductScore}/95 based on keyword matching: Role (${roleScore}), Remote (${remoteScore}), Seniority (${seniorityScore}), Domain (${domainScore}), and Tech/AI (${aiProductScore}).`;
+
+  return {
+    roleScore,
+    remoteScore,
+    seniorityScore,
+    domainScore,
+    aiProductScore,
+    matchReasons,
+    rejectionReasons,
+    shortExplanation,
+  };
 }
+

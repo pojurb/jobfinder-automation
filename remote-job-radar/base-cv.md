@@ -1,5 +1,5 @@
 # Johannes Purba
-081287454446 • jopurb@gmail.com • linkedin.com/in/johannes-p-1000736b
+081287454446 • jopurb@gmail.com • linkedin.com/in/johannes-p-1000736b • github.com/pojurb
 
 ## SKILLS
 - **Product Management**: Agile Methodologies, Scrum Practices, Product Vision & Strategy, Roadmap Development, Remote Team Management, Cross-Functional Collaboration

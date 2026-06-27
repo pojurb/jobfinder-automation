@@ -5,6 +5,7 @@ import { db } from '../db';
 import { jobs, jobScores } from '../db/schema';
 import { evaluateHardRejects, calculateFreshnessScore } from '../scoring/pre-filter';
 import { logger } from '../utils/logger';
+import { getReportsDir } from '../utils/paths';
 
 async function main() {
   // Find jobs that don't have a score yet
@@ -65,7 +66,7 @@ async function main() {
   logger.info(`- Candidates for AI evaluation: ${candidates.length}`);
 
   if (candidates.length > 0) {
-    const reportsDir = join(process.cwd(), 'reports');
+    const reportsDir = getReportsDir();
     mkdirSync(reportsDir, { recursive: true });
     const outputPath = join(reportsDir, 'candidates_to_score.json');
     writeFileSync(outputPath, JSON.stringify(candidates, null, 2), 'utf-8');

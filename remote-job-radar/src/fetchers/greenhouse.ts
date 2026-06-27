@@ -61,7 +61,6 @@ export class GreenhouseFetcher implements JobFetcher {
               description: job.content || undefined,
               postedAt: job.updated_at || undefined,
               contentHash: computeContentHash(
-                SOURCE,
                 job.title,
                 company.name || company.slug,
                 job.absolute_url

@@ -4,15 +4,19 @@ import { seedCompanies } from '../data/seed-companies';
 import { NormalizedJob } from '../fetchers/types';
 import { logger } from '../utils/logger';
 import { eq, and, sql } from 'drizzle-orm';
+import { readFileSync } from 'fs';
+import { parse } from 'yaml';
+import { getConfigPath } from '../utils/paths';
 
 // URL patterns for ATS platforms
 const ATS_PATTERNS: Array<{
   regex: RegExp;
-  atsType: 'greenhouse' | 'lever' | 'ashby';
+  atsType: 'greenhouse' | 'lever' | 'ashby' | 'workday';
 }> = [
   { regex: /boards\.greenhouse\.io\/([a-zA-Z0-9_-]+)/i, atsType: 'greenhouse' },
   { regex: /jobs\.lever\.co\/([a-zA-Z0-9_-]+)/i, atsType: 'lever' },
   { regex: /jobs\.ashbyhq\.com\/([a-zA-Z0-9_-]+)/i, atsType: 'ashby' },
+  { regex: /([a-z0-9-]+)\.wd1\.myworkdayjobs\.com/i, atsType: 'workday' },
 ];
 
 /**
@@ -122,7 +126,7 @@ export async function loadSeedCompanies(): Promise<number> {
  * Get all active companies for a given ATS type.
  */
 export async function getActiveCompanies(
-  atsType: 'greenhouse' | 'lever' | 'ashby'
+  atsType: 'greenhouse' | 'lever' | 'ashby' | 'workday'
 ): Promise<Array<{ id: number; slug: string; name: string | null }>> {
   return db
     .select({
@@ -151,11 +155,16 @@ export async function markCompanySuccess(companyId: number): Promise<void> {
 
 /**
  * Record a failed check. Deactivate after max_failures consecutive failures.
+ * Reads max_failures from config.yaml staleness.max_failures (default: 3).
  */
 export async function markCompanyFailure(
   companyId: number,
-  maxFailures: number = 3
+  maxFailures?: number
 ): Promise<void> {
+  if (maxFailures === undefined) {
+    maxFailures = readStalenessMaxFailures();
+  }
+
   const company = await db
     .select()
     .from(discoveredCompanies)
@@ -180,5 +189,16 @@ export async function markCompanyFailure(
     logger.warn(
       `Deactivated company: ${company[0].slug} on ${company[0].atsType} (${newFailCount} consecutive failures)`
     );
+  }
+}
+
+function readStalenessMaxFailures(): number {
+  try {
+    const configPath = getConfigPath();
+    const configFile = readFileSync(configPath, 'utf-8');
+    const parsed = parse(configFile) as { staleness?: { max_failures?: number } };
+    return parsed.staleness?.max_failures ?? 3;
+  } catch {
+    return 3;
   }
 }

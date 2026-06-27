@@ -3,7 +3,7 @@ import axiosRetry from 'axios-retry';
 import { logger } from './logger';
 import { readFileSync } from 'fs';
 import { parse } from 'yaml';
-import { join } from 'path';
+import { getConfigPath } from './paths';
 
 interface RateLimits {
   [source: string]: number;
@@ -11,7 +11,7 @@ interface RateLimits {
 
 function loadRateLimits(): RateLimits {
   try {
-    const configPath = join(process.cwd(), 'config.yaml');
+    const configPath = getConfigPath();
     const configFile = readFileSync(configPath, 'utf-8');
     const config = parse(configFile);
     return config.rate_limits || {};

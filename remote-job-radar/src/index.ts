@@ -4,7 +4,7 @@ import { setLogLevel } from './utils/logger';
 import { runFetchPipeline } from './fetchers';
 import { runScoringEngine } from './scoring';
 import { generateDailyReport } from './report';
-import { runListCommand, runExportCommand } from './extras';
+import { runListCommand, runExportCommand, runReviewCommand } from './extras';
 import { logger } from './utils/logger';
 
 dotenv.config();
@@ -42,8 +42,13 @@ program
 program
   .command('report')
   .description('Generate a daily report of scored jobs (Markdown and CSV)')
-  .action(async () => {
-    await generateDailyReport();
+  .option('--since <date>', 'Include jobs scored since this date (YYYY-MM-DD)')
+  .option('--all', 'Include all scored jobs regardless of date')
+  .action(async (options) => {
+    await generateDailyReport({
+      since: options.since,
+      all: options.all,
+    });
   });
 
 program
@@ -69,6 +74,35 @@ program
   .description('Export all jobs and scores to a CSV file')
   .action(async () => {
     await runExportCommand();
+  });
+
+program
+  .command('discover')
+  .description('Discover career sites for target companies and register ATS boards')
+  .option('--industry <industries>', 'Filter by industry (comma-separated, e.g. SaaS,AI)')
+  .option('--dry-run', 'List companies without probing career sites')
+  .action(async (options) => {
+    const { runCompanyDiscovery } = await import('./discovery/company-discovery');
+    await runCompanyDiscovery({
+      industry: options.industry,
+      dryRun: options.dryRun,
+    });
+  });
+
+program
+  .command('review')
+  .description('Output LLM-paste-ready job summaries for review')
+  .option('-n, --top <number>', 'Number of jobs to show', '10')
+  .option('-j, --job <id>', 'Review a single job by database ID')
+  .option('-c, --category <category>', 'Job category: top, manual, rejected, or all', 'manual')
+  .option('--apply-ready', 'Show only genuinely applyable jobs (score 70+, remote 18+, no rejections)')
+  .action(async (options) => {
+    await runReviewCommand({
+      top: options.top ? parseInt(options.top, 10) : undefined,
+      jobId: options.job,
+      category: options.category as 'top' | 'manual' | 'rejected' | 'all',
+      applyReady: options.applyReady,
+    });
   });
 
 program.parse(process.argv);

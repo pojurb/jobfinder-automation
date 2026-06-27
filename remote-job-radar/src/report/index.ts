@@ -5,6 +5,7 @@ import { stringify } from 'csv-stringify/sync';
 import { db } from '../db';
 import { jobs, jobScores } from '../db/schema';
 import { logger } from '../utils/logger';
+import { getReportsDir } from '../utils/paths';
 
 // Thresholds for categorizing jobs
 const TOP_MATCH_THRESHOLD = 70;
@@ -18,6 +19,7 @@ interface ReportJob {
   remoteRegion: string | null;
   salary: string | null;
   url: string;
+  description?: string | null;
   totalScore: number | null;
   roleScore: number | null;
   remoteScore: number | null;
@@ -126,17 +128,68 @@ function generateCSV(scoredJobs: ReportJob[]): string {
   return stringify(records, { header: true });
 }
 
-export async function generateDailyReport() {
-  const reportsDir = join(process.cwd(), 'reports');
+function generateViewerDataset(dateString: string, scoredJobs: ReportJob[]) {
+  return {
+    generatedAt: new Date().toISOString(),
+    reportDate: dateString,
+    source: `${dateString}-remote-jobs`,
+    jobs: scoredJobs.map((job) => ({
+      id: job.id,
+      title: job.title,
+      company: job.company,
+      location: job.location,
+      remoteRegion: job.remoteRegion,
+      salary: job.salary,
+      url: job.url,
+      description: job.description || '',
+      totalScore: job.totalScore || 0,
+      roleScore: job.roleScore || 0,
+      remoteScore: job.remoteScore || 0,
+      seniorityScore: job.seniorityScore || 0,
+      domainScore: job.domainScore || 0,
+      aiProductScore: job.aiProductScore || 0,
+      freshnessScore: job.freshnessScore || 0,
+      matchReasons: job.matchReasons || [],
+      rejectionReasons: job.rejectionReasons || [],
+      fetchedAt: job.fetchedAt.toISOString(),
+    })),
+  };
+}
+
+function generateViewerScript(dateString: string, scoredJobs: ReportJob[]): string {
+  const payload = JSON.stringify(generateViewerDataset(dateString, scoredJobs));
+  return `window.REMOTE_JOB_RADAR_DATA = ${payload};\n`;
+}
+
+export interface ReportOptions {
+  since?: string;
+  all?: boolean;
+}
+
+export async function generateDailyReport(options: ReportOptions = {}) {
+  const reportsDir = getReportsDir();
   mkdirSync(reportsDir, { recursive: true });
 
   const today = new Date();
   const dateString = today.toISOString().split('T')[0];
 
-  // Fetch jobs scored within the last 24 hours
-  logger.info(`Fetching scored jobs for ${dateString}...`);
-  
-  const recentJobs = await db
+  const scopeLabel = options.all
+    ? 'all time'
+    : options.since
+      ? `since ${options.since}`
+      : 'the last 24 hours';
+  logger.info(`Fetching scored jobs for ${dateString} (${scopeLabel})...`);
+
+  let whereClause;
+  if (options.all) {
+    whereClause = undefined;
+  } else if (options.since) {
+    whereClause = sql`date(${jobScores.createdAt}, 'unixepoch') >= date(${options.since})`;
+  } else {
+    whereClause = sql`date(${jobScores.createdAt}, 'unixepoch') >= date('now', '-1 day')`;
+  }
+
+  let query = db
     .select({
       id: jobs.id,
       title: jobs.title,
@@ -145,6 +198,7 @@ export async function generateDailyReport() {
       remoteRegion: jobs.remoteRegion,
       salary: jobs.salary,
       url: jobs.url,
+      description: jobs.description,
       totalScore: jobScores.totalScore,
       roleScore: jobScores.roleScore,
       remoteScore: jobScores.remoteScore,
@@ -158,23 +212,34 @@ export async function generateDailyReport() {
     })
     .from(jobs)
     .innerJoin(jobScores, eq(jobs.id, jobScores.jobId))
-    .where(sql`date(${jobScores.createdAt}, 'unixepoch') >= date('now', '-1 day')`)
     .orderBy(desc(jobScores.totalScore));
 
+  const recentJobs = whereClause ? await query.where(whereClause) : await query;
+
   if (recentJobs.length === 0) {
-    logger.warn('No jobs scored in the last 24 hours. Report will be empty.');
+    logger.warn(`No jobs scored ${scopeLabel}. Report will be empty.`);
   }
 
   const { topMatches, manualReview, rejected } = categorizeJobs(recentJobs as ReportJob[]);
 
   const mdContent = generateMarkdown(dateString, topMatches, manualReview, rejected);
   const csvContent = generateCSV(recentJobs as ReportJob[]);
+  const viewerJsonContent = JSON.stringify(
+    generateViewerDataset(dateString, recentJobs as ReportJob[]),
+    null,
+    2
+  );
+  const viewerScriptContent = generateViewerScript(dateString, recentJobs as ReportJob[]);
 
   const mdPath = join(reportsDir, `${dateString}-remote-jobs.md`);
   const csvPath = join(reportsDir, `${dateString}-remote-jobs.csv`);
+  const viewerJsonPath = join(reportsDir, 'latest-jobs.json');
+  const viewerScriptPath = join(reportsDir, 'latest-jobs.js');
 
   writeFileSync(mdPath, mdContent, 'utf-8');
   writeFileSync(csvPath, csvContent, 'utf-8');
+  writeFileSync(viewerJsonPath, viewerJsonContent, 'utf-8');
+  writeFileSync(viewerScriptPath, viewerScriptContent, 'utf-8');
 
   logger.info('\n' + '═'.repeat(50));
   logger.info(`📊 Daily Report Generated for ${dateString}`);
@@ -184,5 +249,7 @@ export async function generateDailyReport() {
   logger.info(`Files saved to:`);
   logger.info(`- ${mdPath}`);
   logger.info(`- ${csvPath}`);
+  logger.info(`- ${viewerJsonPath}`);
+  logger.info(`- ${viewerScriptPath}`);
   logger.info('═'.repeat(50) + '\n');
 }

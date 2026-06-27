@@ -1,80 +1,161 @@
-# Remote Job Radar 📡
+# Remote Job Radar
 
-A fully automated, CLI-based job discovery and scoring pipeline tailored for finding high-quality remote opportunities. Designed to sidestep crowded job boards, automatically discover direct ATS (Applicant Tracking System) listings, filter out bad fits, and use AI to score the remaining jobs based on your exact preferences.
+A local, API-key-free remote-job discovery pipeline with a two-column dashboard viewer. It fetches openings from aggregator feeds and company ATS boards, filters obvious misses, scores the rest against your profile using local keyword/regex matching, and generates shortlist reports you can inspect in the browser.
 
-## What this tool does
+## What This Tool Does
 
-Remote Job Radar executes a 3-step pipeline:
-1. **Fetch**: Pulls raw job data from aggregator feeds (Remotive, RemoteOK) and auto-discovers hidden company boards hosted on Greenhouse, Lever, and Ashby.
-2. **Score**: Evaluates each job against local rules to instantly hard-reject obvious misfits (e.g., non-remote, junior roles). The survivors are evaluated by Google's Gemini AI to compute a comprehensive score (0-100) based on seniority, role match, domain preference, and freshness.
-3. **Report**: Generates clean Markdown and CSV reports bucketing jobs into Top Matches, Manual Review, and Rejections, complete with "Why it matched" summaries and direct apply links.
+Remote Job Radar executes a 4-step pipeline:
+
+1. **Discover**: Probes career sites for target companies from `companies.yaml` and registers their ATS boards (Greenhouse, Lever, Ashby, Workday). Also auto-discovers ATS boards from aggregator job URLs.
+2. **Fetch**: Pulls job data from aggregator feeds (Remotive, RemoteOK, WeWorkRemotely, Himalayas, YC Work at a Startup, Wellfound) and ATS boards (Greenhouse, Lever, Ashby, Workday). Uses config keywords for targeted searches. Cross-source deduplication prevents the same job appearing twice.
+3. **Score**: Applies local hard rejects first, then scores the remaining jobs using weighted keyword/regex matching against your profile config. No external AI API is used.
+4. **Report**: Generates Markdown and CSV shortlists plus `latest-jobs.js` for the HTML viewer in `reports/`.
 
 ## Setup Steps
 
-1. **Clone the repository** and install dependencies:
+Run commands from `D:\jobfinder-automation\remote-job-radar`.
+
+1. Install dependencies:
    ```bash
    npm install
    ```
-2. **Initialize the database**:
+2. Initialize the database:
    ```bash
    npm run db:push
    ```
-3. **Configure your Profile**: 
-   Edit the `config/profile.yaml` to specify your role, target locations, domains, and hard rejects.
-4. **Setup Environment Variables**:
-   Copy the example file and add your Gemini API key.
-   ```bash
-   cp .env.example .env
+3. Configure fetch/search settings in `config.yaml`.
+4. Configure scoring/profile settings in `config/profile.yaml`.
+5. Copy the environment file (optional, no API keys needed):
+   ```powershell
+   copy .env.example .env
    ```
 
 ## Environment Variables
 
-The project uses a `.env` file to manage secrets:
-- `GEMINI_API_KEY`: **(Required)** Your Google Gemini API Key used by the scoring engine to evaluate job descriptions.
+No API keys are required. Scoring is performed locally using keyword/regex matching — no external AI API is called. The database path is resolved automatically from the project root.
 
-## How to configure `profile.yaml`
+Optional: Set `WELLFOUND_API_KEY` or `WELLFOUND_TOKEN` in `.env` to enable Wellfound/AngelList job fetching.
 
-The `config/profile.yaml` file acts as the "brain" for the pre-filter and the AI.
+## Config Files
 
-- **`role` and `location`**: Tells the AI who you are and where you are located.
-- **`scoring_weights`**: Defines the maximum point value for each category (totaling 100).
-- **`preferences.domains`**: A list of industries you prefer (e.g., SaaS, FinTech). The AI checks the job description against this list for extra points.
-- **`hard_rejects`**: A powerful local pre-filter. Jobs containing these keywords in their title, location, or description are instantly dropped (given a 0 score) without wasting API tokens. Categories include `locations_only` (e.g., "us only"), `work_types` (e.g., "hybrid", "onsite"), and `seniorities` (e.g., "junior").
+- `config.yaml`: fetch pipeline keywords, excluded keywords, location filtering, rate limits, staleness management.
+- `config/profile.yaml`: scoring profile — role, location, scoring weights, domain preferences, anti-domains, AI keywords, global/exclusion indicators, restricted location patterns, title aliases, and hard rejects.
+- `companies.yaml`: curated target company list with industry tags for company-first discovery.
+
+### `config/profile.yaml`
+
+This file acts as the scoring profile:
+
+- `role` and `location`: who the scoring engine is optimizing for.
+- `scoring_weights`: max points per category (role, remote, seniority, domain, AI/tech, freshness).
+- `preferences.domains`: preferred industries such as SaaS or FinTech.
+- `preferences.anti_domains`: industries to penalize (e.g. crypto, gambling). Empty by default.
+- `preferences.ai_keywords`: keywords for AI/technical relevance scoring (configurable, was hardcoded).
+- `preferences.global_indicators`: keywords indicating worldwide remote eligibility.
+- `preferences.exclusion_indicators`: keywords indicating geographic restrictions.
+- `preferences.restricted_location_patterns`: city/country names that indicate location-locked roles (prevents false "worldwide" matches from description boilerplate).
+- `preferences.title_aliases`: maps title variants to canonical forms (e.g. "Sr. PM" → "Senior Product Manager").
+- `hard_rejects`: keywords that trigger immediate rejection (locations, work types, seniorities).
+
+## HTML Viewer (Two-Column Dashboard)
+
+The dashboard is a standalone HTML file with a two-column master-detail layout:
+
+1. Open [dashboard.html](D:\jobfinder-automation\remote-job-radar\src\server\dashboard.html:1) in your browser.
+2. It will auto-load `reports/latest-jobs.js`.
+3. Left column: job list with search, category tabs (Top/Manual/Rejected), and sort dropdown (score/freshness).
+4. Right column: job details — score, location, salary, match reasons, risks, description (HTML stripped), raw record.
+5. Keyboard navigation: Arrow Up/Down to move between jobs.
+6. On tablet/mobile: detail panel slides in from the right with backdrop.
+
+Recommended inputs:
+
+- `reports/latest-jobs.js` for automatic display on page load
+- `reports/*-remote-jobs.csv`
+- any JSON array with job records
+
+The viewer does not run scraping or scoring. It only displays data generated by the CLI tools.
 
 ## CLI Commands
 
-- **`npm run fetch`**: Discovers and downloads jobs. Can be targeted to a single source with `npm run fetch -- --source greenhouse`.
-- **`npm run score`**: Runs the unscored jobs through the hard-reject pre-filter and Gemini AI.
-- **`npm run report`**: Reads the scored jobs and spits out Markdown and CSV lists into the `reports/` folder.
-- **`npm run daily`**: **Recommended.** Chains all three commands `fetch -> score -> report`. Run this every morning.
-- **`npm run list`**: Prints all the active ATS company boards currently being tracked by the database.
-- **`npm run export`**: Exports the entire database of fetched and scored jobs to a master CSV file.
+- `npm run fetch`: fetches jobs from all sources. Target one source with `npm run fetch -- --source greenhouse`.
+- `npm run score`: scores unscored jobs using hard rejects plus local keyword/regex matching.
+- `npm run report`: writes Markdown and CSV reports into `reports/`. Options:
+  - `--since <date>`: include jobs scored since this date (YYYY-MM-DD)
+  - `--all`: include all scored jobs regardless of date
+- `npm run daily`: runs `fetch -> score -> report`.
+- `npm run list`: prints active ATS company boards tracked in the database.
+- `npm run export`: exports all jobs and scores to a CSV file.
+- `npm run review`: outputs structured, LLM-paste-ready job summaries for review. Options:
+  - `--top N`: limit results (default 10)
+  - `--job <id>`: review a single job by database ID
+  - `--category top|manual|rejected|all`: filter by score category (default: manual)
+  - `--apply-ready`: show only genuinely applyable jobs (score 70+, remote 18+, no rejections)
+- `npm run discover`: probes career sites for target companies and registers ATS boards. Options:
+  - `--industry SaaS,AI`: filter by industry (comma-separated)
+  - `--dry-run`: list companies without probing career sites
+
+## Job Sources
+
+### Aggregators
+- **Remotive** — keyword-driven search (one API call per config keyword)
+- **RemoteOK** — keyword-driven tag search
+- **WeWorkRemotely** — RSS feed for product management jobs
+- **Himalayas** — stub (API not yet available)
+- **YC Work at a Startup** — stub (API not yet available)
+- **Wellfound/AngelList** — requires auth token (set `WELLFOUND_API_KEY`)
+
+### ATS Boards
+- **Greenhouse** — paginated API with content
+- **Lever** — offset-based pagination
+- **Ashby** — single-request board API
+- **Workday** — POST-based API with pagination (seed: Salesforce)
+
+### Company-First Discovery
+- `companies.yaml` — 109 curated companies tagged with industries (SaaS, FinTech, AI, Data, Other)
+- `npm run discover` probes Greenhouse, Lever, and Ashby for each company and registers found boards
 
 ## How Scoring Works
 
-Every job starts unscored. 
-1. **Freshness Math**: The job's age is calculated locally. (< 3 days = 5pts, < 7 days = 3pts, < 14 days = 1pt).
-2. **The Pre-filter**: The text is scanned against your `hard_rejects` lists. If it triggers a rule, it immediately gets `totalScore: 0`, a rejection reason is logged, and the process ends.
-3. **The AI Evaluation**: If it passes the pre-filter, the title, company, location, and description are sent to Google Gemini via Structured Outputs. The AI awards points across 4 categories (Role Match, Remote Eligibility, Seniority, Domain Relevance) up to the maximums defined in your config.
-4. **Total**: The AI scores and the freshness score are combined to create the `totalScore`.
-   - `> 70`: Top Match
+1. **Freshness**: jobs newer than 3 days get 5 points, newer than 7 days get 3 points, newer than 14 days get 1 point.
+2. **Hard Rejects**: location, work-type, and seniority rules can reject a job immediately with `totalScore: 0`.
+3. **Local Keyword Evaluation**: A deterministic scorer rates role match, remote eligibility, seniority fit, domain relevance (including anti-domain penalties), AI/technical relevance, and salary signal — all using weighted keyword/regex matching against `config/profile.yaml`. No external API is called.
+4. **Remote Eligibility**: The scorer checks the location field first. If the location names a specific city or country (e.g. "San Francisco", "Remote - USA"), it gets a low remote score — even if the description says "worldwide". This prevents false positives from company boilerplate.
+5. **Final Score**:
+   - `>= 70`: Top Match
    - `31 - 69`: Manual Review
    - `<= 30`: Rejected
 
-## How to add a new job source
+## Cross-Source Deduplication
 
-1. **Create the Fetcher**: Add a new file in `src/fetchers/my-source.ts`. Implement the `JobFetcher` interface.
-2. **Normalize Data**: Ensure the raw response is mapped to the standard `NormalizedJob` format.
-3. **Generate a Hash**: Call `computeContentHash` with the source, title, company, and url.
-4. **Register**: Add the new fetcher to the `FETCHERS` array in `src/fetchers/index.ts`.
+The same job posted on both Remotive and a company's Greenhouse board creates two entries. The pipeline deduplicates by content hash (title + company + URL, excluding source) before database insertion. When duplicates exist, the higher-priority source wins (ATS > aggregator).
+
+Priority order: Workday > Greenhouse > Lever > Ashby > WeWorkRemotely > Himalayas > YC > Wellfound > Remotive > RemoteOK.
+
+## Adding a New Job Source
+
+1. Add a new fetcher file in `src/fetchers/`.
+2. Normalize the source response into the shared `NormalizedJob` shape.
+3. Generate a content hash using `computeContentHash(title, company, url)` (3-arg, source-independent).
+4. Add Zod validation schema to `src/fetchers/schemas.ts` (if JSON API).
+5. Register the fetcher in `src/fetchers/index.ts` (aggregators array or ATS array).
+6. Add rate limit config to `config.yaml`.
+
+## Adding a New Company
+
+1. Add the company to `companies.yaml` with an industry tag.
+2. Run `npm run discover` to probe their career site and register the ATS board.
+3. Run `npm run fetch` to pull jobs from the newly discovered board.
+
+Alternatively, add directly to `src/data/seed-companies.ts` with the correct ATS slug.
 
 ## Known Limitations
 
-- **Staleness**: Some auto-discovered ATS boards may eventually be taken down by the company. The system attempts to track fetch failures and marks boards inactive after consecutive misses, but occasional manual cleanup of the `discovered_companies` table might be required.
-- **Rate Limits**: The ATS endpoints (Greenhouse/Lever/Ashby) do not have official public SLAs. Heavy or overly aggressive fetching might result in temporary IP bans. Rate limiting and Axios retries are built-in to mitigate this.
+- Some discovered ATS boards will eventually go stale and may need cleanup.
+- Heavy ATS fetching can still trigger upstream rate limits despite retries and delays.
+- Himalayas, YC Work at a Startup, and Wellfound APIs require investigation or auth tokens.
+- Wellfound requires an API key (set `WELLFOUND_API_KEY` in `.env`).
 
-## Why LinkedIn is not scraped
+## Why LinkedIn Is Not Scraped
 
-This tool specifically avoids scraping LinkedIn. LinkedIn heavily restricts automated access, constantly deploys bot-detection measures, and utilizes dynamic DOMs that frequently break scrapers. Bypassing these measures usually results in account bans or requires expensive proxy networks. 
-
-Instead, this tool focuses on the source of truth: **Aggregators** (via official APIs) and **ATS Systems** (via public unauthenticated JSON boards). By pulling directly from Greenhouse, Lever, and Ashby, we get cleaner data, faster performance, and completely bypass LinkedIn's walled garden.
+This project avoids LinkedIn scraping. Instead it focuses on aggregator APIs and public ATS endpoints, which are cleaner, faster, and less brittle.

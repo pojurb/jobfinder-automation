@@ -1,12 +1,11 @@
 import { eq, isNull } from 'drizzle-orm';
 import { db } from '../db';
 import { jobs, jobScores } from '../db/schema';
-import { evaluateHardRejects, loadProfileConfig, calculateFreshnessScore } from './pre-filter';
-import { evaluateJobWithGemini } from './gemini';
+import { evaluateHardRejects, calculateFreshnessScore } from './pre-filter';
+import { evaluateJobLocally } from './local-scorer';
 import { logger } from '../utils/logger';
 
 export async function runScoringEngine() {
-  const config = loadProfileConfig();
 
   // Find jobs that don't have a score yet
   const unscoredJobs = await db
@@ -16,6 +15,7 @@ export async function runScoringEngine() {
       company: jobs.company,
       location: jobs.location,
       description: jobs.description,
+      salary: jobs.salary,
       postedAt: jobs.postedAt,
       fetchedAt: jobs.fetchedAt,
     })
@@ -59,13 +59,14 @@ export async function runScoringEngine() {
         continue;
       }
 
-      // 3. AI Qualitative Evaluation
+      // 3. Local Keyword Evaluation
       logger.info(`Evaluating job ${job.id} (${job.company} - ${job.title})...`);
-      const breakdown = await evaluateJobWithGemini({
+      const breakdown = await evaluateJobLocally({
         title: job.title,
         company: job.company,
         location: job.location,
         description: job.description,
+        salary: job.salary,
       });
 
       if (!breakdown) {
@@ -97,10 +98,6 @@ export async function runScoringEngine() {
       });
 
       aiEvaluatedCount++;
-      
-      // Artificial delay to respect rate limits
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
     } catch (error) {
       logger.error(`Error scoring job ${job.id}: ${(error as Error).message}`);
       errorCount++;

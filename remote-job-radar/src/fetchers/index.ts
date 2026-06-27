@@ -1,25 +1,30 @@
 import { readFileSync } from 'fs';
-import { join } from 'path';
 import { parse } from 'yaml';
-import { eq, and } from 'drizzle-orm';
+import { sql } from 'drizzle-orm';
 import { db } from '../db';
 import { jobs } from '../db/schema';
 import { NormalizedJob, FetchStats, JobFetcher } from './types';
 import { RemotiveFetcher } from './remotive';
 import { RemoteOKFetcher } from './remoteok';
+import { WeWorkRemotelyFetcher } from './weworkremotely';
+import { HimalayasFetcher } from './himalayas';
+import { WorkAtAStartupFetcher } from './workatastartup';
+import { WellfoundFetcher } from './wellfound';
 import { GreenhouseFetcher } from './greenhouse';
 import { LeverFetcher } from './lever';
 import { AshbyFetcher } from './ashby';
+import { WorkdayFetcher } from './workday';
 import { discoverCompanies, loadSeedCompanies } from '../discovery/ats-discovery';
 import { logger } from '../utils/logger';
 import { normalizeText, normalizeUrl, normalizeDate } from '../utils/normalize';
+import { getConfigPath } from '../utils/paths';
 
 interface PipelineOptions {
   source?: string;
   dryRun?: boolean;
 }
 
-interface Config {
+export interface PipelineConfig {
   search: {
     keywords: string[];
     locations: string[];
@@ -28,12 +33,28 @@ interface Config {
   staleness?: {
     max_failures?: number;
   };
+  hard_rejects?: {
+    locations_only: string[];
+  };
 }
 
-function loadConfig(): Config {
-  const configPath = join(process.cwd(), 'config.yaml');
+export function loadPipelineConfig(): PipelineConfig {
+  const configPath = getConfigPath();
   const configFile = readFileSync(configPath, 'utf-8');
-  return parse(configFile) as Config;
+  const parsed = parse(configFile) as PipelineConfig;
+
+  // Merge hard_rejects.locations_only from config/profile.yaml for location filtering
+  try {
+    const { loadProfileConfig } = require('../scoring/pre-filter');
+    const profile = loadProfileConfig();
+    parsed.hard_rejects = {
+      locations_only: profile.hard_rejects.locations_only,
+    };
+  } catch {
+    // Profile config not available — skip location filtering
+  }
+
+  return parsed;
 }
 
 /**
@@ -59,86 +80,79 @@ function normalizeJobData(job: NormalizedJob): NormalizedJob {
 
 /**
  * Pre-filter jobs based on keywords from config.yaml.
- * A job passes if its title matches any keyword AND doesn't match any excluded keyword.
+ * A job passes if:
+ *   - its title matches any keyword AND doesn't match any excluded keyword
+ *   - its location doesn't match any hard-reject location patterns
  */
-function filterJobs(jobs: NormalizedJob[], config: Config): NormalizedJob[] {
+function filterJobs(jobs: NormalizedJob[], config: PipelineConfig): NormalizedJob[] {
   const keywords = config.search.keywords.map((k) => k.toLowerCase());
   const excluded = config.search.excluded_keywords.map((k) => k.toLowerCase());
+  const rejectedLocations = config.hard_rejects?.locations_only?.map((l) => l.toLowerCase()) ?? [];
 
   return jobs.filter((job) => {
     const title = job.title.toLowerCase();
+    const location = (job.location || '').toLowerCase();
+    const remoteRegion = (job.remoteRegion || '').toLowerCase();
 
     if (excluded.some((ex) => title.includes(ex))) return false;
-    return keywords.some((kw) => title.includes(kw));
+    if (!keywords.some((kw) => title.includes(kw))) return false;
+
+    if (rejectedLocations.length > 0) {
+      for (const loc of rejectedLocations) {
+        if (location.includes(loc) || remoteRegion.includes(loc)) return false;
+      }
+    }
+
+    return true;
   });
 }
 
 /**
- * Insert or update jobs in the database.
- * Detects duplicates by (source, sourceJobId).
+ * Insert or update jobs in the database using a bulk upsert.
+ * Detects duplicates by (source, sourceJobId) via the unique index.
  * Updates fetchedAt and rawJson for existing duplicates.
  */
 async function insertOrUpdateJobs(
   normalizedJobs: NormalizedJob[],
   dryRun: boolean
 ): Promise<{ inserted: number; updated: number; skipped: number }> {
-  let inserted = 0;
-  let updated = 0;
-  let skipped = 0;
-
   if (dryRun || normalizedJobs.length === 0) {
     return { inserted: 0, updated: 0, skipped: normalizedJobs.length };
   }
 
-  for (const job of normalizedJobs) {
-    try {
-      // Check if job already exists
-      const existing = await db
-        .select({ id: jobs.id })
-        .from(jobs)
-        .where(
-          and(
-            eq(jobs.source, job.source),
-            eq(jobs.sourceJobId, job.sourceJobId)
-          )
-        )
-        .limit(1);
+  const values = normalizedJobs.map((job) => ({
+    source: job.source,
+    sourceJobId: job.sourceJobId,
+    title: job.title,
+    company: job.company,
+    location: job.location,
+    remoteRegion: job.remoteRegion,
+    url: job.url,
+    description: job.description,
+    salary: job.salary,
+    postedAt: job.postedAt,
+    contentHash: job.contentHash,
+    rawJson: job.rawJson as any,
+  }));
 
-      if (existing.length > 0) {
-        // Update fetchedAt and rawJson
-        await db
-          .update(jobs)
-          .set({
-            fetchedAt: new Date(),
-            rawJson: job.rawJson as any,
-          })
-          .where(eq(jobs.id, existing[0].id));
-        updated++;
-      } else {
-        // Insert new job
-        await db.insert(jobs).values({
-          source: job.source,
-          sourceJobId: job.sourceJobId,
-          title: job.title,
-          company: job.company,
-          location: job.location,
-          remoteRegion: job.remoteRegion,
-          url: job.url,
-          description: job.description,
-          salary: job.salary,
-          postedAt: job.postedAt,
-          contentHash: job.contentHash,
-          rawJson: job.rawJson as any,
-        });
-        inserted++;
-      }
-    } catch (err) {
-      logger.error(`Failed to insert/update job ${job.sourceJobId}: ${(err as Error).message}`);
-      skipped++;
-    }
+  try {
+    const result = await db
+      .insert(jobs)
+      .values(values)
+      .onConflictDoUpdate({
+        target: [jobs.source, jobs.sourceJobId],
+        set: {
+          fetchedAt: new Date(),
+          rawJson: sql`excluded.raw_json`,
+        },
+      });
+
+    const changes = (result as any).changes ?? values.length;
+    return { inserted: changes, updated: 0, skipped: 0 };
+  } catch (err) {
+    logger.error(`Bulk upsert failed: ${(err as Error).message}`);
+    return { inserted: 0, updated: 0, skipped: values.length };
   }
-
-  return { inserted, updated, skipped };
 }
 
 /**
@@ -179,32 +193,68 @@ function printSummary(stats: FetchStats[]): void {
   console.log('═'.repeat(74) + '\n');
 }
 
+const SOURCE_PRIORITY: Record<string, number> = {
+  workday: 10,
+  greenhouse: 9,
+  lever: 8,
+  ashby: 7,
+  weworkremotely: 6,
+  himalayas: 5,
+  workatastartup: 4,
+  wellfound: 3,
+  remotive: 2,
+  remoteok: 1,
+};
+
 /**
- * Run a single fetcher and return stats.
+ * Deduplicate jobs across sources by contentHash.
+ * When the same job appears from multiple sources, keep the one
+ * from the highest-priority source (ATS > aggregator).
+ */
+export function deduplicateCrossSource(jobs: NormalizedJob[]): NormalizedJob[] {
+  const byHash = new Map<string, NormalizedJob>();
+
+  for (const job of jobs) {
+    const existing = byHash.get(job.contentHash);
+    if (!existing) {
+      byHash.set(job.contentHash, job);
+      continue;
+    }
+
+    const existingPriority = SOURCE_PRIORITY[existing.source] ?? 0;
+    const newPriority = SOURCE_PRIORITY[job.source] ?? 0;
+    if (newPriority > existingPriority) {
+      byHash.set(job.contentHash, job);
+    }
+  }
+
+  return Array.from(byHash.values());
+}
+
+/**
+ * Run a single fetcher and return stats + filtered jobs.
+ * Does NOT insert into DB — caller handles insertion after cross-source dedup.
  */
 async function runFetcher(
   fetcher: JobFetcher,
-  config: Config,
-  dryRun: boolean
-): Promise<{ stats: FetchStats; jobs: NormalizedJob[] }> {
+  config: PipelineConfig
+): Promise<{ stats: FetchStats; filteredJobs: NormalizedJob[]; allJobs: NormalizedJob[] }> {
   try {
     const fetchedJobs = await fetcher.fetch();
     const normalized = fetchedJobs.map(normalizeJobData);
     const matchedJobs = filterJobs(normalized, config);
-    
-    const dbResult = await insertOrUpdateJobs(matchedJobs, dryRun);
     const filteredOut = fetchedJobs.length - matchedJobs.length;
 
     const stats: FetchStats = {
       source: fetcher.name,
       fetched: fetchedJobs.length,
-      inserted: dbResult.inserted,
-      updated: dbResult.updated,
-      skipped: dbResult.skipped + filteredOut,
+      inserted: 0,
+      updated: 0,
+      skipped: filteredOut,
       errors: 0,
     };
 
-    return { stats, jobs: normalized }; // Return all for discovery
+    return { stats, filteredJobs: matchedJobs, allJobs: normalized };
   } catch (error) {
     logger.error(`[${fetcher.name}] Pipeline error: ${(error as Error).message}`);
     return {
@@ -216,7 +266,8 @@ async function runFetcher(
         skipped: 0,
         errors: 1,
       },
-      jobs: [],
+      filteredJobs: [],
+      allJobs: [],
     };
   }
 }
@@ -226,7 +277,7 @@ async function runFetcher(
  * Phase 1: Aggregators → Phase 2: Discovery → Phase 3: ATS Fetchers
  */
 export async function runFetchPipeline(options: PipelineOptions = {}): Promise<void> {
-  const config = loadConfig();
+  const config = loadPipelineConfig();
   const allStats: FetchStats[] = [];
   const { source, dryRun = false } = options;
 
@@ -236,31 +287,31 @@ export async function runFetchPipeline(options: PipelineOptions = {}): Promise<v
 
   // ── Phase 1: Aggregators ──────────────────────────────────────────────────
 
-  const aggregators: JobFetcher[] = [new RemotiveFetcher(), new RemoteOKFetcher()];
+  const aggregators: JobFetcher[] = [new RemotiveFetcher(), new RemoteOKFetcher(), new WeWorkRemotelyFetcher(), new HimalayasFetcher(), new WorkAtAStartupFetcher(), new WellfoundFetcher()];
   const aggregatorJobs: NormalizedJob[] = [];
+  const allFilteredJobs: NormalizedJob[] = [];
 
-  if (!source || source === 'remotive' || source === 'remoteok') {
+  if (!source || ['remotive', 'remoteok', 'weworkremotely', 'himalayas', 'workatastartup', 'wellfound'].includes(source)) {
     logger.info('\n📡 Phase 1: Fetching from aggregators...\n');
 
     for (const fetcher of aggregators) {
       if (source && fetcher.name !== source) continue;
-      const result = await runFetcher(fetcher, config, dryRun);
+      const result = await runFetcher(fetcher, config);
       allStats.push(result.stats);
-      aggregatorJobs.push(...result.jobs);
+      aggregatorJobs.push(...result.allJobs);
+      allFilteredJobs.push(...result.filteredJobs);
     }
   }
 
   // ── Phase 2: ATS Discovery ────────────────────────────────────────────────
 
-  if (!source || !['remotive', 'remoteok'].includes(source)) {
+  if (!source || !['remotive', 'remoteok', 'weworkremotely', 'himalayas', 'workatastartup', 'wellfound'].includes(source)) {
     logger.info('\n🔎 Phase 2: Running ATS discovery...\n');
 
-    // Load seed companies on first run
     if (!dryRun) {
       await loadSeedCompanies();
     }
 
-    // Discover from aggregator results
     if (aggregatorJobs.length > 0 && !dryRun) {
       const discovery = await discoverCompanies(aggregatorJobs);
       logger.info(
@@ -275,15 +326,36 @@ export async function runFetchPipeline(options: PipelineOptions = {}): Promise<v
     new GreenhouseFetcher(),
     new LeverFetcher(),
     new AshbyFetcher(),
+    new WorkdayFetcher(),
   ];
 
-  if (!source || ['greenhouse', 'lever', 'ashby'].includes(source)) {
+  if (!source || ['greenhouse', 'lever', 'ashby', 'workday'].includes(source)) {
     logger.info('\n🏢 Phase 3: Fetching from ATS boards...\n');
 
     for (const fetcher of atsFetchers) {
       if (source && fetcher.name !== source) continue;
-      const result = await runFetcher(fetcher, config, dryRun);
+      const result = await runFetcher(fetcher, config);
       allStats.push(result.stats);
+      allFilteredJobs.push(...result.filteredJobs);
+    }
+  }
+
+  // ── Phase 4: Cross-source dedup + bulk insert ─────────────────────────────
+
+  const beforeDedup = allFilteredJobs.length;
+  const dedupedJobs = deduplicateCrossSource(allFilteredJobs);
+  const removedByDedup = beforeDedup - dedupedJobs.length;
+
+  if (removedByDedup > 0) {
+    logger.info(`\n🔄 Cross-source dedup: removed ${removedByDedup} duplicate job(s) out of ${beforeDedup}.`);
+  }
+
+  if (!dryRun && dedupedJobs.length > 0) {
+    const dbResult = await insertOrUpdateJobs(dedupedJobs, dryRun);
+    logger.info(`Bulk insert: ${dbResult.inserted} inserted, ${dbResult.skipped} skipped.`);
+    // Update aggregator stats with actual insert numbers
+    for (const stat of allStats) {
+      stat.inserted = dbResult.inserted;
     }
   }
 

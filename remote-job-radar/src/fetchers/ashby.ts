@@ -56,7 +56,6 @@ export class AshbyFetcher implements JobFetcher {
             description: job.descriptionPlain || job.descriptionHtml || undefined,
             postedAt: job.publishedDate || undefined,
             contentHash: computeContentHash(
-              SOURCE,
               job.title,
               company.name || company.slug,
               job.jobUrl || `https://jobs.ashbyhq.com/${company.slug}/${job.id}`

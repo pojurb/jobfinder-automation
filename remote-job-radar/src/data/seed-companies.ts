@@ -5,7 +5,7 @@
 export const seedCompanies: Array<{
   slug: string;
   name: string;
-  atsType: 'greenhouse' | 'lever' | 'ashby';
+  atsType: 'greenhouse' | 'lever' | 'ashby' | 'workday';
 }> = [
   // ── Greenhouse ──────────────────────────────────
   { slug: 'stripe', name: 'Stripe', atsType: 'greenhouse' },
@@ -60,4 +60,45 @@ export const seedCompanies: Array<{
   { slug: 'stytch', name: 'Stytch', atsType: 'ashby' },
   { slug: 'turso', name: 'Turso', atsType: 'ashby' },
   { slug: 'tinybird', name: 'Tinybird', atsType: 'ashby' },
+
+  // ── AI companies ────────────────────────────────
+  { slug: 'anthropic', name: 'Anthropic', atsType: 'lever' },
+  { slug: 'cohereai', name: 'Cohere', atsType: 'greenhouse' },
+  { slug: 'huggingface', name: 'Hugging Face', atsType: 'greenhouse' },
+  { slug: 'replicate', name: 'Replicate', atsType: 'lever' },
+  { slug: 'modal', name: 'Modal', atsType: 'greenhouse' },
+  { slug: 'mistralai', name: 'Mistral AI', atsType: 'ashby' },
+  { slug: 'runwayml', name: 'Runway ML', atsType: 'greenhouse' },
+  { slug: 'synthesia', name: 'Synthesia', atsType: 'greenhouse' },
+  { slug: 'characterai', name: 'Character.AI', atsType: 'lever' },
+  { slug: 'inflection', name: 'Inflection AI', atsType: 'greenhouse' },
+
+  // ── Dev tools ───────────────────────────────────
+  { slug: 'gitlab', name: 'GitLab', atsType: 'greenhouse' },
+  { slug: 'docker', name: 'Docker', atsType: 'greenhouse' },
+  { slug: 'grafana', name: 'Grafana', atsType: 'greenhouse' },
+  { slug: 'getsentry', name: 'Sentry', atsType: 'greenhouse' },
+  { slug: 'posthog', name: 'PostHog', atsType: 'greenhouse' },
+  { slug: 'amplitude', name: 'Amplitude', atsType: 'lever' },
+  { slug: 'clickup', name: 'ClickUp', atsType: 'greenhouse' },
+  { slug: 'asana', name: 'Asana', atsType: 'greenhouse' },
+  { slug: 'mondaydotcom', name: 'Monday.com', atsType: 'greenhouse' },
+  { slug: 'coda', name: 'Coda', atsType: 'greenhouse' },
+
+  // ── Fintech ─────────────────────────────────────
+  { slug: 'mercury', name: 'Mercury', atsType: 'greenhouse' },
+  { slug: 'wisecompany', name: 'Wise', atsType: 'lever' },
+  { slug: 'klarna', name: 'Klarna', atsType: 'greenhouse' },
+  { slug: 'affirm', name: 'Affirm', atsType: 'greenhouse' },
+  { slug: 'sofi', name: 'SoFi', atsType: 'greenhouse' },
+  { slug: 'chime', name: 'Chime', atsType: 'greenhouse' },
+
+  // ── Data / Infra ────────────────────────────────
+  { slug: 'planetscale', name: 'PlanetScale', atsType: 'greenhouse' },
+  { slug: 'neondatabase', name: 'Neon', atsType: 'greenhouse' },
+  { slug: 'clerk', name: 'Clerk', atsType: 'greenhouse' },
+  { slug: 'pinecone', name: 'Pinecone', atsType: 'greenhouse' },
+
+  // ── Workday ─────────────────────────────────────
+  { slug: 'salesforce', name: 'Salesforce', atsType: 'workday' },
 ];

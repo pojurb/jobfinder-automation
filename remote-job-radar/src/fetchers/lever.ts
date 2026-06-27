@@ -68,7 +68,6 @@ export class LeverFetcher implements JobFetcher {
                 ? new Date(posting.createdAt).toISOString()
                 : undefined,
               contentHash: computeContentHash(
-                SOURCE,
                 posting.text,
                 company.name || company.slug,
                 posting.hostedUrl

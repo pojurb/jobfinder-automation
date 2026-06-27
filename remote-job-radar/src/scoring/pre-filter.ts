@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs';
-import { join } from 'path';
 import { parse } from 'yaml';
 import { logger } from '../utils/logger';
+import { getProfileConfigPath } from '../utils/paths';
 
 export interface ProfileConfig {
   role: string;
@@ -16,6 +16,12 @@ export interface ProfileConfig {
   };
   preferences: {
     domains: string[];
+    anti_domains?: string[];
+    ai_keywords?: string[];
+    global_indicators?: string[];
+    exclusion_indicators?: string[];
+    restricted_location_patterns?: string[];
+    title_aliases?: Record<string, string[]>;
   };
   hard_rejects: {
     locations_only: string[];
@@ -30,7 +36,7 @@ export function loadProfileConfig(): ProfileConfig {
   if (profileConfig) return profileConfig;
   
   try {
-    const configPath = join(process.cwd(), 'config', 'profile.yaml');
+    const configPath = getProfileConfigPath();
     const configFile = readFileSync(configPath, 'utf-8');
     profileConfig = parse(configFile) as ProfileConfig;
     return profileConfig;

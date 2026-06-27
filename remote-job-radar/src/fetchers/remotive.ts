@@ -1,14 +1,12 @@
 import { JobFetcher, NormalizedJob } from './types';
 import { RemotiveResponseSchema } from './schemas';
-import { createHttpClient } from '../utils/http-client';
+import { createHttpClient, rateLimit } from '../utils/http-client';
 import { computeContentHash } from '../utils/hash';
 import { logger } from '../utils/logger';
+import { loadPipelineConfig } from './index';
 
 const SOURCE = 'remotive';
-const API_URLS = [
-  'https://remotive.com/api/remote-jobs?category=product',
-  'https://remotive.com/api/remote-jobs?search=product+manager',
-];
+const BASE_URL = 'https://remotive.com/api/remote-jobs';
 
 export class RemotiveFetcher implements JobFetcher {
   name = SOURCE;
@@ -18,8 +16,13 @@ export class RemotiveFetcher implements JobFetcher {
     const seen = new Set<string>();
     const allJobs: NormalizedJob[] = [];
 
-    for (const url of API_URLS) {
+    const config = loadPipelineConfig();
+    const keywords = config.search.keywords;
+
+    for (const keyword of keywords) {
+      const url = `${BASE_URL}?search=${encodeURIComponent(keyword)}`;
       try {
+        await rateLimit(SOURCE);
         logger.info(`[${SOURCE}] Fetching from ${url}...`);
         const response = await client.get(url);
 
@@ -44,7 +47,7 @@ export class RemotiveFetcher implements JobFetcher {
             description: job.description || undefined,
             salary: job.salary || undefined,
             postedAt: job.publication_date || undefined,
-            contentHash: computeContentHash(SOURCE, job.title, job.company_name, job.url),
+            contentHash: computeContentHash(job.title, job.company_name, job.url),
             rawJson: job,
           });
         }
@@ -53,7 +56,7 @@ export class RemotiveFetcher implements JobFetcher {
       }
     }
 
-    logger.info(`[${SOURCE}] Fetched ${allJobs.length} unique jobs`);
+    logger.info(`[${SOURCE}] Fetched ${allJobs.length} unique jobs from ${keywords.length} keyword searches`);
     return allJobs;
   }
 }

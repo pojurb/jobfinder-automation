@@ -17,6 +17,7 @@ search:
     - "Junior"
     - "Intern"
     - "Entry Level"
+  location_filter_mode: soft  # soft = prefer matching locations but don't reject; hard = reject non-matching
 
 # Per-source rate limits (ms between requests)
 rate_limits:
@@ -25,18 +26,12 @@ rate_limits:
   greenhouse: 500
   lever: 500
   ashby: 500
+  weworkremotely: 1000
+  himalayas: 1000
+  workatastartup: 1000
+  wellfound: 2000
+  workday: 500
 
 # Staleness management
 staleness:
   max_failures: 3
-
-# OpenAI configuration
-openai:
-  model: "gpt-4o"
-  temperature: 0.2
-  prompt: >
-    You are an AI assistant helping Johannes Purba, a Senior Product Manager based in Indonesia,
-    evaluate remote job opportunities. 
-    Analyze the following job description and provide:
-    1. A match score (0-100)
-    2. A brief reason for the match score

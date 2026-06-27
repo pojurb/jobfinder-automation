@@ -5,6 +5,10 @@ import { stringify } from 'csv-stringify/sync';
 import { db } from '../db';
 import { jobs, jobScores, discoveredCompanies } from '../db/schema';
 import { logger } from '../utils/logger';
+import { getReportsDir } from '../utils/paths';
+
+export { runReviewCommand } from './review';
+export type { ReviewOptions } from './review';
 
 export async function runListCommand() {
   const activeCompanies = await db
@@ -74,7 +78,7 @@ export async function runExportCommand() {
     'Fetched At': row.fetchedAt.toISOString()
   }));
 
-  const reportsDir = join(process.cwd(), 'reports');
+  const reportsDir = getReportsDir();
   mkdirSync(reportsDir, { recursive: true });
   
   const exportPath = join(reportsDir, 'all_jobs_export.csv');

@@ -33,47 +33,35 @@ export class GreenhouseFetcher implements JobFetcher {
         logger.info(`${progress} Checking ${company.name || company.slug} on Greenhouse...`);
         await rateLimit(SOURCE);
 
-        // Greenhouse paginates with page and per_page params
-        let page = 1;
-        const perPage = 100;
-        let hasMore = true;
+        const url = `https://boards-api.greenhouse.io/v1/boards/${company.slug}/jobs?content=true`;
+        const response = await client.get(url);
 
-        while (hasMore) {
-          const url = `https://boards-api.greenhouse.io/v1/boards/${company.slug}/jobs?content=true&page=${page}&per_page=${perPage}`;
-          const response = await client.get(url);
+        const parsed = GreenhouseResponseSchema.safeParse(response.data);
+        if (!parsed.success) {
+          logger.warn(
+            `${progress} Invalid response from ${company.slug}: ${parsed.error.message}`
+          );
+          await markCompanyFailure(company.id);
+          continue;
+        }
 
-          const parsed = GreenhouseResponseSchema.safeParse(response.data);
-          if (!parsed.success) {
-            logger.warn(
-              `${progress} Invalid response from ${company.slug}: ${parsed.error.message}`
-            );
-            break;
-          }
-
-          for (const job of parsed.data.jobs) {
-            allJobs.push({
-              source: SOURCE,
-              sourceJobId: String(job.id),
-              title: job.title,
-              company: company.name || company.slug,
-              location: job.location?.name || undefined,
-              url: job.absolute_url,
-              description: job.content || undefined,
-              postedAt: job.updated_at || undefined,
-              contentHash: computeContentHash(
-                job.title,
-                company.name || company.slug,
-                job.absolute_url
-              ),
-              rawJson: job,
-            });
-          }
-
-          // If we got fewer than perPage results, we're on the last page
-          hasMore = parsed.data.jobs.length === perPage;
-          page++;
-
-          if (hasMore) await rateLimit(SOURCE);
+        for (const job of parsed.data.jobs) {
+          allJobs.push({
+            source: SOURCE,
+            sourceJobId: String(job.id),
+            title: job.title,
+            company: company.name || company.slug,
+            location: job.location?.name || undefined,
+            url: job.absolute_url,
+            description: job.content || undefined,
+            postedAt: job.updated_at || undefined,
+            contentHash: computeContentHash(
+              job.title,
+              company.name || company.slug,
+              job.absolute_url
+            ),
+            rawJson: job,
+          });
         }
 
         await markCompanySuccess(company.id);

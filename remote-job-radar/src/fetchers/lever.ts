@@ -36,8 +36,10 @@ export class LeverFetcher implements JobFetcher {
         // Lever paginates with offset param
         let offset: string | undefined = undefined;
         let hasMore = true;
+        let page = 0;
+        const maxPages = 10;
 
-        while (hasMore) {
+        while (hasMore && page < maxPages) {
           let url = `https://api.lever.co/v0/postings/${company.slug}?mode=json&limit=100`;
           if (offset) url += `&offset=${offset}`;
 
@@ -76,12 +78,12 @@ export class LeverFetcher implements JobFetcher {
             });
           }
 
-          // Lever returns fewer results when exhausted; also check response header
-          if (parsed.data.length < 100) {
+          page++;
+          const nextOffset = parsed.data.length > 0 ? parsed.data[parsed.data.length - 1].id : undefined;
+          if (parsed.data.length < 100 || !nextOffset || nextOffset === offset) {
             hasMore = false;
           } else {
-            // Use the last posting ID as the offset for next page
-            offset = parsed.data[parsed.data.length - 1].id;
+            offset = nextOffset;
             await rateLimit(SOURCE);
           }
         }

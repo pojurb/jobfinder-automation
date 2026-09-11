@@ -525,10 +525,155 @@
     .detail-column .description {
       margin: 0;
       color: #c5d2e5;
-      font-size: 13px;
+      font-size: 13.5px;
       line-height: 1.65;
-      white-space: pre-wrap;
       overflow-wrap: anywhere;
+    }
+
+    .formatted-description {
+      background: rgba(255, 255, 255, 0.015);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 20px;
+      color: #d6e2f3;
+      font-size: 13.5px;
+      line-height: 1.7;
+    }
+
+    .formatted-description h1,
+    .formatted-description h2,
+    .formatted-description h3,
+    .formatted-description h4,
+    .formatted-description .desc-heading {
+      color: #ffffff;
+      font-size: 14.5px;
+      font-weight: 750;
+      margin: 20px 0 8px 0;
+      padding-bottom: 4px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+      letter-spacing: -0.01em;
+    }
+
+    .formatted-description h1:first-child,
+    .formatted-description h2:first-child,
+    .formatted-description h3:first-child,
+    .formatted-description h4:first-child,
+    .formatted-description .desc-heading:first-child {
+      margin-top: 0;
+    }
+
+    .formatted-description p,
+    .formatted-description .desc-p {
+      margin: 8px 0 12px 0;
+    }
+
+    .formatted-description ul,
+    .formatted-description ol,
+    .formatted-description .desc-list {
+      margin: 8px 0 14px 0;
+      padding-left: 22px;
+    }
+
+    .formatted-description li {
+      margin-bottom: 6px;
+    }
+
+    .formatted-description strong,
+    .formatted-description b {
+      color: #f3f7ff;
+      font-weight: 650;
+    }
+
+    .executive-card {
+      padding: 16px 18px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: linear-gradient(145deg, rgba(30, 58, 95, 0.35), rgba(16, 27, 46, 0.8));
+      margin-bottom: 18px;
+    }
+
+    .executive-card.top-match {
+      border-color: rgba(52, 211, 153, 0.4);
+      background: linear-gradient(145deg, rgba(16, 185, 129, 0.12), rgba(16, 27, 46, 0.85));
+    }
+
+    .executive-card.rejected-match {
+      border-color: rgba(251, 113, 133, 0.35);
+      background: linear-gradient(145deg, rgba(244, 63, 94, 0.09), rgba(16, 27, 46, 0.85));
+    }
+
+    .exec-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .exec-title {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 15px;
+      font-weight: 750;
+      color: var(--text);
+    }
+
+    .exec-narrative {
+      margin: 0 0 12px 0;
+      font-size: 13px;
+      line-height: 1.55;
+      color: #cbd5e1;
+    }
+
+    .score-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+
+    .score-pills .pill {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 8px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.06);
+      color: #94a3b8;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .score-pills .pill.good {
+      background: rgba(52, 211, 153, 0.12);
+      color: #6ee7b7;
+      border-color: rgba(52, 211, 153, 0.25);
+    }
+
+    .exec-highlights {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px dashed rgba(255, 255, 255, 0.1);
+    }
+
+    .highlights-label {
+      font-size: 11px;
+      font-weight: 750;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--primary);
+      margin-bottom: 6px;
+    }
+
+    .highlights-list {
+      margin: 0;
+      padding-left: 18px;
+      color: #e2e8f0;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .highlights-list li + li {
+      margin-top: 5px;
     }
 
     details {
@@ -951,6 +1096,185 @@
       return values.map(item => `<li>${escapeHtml(item)}</li>`).join('');
     }
 
+    function formatInlineText(text) {
+      let escaped = escapeHtml(text);
+      escaped = escaped.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+      escaped = escaped.replace(/\*(.*?)\*/g, '<em>$1</em>');
+      return escaped;
+    }
+
+    function formatJobDescription(rawDesc) {
+      if (!rawDesc || !rawDesc.trim()) {
+        return '<p class="description muted">No job description included in this report.</p>';
+      }
+
+      const text = rawDesc.trim();
+      const hasHtmlTags = /<\/?(p|ul|ol|li|h[1-6]|div|br|strong|b|em|span)\b[^>]*>/i.test(text);
+
+      if (hasHtmlTags) {
+        try {
+          const doc = new DOMParser().parseFromString(text, 'text/html');
+          doc.querySelectorAll('script, style, iframe, object, embed, form, input, button').forEach(el => el.remove());
+
+          doc.querySelectorAll('*').forEach(el => {
+            Array.from(el.attributes).forEach(attr => {
+              if (attr.name.startsWith('on') || attr.name === 'style') {
+                el.removeAttribute(attr.name);
+              }
+            });
+            if (['H1', 'H2', 'H3'].includes(el.tagName)) {
+              const h4 = doc.createElement('h4');
+              h4.className = 'desc-heading';
+              h4.innerHTML = el.innerHTML;
+              el.parentNode?.replaceChild(h4, el);
+            }
+          });
+
+          return `<div class="formatted-description">${doc.body.innerHTML}</div>`;
+        } catch (e) {
+          // Fall through to plain text parser
+        }
+      }
+
+      const lines = text.split(/\r?\n/);
+      let html = '';
+      let inList = false;
+      let listType = 'ul';
+
+      for (let i = 0; i < lines.length; i++) {
+        let line = lines[i].trim();
+
+        if (!line) {
+          if (inList) {
+            html += `</${listType}>`;
+            inList = false;
+          }
+          continue;
+        }
+
+        const bulletMatch = line.match(/^([•\-\*]|\d+[\.\)])\s+(.+)$/);
+        if (bulletMatch) {
+          const isNum = /^\d+/.test(bulletMatch[1]);
+          const targetType = isNum ? 'ol' : 'ul';
+
+          if (!inList) {
+            inList = true;
+            listType = targetType;
+            html += `<${listType} class="desc-list">`;
+          } else if (listType !== targetType) {
+            html += `</${listType}><${targetType} class="desc-list">`;
+            listType = targetType;
+          }
+
+          html += `<li>${formatInlineText(bulletMatch[2])}</li>`;
+          continue;
+        }
+
+        if (inList) {
+          html += `</${listType}>`;
+          inList = false;
+        }
+
+        const isMarkdownHeader = /^#{1,4}\s+(.+)$/.test(line);
+        const isBoldHeader = /^\*\*(.+)\*\*:?$/.test(line);
+        const isColonHeader = line.length < 60 && /^[A-Z0-9\s&/\-,']+:$/.test(line) && !line.includes('.');
+
+        if (isMarkdownHeader || isBoldHeader || isColonHeader) {
+          let headerText = line;
+          if (isMarkdownHeader) headerText = line.replace(/^#{1,4}\s+/, '');
+          else if (isBoldHeader) headerText = line.replace(/^\*\*/, '').replace(/\*\*:?$/, '');
+          else if (isColonHeader) headerText = line.replace(/:$/, '');
+
+          html += `<h4 class="desc-heading">${escapeHtml(headerText)}</h4>`;
+          continue;
+        }
+
+        html += `<p class="desc-p">${formatInlineText(line)}</p>`;
+      }
+
+      if (inList) {
+        html += `</${listType}>`;
+      }
+
+      return `<div class="formatted-description">${html}</div>`;
+    }
+
+    function renderExecutiveSummary(job) {
+      const isTop = job.totalScore >= 70;
+      const isRejected = job.totalScore === 0 || job.totalScore <= 30;
+      const categoryClass = isTop ? 'top-match' : isRejected ? 'rejected-match' : 'manual-match';
+
+      const raw = job.rawSource || {};
+      const roleScore = Number(raw.roleScore ?? (job.matchReasons.some(r => r.toLowerCase().includes('role')) ? 30 : 0));
+      const remoteScore = Number(raw.remoteScore ?? (job.matchReasons.some(r => r.toLowerCase().includes('remote') || r.toLowerCase().includes('location')) ? 25 : 0));
+      const seniorityScore = Number(raw.seniorityScore ?? (job.matchReasons.some(r => r.toLowerCase().includes('seniority') || r.toLowerCase().includes('years')) ? 15 : 0));
+      const domainScore = Number(raw.domainScore ?? (job.matchReasons.some(r => r.toLowerCase().includes('domain')) ? 10 : 0));
+      const aiProductScore = Number(raw.aiProductScore ?? (job.matchReasons.some(r => r.toLowerCase().includes('ai') || r.toLowerCase().includes('technical')) ? 7 : 0));
+      const freshnessScore = Number(raw.freshnessScore ?? 3);
+
+      const highlights = [];
+      if (job.matchReasons && job.matchReasons.length > 0) {
+        job.matchReasons.forEach(reason => {
+          const lower = reason.toLowerCase();
+          if (lower.includes('role matches') || lower.includes('role contains')) {
+            highlights.push(`🎯 <strong>Role Fit:</strong> ${escapeHtml(reason)}`);
+          } else if (lower.includes('location') || lower.includes('remote') || lower.includes('worldwide')) {
+            highlights.push(`🌍 <strong>Remote Eligibility:</strong> ${escapeHtml(reason)}`);
+          } else if (lower.includes('domain')) {
+            highlights.push(`🚀 <strong>Industry Alignment:</strong> ${escapeHtml(reason)}`);
+          } else if (lower.includes('ai') || lower.includes('technical')) {
+            highlights.push(`🤖 <strong>AI & Technical Relevance:</strong> ${escapeHtml(reason)}`);
+          } else if (lower.includes('seniority') || lower.includes('years')) {
+            highlights.push(`👑 <strong>Seniority Fit:</strong> ${escapeHtml(reason)}`);
+          } else if (lower.includes('salary')) {
+            highlights.push(`💰 <strong>Compensation Signal:</strong> ${escapeHtml(reason)}`);
+          } else {
+            highlights.push(`✨ ${escapeHtml(reason)}`);
+          }
+        });
+      }
+
+      let narrative = '';
+      if (isTop) {
+        narrative = `Highly recommended candidate fit with a score of ${job.totalScore}/100. ${escapeHtml(job.title)} at ${escapeHtml(job.company)} strongly matches key target profile rules for role, remote flexibility, and domain preferences.`;
+      } else if (isRejected) {
+        narrative = `Categorized as Rejected (Score ${job.totalScore}/100). Disqualified or heavily penalized due to location restrictions, non-matching title, or profile exclusions.`;
+      } else {
+        narrative = `Manual review suggested (Score ${job.totalScore}/100). Partial match on key profile criteria; review detailed regional or title requirements below.`;
+      }
+
+      return `
+        <div class="executive-card ${categoryClass}">
+          <div class="exec-header">
+            <div class="exec-title">
+              <span>${isTop ? '⭐ Recommended Highlights' : isRejected ? '⛔ Rejection Highlights' : '🔍 Review Highlights'}</span>
+            </div>
+            <div class="exec-score-badge score ${scoreClass(job.totalScore)}">Score ${job.totalScore}</div>
+          </div>
+
+          <p class="exec-narrative">${narrative}</p>
+
+          <div class="score-pills">
+            <span class="pill ${roleScore > 0 ? 'good' : ''}">Role: +${roleScore}</span>
+            <span class="pill ${remoteScore > 0 ? 'good' : ''}">Remote: +${remoteScore}</span>
+            <span class="pill ${seniorityScore > 0 ? 'good' : ''}">Seniority: +${seniorityScore}</span>
+            <span class="pill ${domainScore > 0 ? 'good' : ''}">Domain: +${domainScore}</span>
+            <span class="pill ${aiProductScore > 0 ? 'good' : ''}">AI/Tech: +${aiProductScore}</span>
+            <span class="pill ${freshnessScore > 0 ? 'good' : ''}">Freshness: +${freshnessScore}</span>
+          </div>
+
+          ${highlights.length > 0 ? `
+            <div class="exec-highlights">
+              <div class="highlights-label">Key Takeaways & Strengths</div>
+              <ul class="highlights-list">
+                ${highlights.map(h => `<li>${h}</li>`).join('')}
+              </ul>
+            </div>
+          ` : ''}
+        </div>
+      `;
+    }
+
     function renderDetail() {
       const container = document.getElementById('detail-content');
       const job = state.jobs.find(item => item.key === state.selectedJobKey);
@@ -989,6 +1313,8 @@
           </div>
         </div>
 
+        ${renderExecutiveSummary(job)}
+
         <section class="detail-section">
           <h3>Match strengths</h3>
           <div class="reason-box good"><ul>${renderReasonList(job.matchReasons, 'No explicit match reasons included in this report.')}</ul></div>
@@ -1000,8 +1326,8 @@
         </section>
 
         <section class="detail-section">
-          <h3>Description</h3>
-          <p class="description">${escapeHtml(stripHtml(job.description || 'No job description included in this report.'))}</p>
+          <h3>Job Description</h3>
+          ${formatJobDescription(job.description)}
         </section>
 
         <section class="detail-section">

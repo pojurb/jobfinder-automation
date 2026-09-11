@@ -1,7 +1,5 @@
 node_modules/
 .env
 dist/
-reports/
-sqlite.db
 sqlite.db-journal
 .DS_Store

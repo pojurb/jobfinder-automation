@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local Session & Credentials
+.browser_data/
+.env
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

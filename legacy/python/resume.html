@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Johannes Purba Resume</title>
+  <style>
+    @page {
+      size: Letter;
+      margin: 0.36in;
+    }
+
+    :root {
+      --ink: #2e3443;
+      --muted: #667085;
+      --accent: #4361ee;
+      --rule: #cfd6e6;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      width: 8.5in;
+      margin: 0 auto;
+      padding: 0.36in;
+      font-size: 10.5px;
+      line-height: 1.24;
+    }
+
+    h1, h2, h3, p, ul {
+      margin: 0;
+    }
+
+    .name {
+      font-size: 25px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      margin-bottom: 6px;
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      font-size: 10px;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .sep {
+      color: #8b93a7;
+    }
+
+    section {
+      margin-top: 8px;
+    }
+
+    .section-title {
+      color: var(--accent);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      padding-top: 4px;
+      margin-bottom: 6px;
+      border-top: 1px solid var(--rule);
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 118px 1fr;
+      column-gap: 12px;
+      row-gap: 5px;
+      align-items: start;
+      margin-bottom: 2px;
+    }
+
+    .skill-label {
+      font-weight: 700;
+    }
+
+    .about {
+      border-left: 2px solid var(--accent);
+      padding-left: 10px;
+      color: #525b6c;
+      font-style: italic;
+      font-size: 10.2px;
+      line-height: 1.6;
+    }
+
+    .job {
+      margin-bottom: 8px;
+    }
+
+    .job-header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      column-gap: 12px;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+
+    .job-title {
+      font-size: 10.8px;
+      font-weight: 700;
+    }
+
+    .company {
+      color: var(--accent);
+      font-weight: 500;
+      margin-left: 4px;
+    }
+
+    .dates {
+      color: #98a2b3;
+      font-size: 9.8px;
+      white-space: nowrap;
+    }
+
+    .bullets {
+      padding-left: 14px;
+      margin-top: 2px;
+    }
+
+    .bullets li {
+      margin-bottom: 3px;
+      padding-left: 1px;
+    }
+
+    .bullets li::marker {
+      color: #4b5565;
+      font-size: 0.9em;
+    }
+
+    .edu-title {
+      font-size: 10.8px;
+      font-weight: 700;
+    }
+
+    .edu-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      column-gap: 12px;
+      align-items: baseline;
+      margin-bottom: 1px;
+    }
+
+    .school {
+      color: var(--accent);
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="name">Johannes Purba</div>
+    <div class="contact">
+      <span>081287454446</span>
+      <span class="sep">•</span>
+      <a href="mailto:jopurb@gmail.com">jopurb@gmail.com</a>
+      <span class="sep">•</span>
+      <a href="https://linkedin.com/in/johannes-p-1000736b">linkedin.com/in/johannes-p-1000736b</a>
+      <span class="sep">•</span>
+      <a href="https://github.com/pojurb">github.com/pojurb</a>
+    </div>
+  </header>
+
+  <section>
+    <div class="section-title">About</div>
+    <div class="about">
+      AI-Augmented Senior Product Manager with 10+ years of experience building and scaling digital products across Insurtech, B2B SaaS, Mobility, and Logistics. Expert in 0-to-1 product launches (Qoala Plus, CDC University Platform), scaling high-concurrency architecture (60k to 1.5M tx/month), and embedding LLM/MCP workflows directly into IDE-based prototyping (VS Code &amp; Antigravity IDE). Proven track record of delivering measurable business impact—from growing GMV 10x to directly driving 32% ARR. Thrives as an Individual Contributor (IC) in remote, hybrid, and cross-functional environments.
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title">Skills</div>
+    <div class="skills-grid">
+      <div class="skill-label">Product Management</div>
+      <div>0-to-1 Product Building, Product Vision &amp; Strategy, Roadmap Development, Competency-Based Assessment Systems, Enterprise Onboarding &amp; Retention Optimization, Cross-Functional Collaboration</div>
+
+      <div class="skill-label">Tools &amp; Prototyping</div>
+      <div>VS Code, Antigravity IDE, MCP (Model Context Protocol), Jira, Confluence, Metabase, Figma, Asana</div>
+
+      <div class="skill-label">AI &amp; Tech Stack</div>
+      <div>AI-Augmented PM Workflows, LLMs (Gemini, Claude, ChatGPT), Computer Vision ML Integration, High-Concurrency Queueing (Go Stack)</div>
+
+      <div class="skill-label">Languages</div>
+      <div>English (Professional), Bahasa Indonesia (Native)</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title">Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <div class="job-title">Product Manager <span class="company">• ASTRNT, Jakarta</span></div>
+        <div class="dates">July 2022 - Present</div>
+      </div>
+      <ul class="bullets">
+        <li>Initiated and built the <strong>CDC (Career Development Center) University Platform</strong> from 0-to-1 for top-tier university partners, slashing candidate screening turnaround time by <strong>83%</strong> for enterprise clients.</li>
+        <li>Engineered critical enterprise onboarding workflows, Candidate Transfer tools, and HRIS integrations, directly driving <strong>32% of Annual Recurring Revenue (ARR)</strong> and maintaining a <strong>70% customer retention rate</strong>.</li>
+        <li>Educated B2B enterprise clients to shift talent acquisition paradigms from traditional ATS keyword filtering to <strong>asynchronous video &amp; competency-based assessment systems</strong> for mass hiring.</li>
+        <li>Embedded <strong>MCP (Model Context Protocol)</strong> and IDE-based codebase prototyping (VS Code &amp; Antigravity IDE) to rapidly build production-ready feature prototypes (e.g., <em>Dynamic Reminder for Reviewers</em> in 1–2 hours), cutting feature validation turnaround from <strong>3 days down to 1 day</strong>.</li>
+        <li>Spearheaded strategic growth initiatives to accelerate enterprise sales, driving a <strong>15% increase in Sales Qualified Leads (SQLs)</strong> and achieving <strong>80% delivery on quarterly goals</strong>.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <div class="job-title">Product Manager <span class="company">• Qoala, Jakarta</span></div>
+        <div class="dates">November 2018 - November 2020</div>
+      </div>
+      <ul class="bullets">
+        <li>Built and launched <strong>Qoala Plus from 0-to-1</strong> for insurance agent partners, onboarding <strong>200+ active agents</strong> and generating <strong>IDR 50–70 Billion GWP (Gross Written Premium)</strong> in the first 6 months.</li>
+        <li>Architected auto-scaling concurrent queuing (Golang stack) to resolve single-node bottlenecks, scaling monthly transaction volume from <strong>60,000 to 1.5 Million (25x growth)</strong>, powering 80% of total policy issuances and driving <strong>10x GMV</strong>.</li>
+        <li>Integrated Computer Vision ML pipelines with UI visual framing guides for automated travel/gadget claims (<strong>1–2 minute instant turnaround</strong>) and built a 24/7 visual assessment dashboard for adjusters, reducing car claim processing from weeks to days.</li>
+        <li>Spearheaded international market expansion by pioneering cross-border bus micro-insurance (MY-SG) for border transit luggage loss with major ticketing partners, opening new regional revenue streams.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <div class="job-title">Product Manager <span class="company">• XWORK, Jakarta</span></div>
+        <div class="dates">September 2017 - November 2018</div>
+      </div>
+      <ul class="bullets">
+        <li>Spearheaded B2B market discovery and 0-to-1 customer validation to uncover new commercial opportunities, driving early product-market fit.</li>
+        <li>Aligned product positioning and go-to-market strategies with engineering roadmaps to accelerate feature adoption.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <div class="job-title">Product Manager <span class="company">• Porter, Jakarta</span></div>
+        <div class="dates">November 2016 - September 2017</div>
+      </div>
+      <ul class="bullets">
+        <li>Collaborated with cross-functional engineering, design, and operations teams to deliver logistics products on schedule, aligning roadmap priorities with core business goals.</li>
+        <li>Facilitated multi-stakeholder communication to streamline operational workflows and improve user satisfaction.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <div class="job-title">Product Management &amp; Sales Operations Coordinator <span class="company">• PegiPegi.com, Jakarta</span></div>
+        <div class="dates">July 2012 - January 2016</div>
+      </div>
+      <ul class="bullets">
+        <li>Optimized CRM processes to enhance contract renewals and streamline sales operations.</li>
+        <li>Resolved complex operational bottlenecks, increasing system efficiency and customer satisfaction.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title">Education</div>
+    <div class="edu-row">
+      <div class="edu-title">Bachelor of Computer Science</div>
+      <div class="dates">August 2008 - August 2012</div>
+    </div>
+    <div class="school">KALBIS Institute, Jakarta</div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,9 @@
+node_modules/
+.env
+dist/
+sqlite.db-journal
+.browser_data/
+legacy/python/.browser_data/
+legacy/python/__pycache__/
+legacy/python/**/*.pyc
+.DS_Store

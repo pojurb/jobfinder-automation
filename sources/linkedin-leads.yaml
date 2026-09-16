@@ -1,0 +1,102 @@
+# Curated by the candidate on 2026-09-16.
+#
+# LinkedIn post content is often sign-in gated, so this is intentionally a
+# manual-discovery registry rather than an unauthenticated scraper. Preserve the
+# original URL, review it in an authenticated browser when needed, and then add
+# a concrete company ATS board or direct job URL to the canonical pipeline.
+
+leads:
+  - url: "https://www.linkedin.com/posts/harleanstevenson_network-whispers-product-manager-business-share-7504914187400437760-gzWy"
+    hint: "Anthropic — Product Manager, Business Technology"
+    kind: job-post
+    review_status: pending
+  - url: "https://www.linkedin.com/posts/trantruongnhaquyen_productmanagement-seniorproductmanager-share-7502939146156560384-O0Rd"
+    hint: "Senior Product Manager"
+    kind: job-post
+    review_status: pending
+  - url: "https://www.linkedin.com/posts/jamesthomas1_product-manager-customer-service-platform-share-7503354450330251264-HHfU"
+    hint: "Product Manager — customer service platform"
+    kind: job-post
+    review_status: pending
+  - url: "https://www.linkedin.com/posts/nour-mokhtar1_ai-productmanagement-productleadership-share-7503052737115226112-CSeu"
+    hint: "AI product-management / product-leadership opportunity"
+    kind: job-post
+    review_status: pending
+  - url: "https://www.linkedin.com/posts/jeffcallan_where-pms-find-jobs-in-2026-ugcPost-7501360684434116608-H7Wt"
+    hint: "Where PMs find jobs in 2026"
+    kind: job-source-list
+    review_status: pending
+  - url: "https://www.linkedin.com/posts/datanasova_im-hiring-im-looking-for-a%F0%9D%90%8F%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%A2%F0%9D%90%A9%F0%9D%90%9A%F0%9D%90%A5-share-7502320608173608960-iFQu"
+    hint: "Principal-level hiring post"
+    kind: job-post
+    review_status: pending
+  - url: "https://www.linkedin.com/posts/dalia-sadek-700211390_productmanagement-productmanager-dubaihiring-share-7500819052530098176-gXUM"
+    hint: "Product Manager — Dubai hiring"
+    kind: job-post
+    review_status: pending
+  - url: "https://www.linkedin.com/posts/dalia-sadek-700211390_aiproductmanager-aiproductmanagement-aijobs-share-7502523139416023040-WfvF"
+    hint: "AI Product Manager jobs"
+    kind: job-post
+    review_status: pending
+  - url: "https://www.linkedin.com/posts/were-hiring-ugcPost-7501609225194958848-_q5A"
+    hint: "Hiring post; role and company need authenticated review"
+    kind: job-post
+    review_status: pending
+  - url: "https://www.linkedin.com/posts/angel-cheungyc_sleekflow-lifeatsleekflow-productjobs-share-7501136290155909120-e9dz"
+    hint: "SleekFlow product jobs"
+    kind: company-lead
+    review_status: pending
+  - url: "https://www.linkedin.com/posts/julia-nathalie-koenig_startups-ai-saas-share-7500136905586581504-6M9U"
+    hint: "25 recently funded startups to watch"
+    kind: company-watchlist
+    review_status: reviewed
+  - url: "https://www.linkedin.com/posts/michael-8o8_daftar-website-untuk-mencari-peluang-kerja-share-7488843893451419649-tGfN"
+    hint: "Job-search website list"
+    kind: job-source-list
+    review_status: pending
+  - url: "https://www.linkedin.com/posts/indonesia-hiring-startups-share-7483385012537561089-cQX1"
+    hint: "Indonesia startup hiring"
+    kind: job-source-list
+    review_status: pending
+  - url: "https://www.linkedin.com/posts/michaelkilcullen_recruiting-share-7491116123917078528-U1i-"
+    hint: "Recruiting post; details need authenticated review"
+    kind: job-post
+    review_status: pending
+  - url: "https://www.linkedin.com/posts/were-hiring-it-product-team-lead-share-7486349510453940224-CdmP/"
+    hint: "IT Product Team Lead"
+    kind: job-post
+    review_status: pending
+  - url: "https://job-boards.greenhouse.io/fluxon/jobs/4019922005"
+    hint: "Fluxon — Senior Product Manager — North America remote — $160k–$200k"
+    kind: direct-job
+    review_status: reviewed
+    eligibility_note: "The posting says fully remote across North America, so it is unlikely to fit an Indonesia-based candidate."
+
+# The post explicitly lists these recently funded companies as ones to monitor.
+# They are discovery targets, not claims that a role is currently open.
+company_watchlist:
+  - ComplyDo
+  - ShopAgentic
+  - Mercanis
+  - Blockbrain
+  - VoiceLine
+  - cognee
+  - Integral
+  - octonomy
+  - LawX
+  - Cirql One
+  - Logicc
+  - TWAICE
+  - Meshcapade
+  - mkind
+  - CONXAI
+  - KEWAZO
+  - cargo.one
+  - Arbio
+  - Buynomics
+  - eClear
+  - finperks
+  - Plato
+  - welevel
+  - Sedivention
+  - Mallia

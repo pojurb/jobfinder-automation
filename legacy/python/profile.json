@@ -1,0 +1,94 @@
+{
+    "name": "Johannes Purba",
+    "target_roles": ["Senior Product Manager", "AI Product Manager", "Lead Product Manager", "Product Manager"],
+    "categories": [
+        {
+            "name": "Role Match",
+            "weight": 3,
+            "keywords": [
+                "product manager", "senior product manager", "ai product manager",
+                "lead product manager", "head of product", "vp product",
+                "product lead", "product management", "group product manager",
+                "principal product manager", "individual contributor"
+            ]
+        },
+        {
+            "name": "Domain Match",
+            "weight": 2,
+            "keywords": [
+                "insurtech", "logistics", "mobility", "saas", "b2b",
+                "fintech", "ai", "infrastructure", "platform", "marketplace",
+                "digital products", "startup", "enterprise", "travel",
+                "insurance", "ticketing", "e-commerce", "hris", "cdc",
+                "career development center", "university", "qoala plus"
+            ]
+        },
+        {
+            "name": "Hard Skills",
+            "weight": 2,
+            "keywords": [
+                "agile", "scrum", "roadmap", "prd", "go-to-market",
+                "product strategy", "data-driven", "product discovery",
+                "user research", "a/b testing", "okr", "kpi",
+                "product-market fit", "mvp", "sprint", "backlog",
+                "requirements", "specifications", "product lifecycle",
+                "customer journey", "user experience", "onboarding",
+                "retention", "product vision", "0-to-1", "competency assessment",
+                "usability testing", "feasibility testing", "early traction",
+                "candidate transfer", "dynamic reminder"
+            ]
+        },
+        {
+            "name": "Tools",
+            "weight": 1.5,
+            "keywords": [
+                "jira", "confluence", "metabase", "figma", "asana",
+                "notion", "miro", "analytics", "sql", "amplitude",
+                "mixpanel", "vs code", "antigravity ide", "mcp"
+            ]
+        },
+        {
+            "name": "AI & Tech Skills",
+            "weight": 2.5,
+            "keywords": [
+                "ai", "llm", "prompt engineering", "machine learning",
+                "gpt", "gemini", "claude", "chatgpt", "artificial intelligence",
+                "mcp", "model context protocol", "ide-based prototyping", "computer vision",
+                "golang", "high-concurrency", "queueing", "instant claims", "automation",
+                "ai-powered", "ai product", "ai infrastructure", "agentic workflows",
+                "asynchronous video interview", "visual assessment dashboard"
+            ]
+        },
+        {
+            "name": "Soft Skills",
+            "weight": 1,
+            "keywords": [
+                "cross-functional", "remote", "stakeholder", "collaboration",
+                "leadership", "communication", "team management",
+                "mentoring", "strategic", "problem-solving",
+                "autonomous", "self-starter", "individual contributor",
+                "active listening", "user workflow"
+            ]
+        },
+        {
+            "name": "Location Preference",
+            "weight": 1.5,
+            "keywords": [
+                "remote", "indonesia", "jakarta", "hybrid",
+                "work from home", "distributed", "anywhere",
+                "southeast asia", "apac", "asia pacific",
+                "global", "worldwide"
+            ]
+        },
+        {
+            "name": "Business Impact",
+            "weight": 1.5,
+            "keywords": [
+                "revenue", "growth", "retention", "acquisition",
+                "conversion", "gmv", "arr", "mrr", "gwp", "gross written premium",
+                "monetization", "scale", "enterprise", "b2b saas",
+                "roi", "market expansion", "go-to-market", "0-to-1"
+            ]
+        }
+    ]
+}

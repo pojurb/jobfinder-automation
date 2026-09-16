@@ -1,0 +1,3693 @@
+# Remote Job Shortlist — Johannes Purba (2026-09-16)
+
+## 🌟 Top Matches (175)
+
+### 1. [Principal Product Manager - Product Catalog @ Twilio](https://weworkremotely.com/remote-jobs/twilio-principal-product-manager-product-catalog)
+- **Score**: 98/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, FinTech
+  - Has AI or technical relevance: matching ai, artificial intelligence, agents
+
+### 2. [Principal Product Manager, Enterprise Commerce Platform @ Twilio](https://weworkremotely.com/remote-jobs/twilio-principal-product-manager-enterprise-commerce-platform)
+- **Score**: 98/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, FinTech
+  - Has AI or technical relevance: matching ai, artificial intelligence, api
+
+### 3. [Principal Product Manager @ ClickUp](https://jobs.ashbyhq.com/clickup/312d217b-dc4a-43b4-8bd3-6d24e342fd90)
+- **Score**: 93/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, artificial intelligence, machine learning
+
+### 4. [Staff Product Manager, Payments @ Stripe](https://weworkremotely.com/remote-jobs/stripe-staff-product-manager-payments)
+- **Score**: 93/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching api, infrastructure, analytics
+
+### 5. [Product Manager L3 @ Twilio](https://weworkremotely.com/remote-jobs/twilio-product-manager-l3)
+- **Score**: 93/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 6+ years of experience, indicating senior level
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, artificial intelligence, analytics
+
+### 6. [Principal Product Manager @ Twilio](https://weworkremotely.com/remote-jobs/twilio-principal-product-manager)
+- **Score**: 93/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, artificial intelligence
+
+### 7. [Senior Product Manager @ Toggl](https://weworkremotely.com/remote-jobs/toggl-senior-product-manager-4)
+- **Score**: 92/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 15, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai
+
+### 8. [Product Manager - B2B SaaS (Martech) - Europe @ Insider One](https://weworkremotely.com/remote-jobs/insider-one-product-manager-b2b-saas-martech-europe)
+- **Score**: 91/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, artificial intelligence, cloud
+
+### 9. [Senior Product Manager, AI Platform Management @ GitLab](https://job-boards.greenhouse.io/gitlab/jobs/8568868002)
+- **Score**: 91/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Remote, Ireland; Remote, Israel; Remote, United Kingdom
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, agentic
+
+### 10. [Senior Product Manager @ IDEKU](https://id.linkedin.com/jobs/view/senior-product-manager-at-ideku-4415108650)
+- **Score**: 90/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching api, analytics
+
+### 11. [Product Manager, Payments & Integrations @ Xenith](https://id.linkedin.com/jobs/view/product-manager-payments-integrations-at-xenith-4430465953)
+- **Score**: 90/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 5+ years of experience, indicating senior level
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching api, infrastructure
+
+### 12. [Product Manager, Payments @ Stripe](https://weworkremotely.com/remote-jobs/stripe-product-manager-payments)
+- **Score**: 89/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 10, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching api, infrastructure, analytics
+
+### 13. [Group Product Manager, Payments Core @ Coinbase](https://weworkremotely.com/remote-jobs/coinbase-group-product-manager-payments-core)
+- **Score**: 89/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 10, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching ai, generative, infrastructure
+
+### 14. [Group Product Manager, Compliance Agent Experience @ Coinbase](https://weworkremotely.com/remote-jobs/coinbase-group-product-manager-compliance-agent-experience)
+- **Score**: 89/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 10, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching ai, llm, ml
+
+### 15. [Technical Product Manager @ PT Bank Sinarmas Tbk](https://id.linkedin.com/jobs/view/technical-product-manager-at-pt-bank-sinarmas-tbk-4442988928)
+- **Score**: 89/100 (Role: 30, Remote: 25, Seniority: 9, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 4 years of experience (mid-level)
+  - Matches preferred domain(s): FinTech, Financial Technology
+  - Has AI or technical relevance: matching ai, technical product, api
+
+### 16. [Staff Product Manager (Accounts & Billing) @ Netlify](https://job-boards.greenhouse.io/netlify/jobs/8603630002)
+- **Score**: 88/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, agents, analytics
+
+### 17. [Staff/Principal Product Manager, Database @ Pinecone](https://jobs.ashbyhq.com/pinecone/7261adcb-026d-4552-8f89-7a46156c40c5)
+- **Score**: 88/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: US Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, infrastructure, cloud
+
+### 18. [Senior Product Manager – PoS / ERP Solutions @ Adecco](https://id.linkedin.com/jobs/view/senior-product-manager-%E2%80%93-pos-erp-solutions-at-adecco-4446498904)
+- **Score**: 87/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 10, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching analytics
+
+### 19. [Product Manager @ Nearcut](https://weworkremotely.com/remote-jobs/nearcut-product-manager)
+- **Score**: 86/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, analytics
+
+### 20. [Product Manager, Device Platform @ Cinch](https://id.linkedin.com/jobs/view/product-manager-device-platform-at-cinch-4434410997)
+- **Score**: 86/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching ai, api, infrastructure
+
+### 21. [Product Manager, Data Feeds @ YipitData](https://job-boards.greenhouse.io/yipitdata/jobs/7883756)
+- **Score**: 85/100 (Role: 30, Remote: 18, Seniority: 11, Domain: 15, AI/Tech: 10, Fresh: 1)
+- **Remote Fit / Location**: US Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching infrastructure, cloud
+
+### 22. [Lead Product Manager - Growth/Shared Services (Platform) & Payments @ Ajaib](https://id.linkedin.com/jobs/view/lead-product-manager-growth-shared-services-platform-payments-at-ajaib-4437168279)
+- **Score**: 85/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 15, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech, Financial Technology
+
+### 23. [Senior Product Manager @ DKATALIS](https://id.linkedin.com/jobs/view/senior-product-manager-at-dkatalis-4409077057)
+- **Score**: 85/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 15, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech, Financial Technology
+
+### 24. [Product Manager — IntelliBron Aman @ PT ITSEC Asia Tbk](https://id.linkedin.com/jobs/view/product-manager-%E2%80%94-intellibron-aman-at-pt-itsec-asia-tbk-4439919342)
+- **Score**: 85/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 15, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 5+ years of experience, indicating senior level
+  - Matches preferred domain(s): SaaS, B2B SaaS
+
+### 25. [Staff Product Manager Product Information Management @ HighLevel](https://remoteOK.com/remote-jobs/remote-staff-product-manager-product-information-management-highlevel-1133598)
+- **Score**: 84/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 1)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, api, infrastructure
+
+### 26. [AI Product Manager @ Tether Operations Limited](https://remoteOK.com/remote-jobs/remote-ai-product-manager-tether-operations-limited-1130662)
+- **Score**: 84/100 (Role: 30, Remote: 18, Seniority: 11, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Not specified
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS, FinTech
+  - Has AI or technical relevance: matching ai, ml, technical product
+
+### 27. [Staff Product Manager, Payments @ Stripe](https://stripe.com/jobs/search?gh_jid=7819059)
+- **Score**: 84/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 1)
+- **Remote Fit / Location**: SF, SEA, NYC, Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching api, infrastructure, analytics
+
+### 28. [Staff Product Manager, ML Foundations and GenAI @ Stripe](https://weworkremotely.com/remote-jobs/stripe-staff-product-manager-ml-foundations-and-genai)
+- **Score**: 83/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, llm, ml
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 29. [Staff Product Manager, Enterprise @ Stripe](https://weworkremotely.com/remote-jobs/stripe-staff-product-manager-enterprise)
+- **Score**: 83/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching api, infrastructure
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 30. [Staff Product Manager, Cards Monetization @ Stripe](https://weworkremotely.com/remote-jobs/stripe-staff-product-manager-cards-monetization)
+- **Score**: 83/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ml, infrastructure, analytics
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 31. [Staff Product Manager, Dashboard @ Stripe](https://weworkremotely.com/remote-jobs/stripe-staff-product-manager-dashboard)
+- **Score**: 83/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching machine learning, infrastructure
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 32. [Senior Product Manager, Help Center (CX Automation) @ Coinbase](https://weworkremotely.com/remote-jobs/coinbase-senior-product-manager-help-center-cx-automation)
+- **Score**: 83/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, llm, ml
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 33. [Principal Product Manager @ Twilio](https://weworkremotely.com/remote-jobs/twilio-principal-product-manager-1)
+- **Score**: 83/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, artificial intelligence
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 34. [Senior Product Manager, Pricing @ LawnStarter](https://weworkremotely.com/remote-jobs/lawnstarter-senior-product-manager-pricing)
+- **Score**: 83/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, api, infrastructure
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 35. [Senior Product Manager, Service Delivery @ LawnStarter](https://weworkremotely.com/remote-jobs/lawnstarter-senior-product-manager-service-delivery)
+- **Score**: 83/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, llm
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 36. [Product Manager - AI Neobank App @ BJAK](https://id.linkedin.com/jobs/view/product-manager-ai-neobank-app-at-bjak-4436053026)
+- **Score**: 83/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 10, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching ai
+
+### 37. [Product Manager @ FUSE GROUP](https://id.linkedin.com/jobs/view/product-manager-at-fuse-group-4415941692)
+- **Score**: 83/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 10, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching analytics
+
+### 38. [Group Product Manager (Remote) @ MonetizeMore](https://id.linkedin.com/jobs/view/group-product-manager-remote-at-monetizemore-4431798414)
+- **Score**: 83/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 10, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai
+
+### 39. [Product Manager - User & Accounts @ Xendit](https://id.linkedin.com/jobs/view/product-manager-user-accounts-at-xendit-4412369271)
+- **Score**: 83/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 10, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching infrastructure
+
+### 40. [Product Manager @ Yokke](https://id.linkedin.com/jobs/view/product-manager-at-yokke-4442582551)
+- **Score**: 83/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 10, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching api
+
+### 41. [Product Manager (PdM) @ 株式会社BALLAS](https://id.linkedin.com/jobs/view/product-manager-pdm-at-%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEballas-4413706651)
+- **Score**: 83/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 10, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai
+
+### 42. [Product Manager @ Astronacci International](https://id.linkedin.com/jobs/view/product-manager-at-astronacci-international-4430395680)
+- **Score**: 81/100 (Role: 30, Remote: 25, Seniority: 9, Domain: 10, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: Hybrid
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 3 years of experience (mid-level)
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching analytics
+
+### 43. [VP of Product and Partnerships @ uConnect](https://remoteOK.com/remote-jobs/remote-vp-of-product-and-partnerships-uconnect-1131558)
+- **Score**: 80/100 (Role: 27, Remote: 18, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Leadership Product (Director/Head/VP)
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, infrastructure, analytics
+
+### 44. [VP of Product Security @ GitLab](https://job-boards.greenhouse.io/gitlab/jobs/8539288002)
+- **Score**: 80/100 (Role: 27, Remote: 18, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote, US
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Leadership Product (Director/Head/VP)
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, agentic, api
+
+### 45. [Senior Product Manager @ ClickUp](https://jobs.ashbyhq.com/clickup/37c53272-fb9e-4a01-8f1a-8395b922f28c)
+- **Score**: 80/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: United States
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, artificial intelligence, machine learning
+- **Risks / red flags**: 
+  - Location "United States" indicates a region-locked role, not globally remote
+
+### 46. [Sr. Product Manager (EN) @ Cosuno](https://jobs.ashbyhq.com/cosuno/828d14a6-c31b-4e9b-bb7a-367750628ca8)
+- **Score**: 80/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Berlin/Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, artificial intelligence, llm
+- **Risks / red flags**: 
+  - Location "Berlin/Remote" indicates a region-locked role, not globally remote
+
+### 47. [Lead Product Manager - Engineering AI Experience @ Monday.com](https://jobs.ashbyhq.com/monday.com/2a189cc4-50fe-4474-a764-bfb27483dbf0)
+- **Score**: 80/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Tel Aviv
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, llm, agentic
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 48. [Head of Product Creative @ Coinbase](https://weworkremotely.com/remote-jobs/coinbase-head-of-product-creative)
+- **Score**: 80/100 (Role: 27, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Leadership Product (Director/Head/VP)
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, generative
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 49. [Director of Product Management @ LawnStarter](https://weworkremotely.com/remote-jobs/lawnstarter-director-of-product-management)
+- **Score**: 80/100 (Role: 27, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Leadership Product (Director/Head/VP)
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, agents
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 50. [Senior Product Manager - General Contractors @ Cosuno](https://jobs.ashbyhq.com/cosuno/31db8d77-f3ae-40cf-94fc-9ed626356a69)
+- **Score**: 80/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Berlin/Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, artificial intelligence, llm
+- **Risks / red flags**: 
+  - Location "Berlin/Remote" indicates a region-locked role, not globally remote
+
+### 51. [Staff Product Manager, Infrastructure & AI Dev Tools (Seattle, WA / West Coast Preferred) @ Docker](https://jobs.ashbyhq.com/docker/3de22da1-17d1-4887-a08e-c2177c1cd9f7)
+- **Score**: 80/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: United States
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, llm, agentic
+- **Risks / red flags**: 
+  - Location "United States" indicates a region-locked role, not globally remote
+
+### 52. [Senior Product Manager @ ADA](https://id.linkedin.com/jobs/view/senior-product-manager-at-ada-4432643846)
+- **Score**: 80/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, ml, generative
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 53. [Senior Product Manager - Servicing @ DKATALIS](https://id.linkedin.com/jobs/view/senior-product-manager-servicing-at-dkatalis-4368176708)
+- **Score**: 80/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 10, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech
+
+### 54. [Product Manager Payment System @ Indivara Group](https://id.linkedin.com/jobs/view/product-manager-payment-system-at-indivara-group-4429008042)
+- **Score**: 80/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 10, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 8+ years of experience, indicating senior level
+  - Matches preferred domain(s): FinTech
+
+### 55. [Product Manager @ Monee](https://id.linkedin.com/jobs/view/product-manager-at-monee-4440048153)
+- **Score**: 80/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 10, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 5+ years of experience, indicating senior level
+  - Matches preferred domain(s): FinTech
+
+### 56. [Product Manager @ Decile Group](https://remoteOK.com/remote-jobs/remote-product-manager-decile-group-1131057)
+- **Score**: 79/100 (Role: 30, Remote: 18, Seniority: 11, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, analytics
+
+### 57. [Product Manager, Link - Consumer @ Stripe](https://weworkremotely.com/remote-jobs/stripe-product-manager-link-consumer)
+- **Score**: 79/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai, agents, infrastructure
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 58. [Product Manager, Growth AI Outreach Motion @ Stripe](https://weworkremotely.com/remote-jobs/stripe-product-manager-growth-ai-outreach-motion)
+- **Score**: 79/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai, ml, agentic
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 59. [Product Manager, Ecosystem Risk @ Stripe](https://weworkremotely.com/remote-jobs/stripe-product-manager-ecosystem-risk)
+- **Score**: 79/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai, api, infrastructure
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 60. [Product Manager - Compliance, Bridge @ Stripe](https://weworkremotely.com/remote-jobs/stripe-product-manager-compliance-bridge)
+- **Score**: 79/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai, machine learning, api
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 61. [Group Product Manager, Financial Engineering @ Coinbase](https://weworkremotely.com/remote-jobs/coinbase-group-product-manager-financial-engineering)
+- **Score**: 79/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai, generative, infrastructure
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 62. [Group Product Manager, Developer Infrastructure @ Coinbase](https://weworkremotely.com/remote-jobs/coinbase-group-product-manager-developer-infrastructure)
+- **Score**: 79/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai, generative, infrastructure
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 63. [Group Product Manager, Compliance Automation @ Coinbase](https://weworkremotely.com/remote-jobs/coinbase-group-product-manager-compliance-automation)
+- **Score**: 79/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai, ml, generative
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 64. [Group Product Manager, Core Infrastructure & Reliability @ Coinbase](https://weworkremotely.com/remote-jobs/coinbase-group-product-manager-core-infrastructure-reliability)
+- **Score**: 79/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai, generative, infrastructure
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 65. [Product Manager @ RedDoorz](https://id.linkedin.com/jobs/view/product-manager-at-reddoorz-4435395185)
+- **Score**: 79/100 (Role: 30, Remote: 25, Seniority: 9, Domain: 15, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 4 years of experience (mid-level)
+  - Matches preferred domain(s): SaaS, B2B SaaS
+
+### 66. [Principal Product Manager (Growth) @ Netlify](https://job-boards.greenhouse.io/netlify/jobs/8603652002)
+- **Score**: 78/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, agents, developer platform
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 67. [Sr/Staff Product Manager, Core Products @ Runway ML](https://jobs.ashbyhq.com/runway-ml/99630569-86d3-46c8-94fb-f9a797770b2b)
+- **Score**: 78/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, artificial intelligence, agents
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 68. [Sr/Staff Product Manager, ML Research @ Runway ML](https://jobs.ashbyhq.com/runway-ml/fc409275-6797-4504-9be9-3215276d3645)
+- **Score**: 78/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, artificial intelligence, ml
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 69. [Staff Product Manager, Risk Product Experience @ Stripe](https://stripe.com/jobs/search?gh_jid=8040052)
+- **Score**: 78/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: Seattle, New-York, San Francisco, Atlanta
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, FinTech, B2B SaaS
+  - Has AI or technical relevance: matching api, infrastructure
+- **Risks / red flags**: 
+  - Location "Seattle, New-York, San Francisco, Atlanta" indicates a region-locked role, not globally remote
+
+### 70. [Senior Product Manager - Dashboard Experience @ Mercury](https://job-boards.greenhouse.io/mercury/jobs/6126980004)
+- **Score**: 77/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 7, Fresh: 5)
+- **Remote Fit / Location**: San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, FinTech
+  - Has AI or technical relevance: matching agents
+- **Risks / red flags**: 
+  - Location "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States" indicates a region-locked role, not globally remote
+
+### 71. [Product Manager @ Itron, Inc.](https://id.linkedin.com/jobs/view/product-manager-at-itron-inc-4441495943)
+- **Score**: 77/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 10+ years of experience, indicating senior level
+  - Has AI or technical relevance: matching infrastructure
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 72. [Product Manager (Watch Demand Generation) @ Luxehouze](https://id.linkedin.com/jobs/view/product-manager-watch-demand-generation-at-luxehouze-4443177987)
+- **Score**: 77/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 5+ years of experience, indicating senior level
+  - Has AI or technical relevance: matching analytics
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 73. [AVP-Security Product Manager Lead @ PT. Indosat Tbk](https://id.linkedin.com/jobs/view/avp-security-product-manager-lead-at-pt-indosat-tbk-4431711259)
+- **Score**: 77/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching cloud
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 74. [Product Manager @ Sprint Asia](https://id.linkedin.com/jobs/view/product-manager-at-sprint-asia-4425898345)
+- **Score**: 77/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 5+ years of experience, indicating senior level
+  - Has AI or technical relevance: matching analytics
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 75. [Lead Product Manager I (Things To Do & Events) @ tiket.com](https://id.linkedin.com/jobs/view/lead-product-manager-i-things-to-do-events-at-tiket-com-4437388557)
+- **Score**: 77/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching analytics
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 76. [Product Manager for Bonsai (Innovation Hub) @ Jetbrains](https://weworkremotely.com/remote-jobs/jetbrains-product-manager-for-bonsai-innovation-hub)
+- **Score**: 76/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai, agents, infrastructure
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 77. [Senior Product Manager - API & Agentic Banking @ Mercury](https://job-boards.greenhouse.io/mercury/jobs/5867562004)
+- **Score**: 76/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 1)
+- **Remote Fit / Location**: San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, FinTech
+  - Has AI or technical relevance: matching ai, agentic, agents
+- **Risks / red flags**: 
+  - Location "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States" indicates a region-locked role, not globally remote
+
+### 78. [Product Manager @ Artajasa Pembayaran Elektronis](https://id.linkedin.com/jobs/view/product-manager-at-artajasa-pembayaran-elektronis-4424350340)
+- **Score**: 76/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 10, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: Hybrid
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): FinTech
+
+### 79. [Product Manager @ Macquarie Group](https://www.jobstreet.co.id/job/91100426)
+- **Score**: 76/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai, analytics
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 80. [AI Product Manager @ Monee](https://id.linkedin.com/jobs/view/ai-product-manager-at-monee-4408753053)
+- **Score**: 76/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai, llm, agentic
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 81. [Business Product Manager - Offline Issuing, ShopeePay @ Monee](https://id.linkedin.com/jobs/view/business-product-manager-offline-issuing-shopeepay-at-monee-4427543353)
+- **Score**: 76/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 10, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): FinTech
+
+### 82. [AI Product Manager - Business Intelligence & Analytics @ Shopee](https://id.linkedin.com/jobs/view/ai-product-manager-business-intelligence-analytics-at-shopee-4289558735)
+- **Score**: 76/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Hybrid
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai, analytics
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 83. [Commercial Data & AI Product Manager (Sales Intelligence & Automation) @ SKINTIFIC](https://id.linkedin.com/jobs/view/commercial-data-ai-product-manager-sales-intelligence-automation-at-skintific-4440391973)
+- **Score**: 76/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai, llm, ml
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 84. [Product Manager @ Cosuno](https://remoteOK.com/remote-jobs/remote-product-manager-cosuno-1131589)
+- **Score**: 75/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Berlin
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Requires 5+ years of experience, indicating senior level
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, artificial intelligence, llm
+- **Risks / red flags**: 
+  - Location "Berlin" indicates a region-locked role, not globally remote
+
+### 85. [Senior Product Manager - Business Lending @ Mercury](https://job-boards.greenhouse.io/mercury/jobs/6098827004)
+- **Score**: 75/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 7, Fresh: 3)
+- **Remote Fit / Location**: San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, FinTech
+  - Has AI or technical relevance: matching ai
+- **Risks / red flags**: 
+  - Location "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States" indicates a region-locked role, not globally remote
+
+### 86. [Senior Product Manager I – Monetization & Billing @ Smartsheet](https://job-boards.greenhouse.io/smartsheet/jobs/7822040)
+- **Score**: 75/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Bellevue, WA, USA
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, agents
+- **Risks / red flags**: 
+  - Location "Bellevue, WA, USA" indicates a region-locked role, not globally remote
+
+### 87. [Sr. Product Manager II - AI Platform (Remote Eligible) @ Smartsheet](https://job-boards.greenhouse.io/smartsheet/jobs/8014598)
+- **Score**: 75/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: -REMOTE, USA-
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, llm, ml
+- **Risks / red flags**: 
+  - Location "-REMOTE, USA-" indicates a region-locked role, not globally remote
+
+### 88. [Director of Product Marketing @ Cogent Security](https://jobs.ashbyhq.com/cogent-security/fbe585dc-5c69-4287-97a1-522faa5e0054)
+- **Score**: 75/100 (Role: 27, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Remote US
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Leadership Product (Director/Head/VP)
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, ml, agentic
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 89. [Principal Product Manager, Growth @ Docker](https://jobs.ashbyhq.com/docker/6a37877b-cd18-4014-91b1-284516f0a8a1)
+- **Score**: 75/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Canada
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, agents, infrastructure
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 90. [Senior Product Manager - Vibe @ Monday.com](https://jobs.ashbyhq.com/monday.com/5586357d-702b-4ec4-ae72-db5e18f7c7aa)
+- **Score**: 75/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Tel Aviv
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, machine learning, generative
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 91. [Senior AI Product Manager - monday service @ Monday.com](https://jobs.ashbyhq.com/monday.com/57ec7b25-b023-47c1-80e6-bfdc1a46b17d)
+- **Score**: 75/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Tel Aviv
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, llm, ml
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 92. [Manager/Director of Product Marketing @ Runway ML](https://jobs.ashbyhq.com/runway-ml/0de946b6-757b-48b1-a0a7-694db51c7eb1)
+- **Score**: 75/100 (Role: 27, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Leadership Product (Director/Head/VP)
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, artificial intelligence, agents
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 93. [Senior Product Manager @ Acquia](https://ca.linkedin.com/jobs/view/senior-product-manager-at-acquia-4416962908)
+- **Score**: 75/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, agentic, infrastructure
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 94. [Senior Product Manager @ Axiamatic](https://in.linkedin.com/jobs/view/senior-product-manager-at-axiamatic-4442610350)
+- **Score**: 75/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, llm, ml
+- **Risks / red flags**: 
+  - Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote
+
+### 95. [Lead Product Manager @ Haut.AI](https://uk.linkedin.com/jobs/view/lead-product-manager-at-haut-ai-4313759238)
+- **Score**: 75/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, artificial intelligence, llm
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 96. [Senior Product Manager @ numi](https://uk.linkedin.com/jobs/view/senior-product-manager-at-numi-4441033229)
+- **Score**: 75/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, FinTech, B2B SaaS
+  - Has AI or technical relevance: matching ai, llm, agentic
+- **Risks / red flags**: 
+  - Location "London Area, United Kingdom" indicates a region-locked role, not globally remote
+
+### 97. [Principal Product Manager @ Orbis Group](https://www.linkedin.com/jobs/view/principal-product-manager-at-orbis-group-4443949240)
+- **Score**: 75/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, FinTech
+  - Has AI or technical relevance: matching infrastructure, analytics
+- **Risks / red flags**: 
+  - Location "United States" indicates a region-locked role, not globally remote
+
+### 98. [Sr. Product Manager @ PetDesk](https://www.linkedin.com/jobs/view/sr-product-manager-at-petdesk-4440314435)
+- **Score**: 75/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, FinTech
+  - Has AI or technical relevance: matching ai, artificial intelligence, infrastructure
+- **Risks / red flags**: 
+  - Location "United States" indicates a region-locked role, not globally remote
+
+### 99. [Senior Product Manager @ Distru](https://remoteOK.com/remote-jobs/remote-senior-product-manager-distru-1133455)
+- **Score**: 74/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 1)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, llm, agentic
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 100. [Product Manager @ Sharebite](https://remoteOK.com/remote-jobs/remote-product-manager-sharebite-1131048)
+- **Score**: 74/100 (Role: 30, Remote: 18, Seniority: 11, Domain: 15, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS, B2B SaaS
+
+### 101. [AI Product Manager @ YipitData](https://job-boards.greenhouse.io/yipitdata/jobs/8031925)
+- **Score**: 74/100 (Role: 30, Remote: 18, Seniority: 11, Domain: 0, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: US Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai, ml, agents
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 102. [Technical Product Manager, Energy Storage @ Voltus](https://jobs.lever.co/voltus/fd6c3c35-26d2-41b7-80c3-4aec247dbc82)
+- **Score**: 74/100 (Role: 30, Remote: 18, Seniority: 11, Domain: 0, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai, agents, technical product
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 103. [Technical Product Manager @ YipitData](https://job-boards.greenhouse.io/yipitdata/jobs/8050061)
+- **Score**: 74/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 1)
+- **Remote Fit / Location**: US Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Requires 5+ years of experience, indicating senior level
+  - Has AI or technical relevance: matching ai, technical product, infrastructure
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 104. [Growth & Product Lead, Indonesia @ Canva](https://id.linkedin.com/jobs/view/growth-product-lead-indonesia-at-canva-4444315613)
+- **Score**: 74/100 (Role: 24, Remote: 25, Seniority: 15, Domain: 10, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Owner / Lead Product
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+
+### 105. [Product Manager (AI Product) @ Hukumonline.com](https://id.linkedin.com/jobs/view/product-manager-ai-product-at-hukumonline-com-4435848353)
+- **Score**: 74/100 (Role: 30, Remote: 25, Seniority: 9, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 4 years of experience (mid-level)
+  - Has AI or technical relevance: matching ai, generative, analytics
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 106. [Business Product Manager - Payment Gateway, ShopeePay @ Monee](https://id.linkedin.com/jobs/view/business-product-manager-payment-gateway-shopeepay-at-monee-4437197588)
+- **Score**: 74/100 (Role: 30, Remote: 25, Seniority: 9, Domain: 10, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 4 years of experience (mid-level)
+  - Matches preferred domain(s): FinTech
+
+### 107. [Senior Product Manager Applied AI @ Smartsheet](https://remoteOK.com/remote-jobs/remote-senior-product-manager-applied-ai-smartsheet-1131233)
+- **Score**: 73/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Not specified
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, ml, agentic
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 108. [Principal Product Manager, AI Custom Models @ GitLab](https://job-boards.greenhouse.io/gitlab/jobs/8564957002)
+- **Score**: 73/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote, Canada; Remote, US
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, infrastructure
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 109. [Principal Product Manager, Security - GTM @ GitLab](https://job-boards.greenhouse.io/gitlab/jobs/8489126002)
+- **Score**: 73/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote, Canada; Remote, US
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, cloud, analytics
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 110. [Staff Product Manager, AI Agent Orchestration @ GitLab](https://job-boards.greenhouse.io/gitlab/jobs/8536109002)
+- **Score**: 73/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote, US
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, agentic, agents
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 111. [Data Product Manager @ YipitData](https://job-boards.greenhouse.io/yipitdata/jobs/8002296)
+- **Score**: 73/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: US Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Requires 6+ years of experience, indicating senior level
+  - Has AI or technical relevance: matching ai, llm, ml
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 112. [Senior Product Manager | REMOTE @ Distru](https://jobs.lever.co/distru/9c3ca4f6-fd74-4d70-b7e3-682c914c1a22)
+- **Score**: 73/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, agents
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 113. [Product Manager, Climate Services @ Accuweather Careers](https://weworkremotely.com/remote-jobs/accuweather-careers-product-manager-climate-services)
+- **Score**: 73/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: Anywhere in the World
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching cloud
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 114. [AI Product Manager, Professional Services @ Stripe](https://stripe.com/jobs/search?gh_jid=8064526)
+- **Score**: 73/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: New York/ San Francisco
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Requires 5+ years of experience, indicating senior level
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, agentic, infrastructure
+- **Risks / red flags**: 
+  - Location "New York/ San Francisco" indicates a region-locked role, not globally remote
+
+### 115. [Staff Product Manager, Issuing @ Stripe](https://stripe.com/jobs/search?gh_jid=8043083)
+- **Score**: 73/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 3)
+- **Remote Fit / Location**: London
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching api, infrastructure
+- **Risks / red flags**: 
+  - Location "London" indicates a region-locked role, not globally remote
+
+### 116. [Senior Product Manager, Help Center (CX Automation) @ Coinbase](https://www.coinbase.com/careers/positions/8031208?gh_jid=8031208)
+- **Score**: 73/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote - India
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, llm, ml
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 117. [Principal Product Manager, Engineering Intelligence & Insights @ GitLab](https://job-boards.greenhouse.io/gitlab/jobs/8597813002)
+- **Score**: 73/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote, Canada; Remote, US
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, infrastructure, analytics
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 118. [Senior Product Manager, Plan to Code @ GitLab](https://job-boards.greenhouse.io/gitlab/jobs/8597805002)
+- **Score**: 73/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote, Canada; Remote, US
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, agents, technical product
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 119. [Staff Product Manager, RevOps & Finance Systems @ GitLab](https://job-boards.greenhouse.io/gitlab/jobs/8612937002)
+- **Score**: 73/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote, US
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, api, infrastructure
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 120. [Product Manager @ BJAK](https://id.linkedin.com/jobs/view/product-manager-at-bjak-4418411526)
+- **Score**: 73/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 121. [Staff Product Manager Product Information Management @ HighLevel](https://remoteok.com/remote-jobs/remote-staff-product-manager-product-information-management-highlevel-1133598)
+- **Score**: 73/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, api, infrastructure
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 122. [Product Manager - AI Neobank App @ Kira](legacy://markdown/kira_product_manager_-_ai_neobank_app_2026-08-03.md)
+- **Score**: 73/100 (Role: 30, Remote: 25, Seniority: 11, Domain: 0, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Mid-level or unspecified seniority
+  - Has AI or technical relevance: matching ai
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 123. [Senior Product Manager - Autonomous Driving Systems @ TomTom](https://cn.linkedin.com/jobs/view/senior-product-manager-autonomous-driving-systems-at-tomtom-4385677344)
+- **Score**: 73/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai, artificial intelligence, analytics
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 124. [Growth Product Manager @ AltaML](https://remoteOK.com/remote-jobs/remote-growth-product-manager-altaml-1133729)
+- **Score**: 72/100 (Role: 30, Remote: 5, Seniority: 11, Domain: 15, AI/Tech: 10, Fresh: 1)
+- **Remote Fit / Location**: Canada
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, technical product
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 125. [Product Manager, Risk & Compliance @ Stripe](https://stripe.com/jobs/search?gh_jid=7625842)
+- **Score**: 72/100 (Role: 30, Remote: 5, Seniority: 11, Domain: 15, AI/Tech: 10, Fresh: 1)
+- **Remote Fit / Location**: Bengaluru
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching api, infrastructure
+- **Risks / red flags**: 
+  - Location "Bengaluru" indicates a region-locked role, not globally remote
+
+### 126. [Director of Product, North @ Cohere](https://jobs.ashbyhq.com/cohere/44af407e-28a2-4589-bede-6c5e8ee305bc)
+- **Score**: 72/100 (Role: 27, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 5)
+- **Remote Fit / Location**: Toronto
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Leadership Product (Director/Head/VP)
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, generative, copilot
+- **Risks / red flags**: 
+  - Location "Toronto" indicates a region-locked role, not globally remote
+
+### 127. [Senior Product Manager @ BQE Software](https://in.linkedin.com/jobs/view/senior-product-manager-at-bqe-software-4432954179)
+- **Score**: 72/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 128. [Senior Product Operations @ Garena](https://id.linkedin.com/jobs/view/senior-product-operations-at-garena-4446153840)
+- **Score**: 72/100 (Role: 15, Remote: 25, Seniority: 15, Domain: 10, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role contains "Product" but is not explicitly Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching analytics
+
+### 129. [Senior Product Manager @ Inflection.io](https://in.linkedin.com/jobs/view/senior-product-manager-at-inflection-io-4374705526)
+- **Score**: 72/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai
+- **Risks / red flags**: 
+  - Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote
+
+### 130. [Technical Product Manager @ Lavendo](https://remoteOK.com/remote-jobs/remote-technical-product-manager-lavendo-1130461)
+- **Score**: 71/100 (Role: 30, Remote: 5, Seniority: 11, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: San Francisco
+- **Salary**: $150.000 - $235.000
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, agents, technical product
+  - Salary range is disclosed
+- **Risks / red flags**: 
+  - Location "San Francisco" indicates a region-locked role, not globally remote
+
+### 131. [Staff Product Manager, Global Expansion @ Stripe](https://stripe.com/jobs/search?gh_jid=7570242)
+- **Score**: 71/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 1)
+- **Remote Fit / Location**: Bengaluru
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching developer platform, infrastructure
+- **Risks / red flags**: 
+  - Location "Bengaluru" indicates a region-locked role, not globally remote
+
+### 132. [Principal Product Manager, Real-Time Payments Platform @ SoFi](https://sofi.com/careers/job/7697158003?gh_jid=7697158003)
+- **Score**: 71/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 1)
+- **Remote Fit / Location**: WA - Seattle; CA - San Francisco
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching api, infrastructure
+- **Risks / red flags**: 
+  - Location "WA - Seattle; CA - San Francisco" indicates a region-locked role, not globally remote
+
+### 133. [Senior Product Manager, Commercial Banking @ SoFi](https://sofi.com/careers/job/7697154003?gh_jid=7697154003)
+- **Score**: 71/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 1)
+- **Remote Fit / Location**: WA - Seattle; CA - San Francisco
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching ai, api, developer platform
+- **Risks / red flags**: 
+  - Location "WA - Seattle; CA - San Francisco" indicates a region-locked role, not globally remote
+
+### 134. [Senior Product Manager, Transactional Risk @ SoFi](https://sofi.com/careers/job/7676573003?gh_jid=7676573003)
+- **Score**: 71/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 1)
+- **Remote Fit / Location**: WA - Seattle, CA - San Francisco
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching machine learning, ml
+- **Risks / red flags**: 
+  - Location "WA - Seattle, CA - San Francisco" indicates a region-locked role, not globally remote
+
+### 135. [Product Manager @ AMAN Powered by Themis](https://bh.linkedin.com/jobs/view/product-manager-at-aman-powered-by-themis-4438998233)
+- **Score**: 71/100 (Role: 30, Remote: 5, Seniority: 11, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, ml
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 136. [Product Manager @ Aveni](https://uk.linkedin.com/jobs/view/product-manager-at-aveni-4435051284)
+- **Score**: 71/100 (Role: 30, Remote: 5, Seniority: 11, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS, FinTech, B2B SaaS
+  - Has AI or technical relevance: matching ai, agentic, agents
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 137. [Technical Product Manager @ Bibit.id](https://id.linkedin.com/jobs/view/technical-product-manager-at-bibit-id-4409292417)
+- **Score**: 71/100 (Role: 30, Remote: 25, Seniority: 9, Domain: 0, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 3 years of experience (mid-level)
+  - Has AI or technical relevance: matching technical product
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 138. [Product Manager @ LeapXpert](https://vn.linkedin.com/jobs/view/product-manager-at-leapxpert-4423895295)
+- **Score**: 71/100 (Role: 30, Remote: 5, Seniority: 11, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, api
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 139. [Product Manager, NZ @ Partly](https://nz.linkedin.com/jobs/view/product-manager-nz-at-partly-4382248578)
+- **Score**: 71/100 (Role: 30, Remote: 5, Seniority: 11, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, llm, agentic
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 140. [Product Owner @ PT IBM Indonesia](https://www.jobstreet.co.id/job/93403055)
+- **Score**: 71/100 (Role: 24, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Owner / Lead Product
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 7+ years of experience, indicating senior level
+  - Has AI or technical relevance: matching ai
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 141. [Product Manager @ Storable](https://www.linkedin.com/jobs/view/product-manager-at-storable-4439469809)
+- **Score**: 71/100 (Role: 30, Remote: 5, Seniority: 11, Domain: 15, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Mid-level or unspecified seniority
+  - Matches preferred domain(s): SaaS, B2B SaaS
+  - Has AI or technical relevance: matching ai, agentic, cloud
+- **Risks / red flags**: 
+  - Location "Austin, TX" indicates a region-locked role, not globally remote
+
+### 142. [Senior Product Manager Core Infrastructure @ Mesh](https://remoteOK.com/remote-jobs/remote-senior-product-manager-core-infrastructure-mesh-1130848)
+- **Score**: 70/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: Not specified
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching infrastructure
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 143. [Senior Product Manager - Activation @ Mercury](https://job-boards.greenhouse.io/mercury/jobs/6121369004)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 15, AI/Tech: 0, Fresh: 5)
+- **Remote Fit / Location**: San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS, FinTech
+- **Risks / red flags**: 
+  - Location "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States" indicates a region-locked role, not globally remote
+
+### 144. [Product Manager @ Accion Labs](https://www.linkedin.com/jobs/view/product-manager-at-accion-labs-4432276948)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Requires 7+ years of experience, indicating senior level
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching ai, copilot, analytics
+- **Risks / red flags**: 
+  - Location "United States" indicates a region-locked role, not globally remote
+
+### 145. [Senior Product Manager - Investment & Crypto @ Ajaib](https://id.linkedin.com/jobs/view/senior-product-manager-investment-crypto-at-ajaib-4410993441)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 146. [Senior AI Product Manager - Customer Operations & Automation @ Amartha Financial](https://id.linkedin.com/jobs/view/senior-ai-product-manager-customer-operations-automation-at-amartha-financial-4432205267)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching ai, generative, agents
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 147. [Senior Product Manager @ AppBroda](https://in.linkedin.com/jobs/view/senior-product-manager-at-appbroda-4443864917)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, analytics
+- **Risks / red flags**: 
+  - Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote
+
+### 148. [Senior Product Manager @ BookCabin](https://id.linkedin.com/jobs/view/senior-product-manager-at-bookcabin-4433078228)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 149. [Principal Product Manager Acquisition Products @ ButterflyMX](https://remoteok.com/remote-jobs/remote-principal-product-manager-acquisition-products-butterflymx-1134023)
+- **Score**: 70/100 (Role: 30, Remote: 18, Seniority: 15, Domain: 0, AI/Tech: 7, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Job is listed as remote but region criteria is not explicitly stated
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Has AI or technical relevance: matching ai
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 150. [Domestic Payments Product Manager - VP @ Citi](https://id.linkedin.com/jobs/view/domestic-payments-product-manager-vp-at-citi-4435233226)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 151. [Senior Product Manager @ Connecticut Innovations](https://www.linkedin.com/jobs/view/senior-product-manager-at-connecticut-innovations-4429564832)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching ai, api
+- **Risks / red flags**: 
+  - Location "United States" indicates a region-locked role, not globally remote
+
+### 152. [Senior Product Manager @ Cvent](https://in.linkedin.com/jobs/view/senior-product-manager-at-cvent-4425820521)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, analytics
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 153. [Senior Product Manager @ DigiCert](https://www.linkedin.com/jobs/view/senior-product-manager-at-digicert-4440238179)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, agentic, agents
+- **Risks / red flags**: 
+  - Location "United States" indicates a region-locked role, not globally remote
+
+### 154. [Senior Product Manager @ Experian](https://in.linkedin.com/jobs/view/senior-product-manager-at-experian-4442720660)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching ai, cloud, analytics
+- **Risks / red flags**: 
+  - Location "Mumbai Metropolitan Region" indicates a region-locked role, not globally remote
+
+### 155. [Senior Product Manager - Onboarding @ FINN](https://www.linkedin.com/jobs/view/senior-product-manager-onboarding-at-finn-4404949199)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching agentic, agents
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 156. [Senior Product Manager - Business Solutions @ Flip](https://id.linkedin.com/jobs/view/senior-product-manager-business-solutions-at-flip-4411165500)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: Hybrid
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 157. [Senior Product Manager - Consumer Solutions @ Flip](https://id.linkedin.com/jobs/view/senior-product-manager-consumer-solutions-at-flip-4432936896)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 158. [Senior Product Manager, New Products @ Gainbridge](https://www.linkedin.com/jobs/view/senior-product-manager-new-products-at-gainbridge-4440485620)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching ai, ml
+- **Risks / red flags**: 
+  - Location "United States" indicates a region-locked role, not globally remote
+
+### 159. [Senior Product Manager - Global Discovery & Personalisation @ Global Fashion Group](https://id.linkedin.com/jobs/view/senior-product-manager-global-discovery-personalisation-at-global-fashion-group-4419816743)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 160. [Senior Product Manager @ HCLSoftware](https://www.linkedin.com/jobs/view/senior-product-manager-at-hclsoftware-4443342946)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, cloud
+- **Risks / red flags**: 
+  - Location "United States" indicates a region-locked role, not globally remote
+
+### 161. [Product Manager (Customer Experience) @ HiLoker](https://id.linkedin.com/jobs/view/product-manager-customer-experience-at-hiloker-4438911072)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 5+ years of experience, indicating senior level
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 162. [Product Manager (Critical Care) @ IDS Medical Systems (idsMED)](https://id.linkedin.com/jobs/view/product-manager-critical-care-at-ids-medical-systems-idsmed-4437346688)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 5+ years of experience, indicating senior level
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 163. [Senior Product Manager @ Igloo](https://id.linkedin.com/jobs/view/senior-product-manager-at-igloo-4429031400)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: Hybrid
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 164. [Senior Product Manager (Remote, Contract) @ INFUSE](https://id.linkedin.com/jobs/view/senior-product-manager-remote-contract-at-infuse-4428873419)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: Hybrid
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 165. [Senior Product Manager @ M-DAQ Global](https://id.linkedin.com/jobs/view/senior-product-manager-at-m-daq-global-4428668480)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: Hybrid
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 166. [Senior Product Manager @ MIFX](https://id.linkedin.com/jobs/view/senior-product-manager-at-mifx-4428477613)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: Hybrid
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 167. [Senior Product Manager @ Nightfall AI](https://in.linkedin.com/jobs/view/senior-product-manager-at-nightfall-ai-4427505030)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, ml, agentic
+- **Risks / red flags**: 
+  - Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote
+
+### 168. [Senior Product Manager @ Oowlish](https://www.linkedin.com/jobs/view/senior-product-manager-at-oowlish-4433873641)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, artificial intelligence, analytics
+- **Risks / red flags**: 
+  - Location "New York, United States" indicates a region-locked role, not globally remote
+
+### 169. [Sr. Product Manager @ Priority](https://in.linkedin.com/jobs/view/sr-product-manager-at-priority-4437771078)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): FinTech
+  - Has AI or technical relevance: matching ai, llm, ml
+- **Risks / red flags**: 
+  - No explicit worldwide or region-free remote availability found
+
+### 170. [Product Manager @ PT Bank Sinarmas Tbk](https://id.linkedin.com/jobs/view/product-manager-at-pt-bank-sinarmas-tbk-4439112669)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Requires 7+ years of experience, indicating senior level
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 171. [Senior Product Manager @ Rithum](https://www.linkedin.com/jobs/view/senior-product-manager-at-rithum-4439503115)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, analytics
+- **Risks / red flags**: 
+  - Location "United States" indicates a region-locked role, not globally remote
+
+### 172. [Senior Product Manager @ Rukita](https://id.linkedin.com/jobs/view/senior-product-manager-at-rukita-4435425151)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 173. [Senior Product Manager @ Tentang Anak](https://id.linkedin.com/jobs/view/senior-product-manager-at-tentang-anak-4429450199)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 174. [Sr Product Manager (Payment) @ tiket.com](https://id.linkedin.com/jobs/view/sr-product-manager-payment-at-tiket-com-4430353842)
+- **Score**: 70/100 (Role: 30, Remote: 25, Seniority: 15, Domain: 0, AI/Tech: 0, Fresh: 0)
+- **Remote Fit / Location**: See posting
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Location is explicitly open to Worldwide, APAC, or Indonesia remote candidates
+  - Seniority matches target profile (Senior/Lead/Leadership)
+- **Risks / red flags**: 
+  - Does not match target domains (SaaS/FinTech)
+
+### 175. [Senior Product Manager @ TresVista](https://in.linkedin.com/jobs/view/senior-product-manager-at-tresvista-4445075283)
+- **Score**: 70/100 (Role: 30, Remote: 5, Seniority: 15, Domain: 10, AI/Tech: 10, Fresh: 0)
+- **Remote Fit / Location**: Remote
+- **Salary**: Not specified
+- **Why it matches**: 
+  - Role matches Product Manager
+  - Seniority matches target profile (Senior/Lead/Leadership)
+  - Matches preferred domain(s): SaaS
+  - Has AI or technical relevance: matching ai, llm, analytics
+- **Risks / red flags**: 
+  - Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote
+
+## 🤔 Manual Review (0)
+
+*No ambiguous jobs to review.*
+
+## ❌ Rejected Jobs (829)
+
+- **YipitData** - [Product Manager, Quant Platform](https://job-boards.greenhouse.io/yipitdata/jobs/7833815) (Score: 69)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Connect](https://stripe.com/jobs/search?gh_jid=8065034) (Score: 69)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **Stripe** - [Product Manager, E-Invoicing](https://stripe.com/jobs/search?gh_jid=8041655) (Score: 69)
+  - *Reason*: Location "Dublin, Ireland" indicates a region-locked role, not globally remote
+- **Coinbase** - [Group Product Manager, Compliance Agent Experience](https://www.coinbase.com/careers/positions/8060662?gh_jid=8060662) (Score: 69)
+  - *Reason*: Location "Remote - USA" indicates a region-locked role, not globally remote
+- **Nucleus Security** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-nucleus-security-4429413611) (Score: 69)
+  - *Reason*: Location "Florida, United States" indicates a region-locked role, not globally remote
+- **WIN Home Inspection** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-win-home-inspection-4412780797) (Score: 69)
+  - *Reason*: Location "Greater Delhi Area" indicates a region-locked role, not globally remote
+- **Stripe** - [Product Manager, Capital](https://stripe.com/jobs/search?gh_jid=7721834) (Score: 68)
+  - *Reason*: Location "London" indicates a region-locked role, not globally remote
+- **Stripe** - [Product Manager, Treasury for Platforms](https://stripe.com/jobs/search?gh_jid=7561053) (Score: 68)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **SoFi** - [Senior Product Manager, Operations](https://sofi.com/careers/job/7803207003?gh_jid=7803207003) (Score: 68)
+  - *Reason*: Location "WA - Seattle; CA - San Francisco" indicates a region-locked role, not globally remote
+- **AltaML** - [Growth Product Manager](https://remoteok.com/remote-jobs/remote-growth-product-manager-altaml-1133729) (Score: 68)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **Anaplan** - [Product Manager](https://uk.linkedin.com/jobs/view/product-manager-at-anaplan-4422345842) (Score: 68)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **Remarcable** - [Product Manager](https://ca.linkedin.com/jobs/view/product-manager-at-remarcable-4402853633) (Score: 68)
+  - *Reason*: Location "Vancouver, British Columbia, Canada" indicates a region-locked role, not globally remote
+- **Ripjar** - [Product Manager](https://remoteOK.com/remote-jobs/remote-product-manager-ripjar-1133665) (Score: 67)
+  - *Reason*: Location "London, London, England, United Kingdom" indicates a region-locked role, not globally remote
+- **Stripe** - [Product Manager, Global Marketplaces](https://stripe.com/jobs/search?gh_jid=8009671) (Score: 67)
+  - *Reason*: Location "London" indicates a region-locked role, not globally remote
+- **Stripe** - [Product Manager, Global Payouts – Cross-Border & Enterprise Capabilities](https://stripe.com/jobs/search?gh_jid=7994443) (Score: 67)
+  - *Reason*: Location "New York, NY" indicates a region-locked role, not globally remote
+- **Stripe** - [Product Manager, Payments](https://stripe.com/jobs/search?gh_jid=7176530) (Score: 67)
+  - *Reason*: Location "SF, NY, SEA, Remote-US" indicates a region-locked role, not globally remote
+- **Coinbase** - [Group Product Manager, Payments Core](https://www.coinbase.com/careers/positions/7991474?gh_jid=7991474) (Score: 67)
+  - *Reason*: Location "Remote - USA" indicates a region-locked role, not globally remote
+- **Decile Group** - [Head of Product (Remote)](https://jobs.lever.co/decilegroup/c4f25202-188a-4a65-bce0-74f51920d074) (Score: 67)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Mercury** - [Head of Product - Business Lending](https://job-boards.greenhouse.io/mercury/jobs/6106974004) (Score: 67)
+  - *Reason*: Location "San Francisco, CA, New York, NY, Portland, OR, or Remote within Canada or United States" indicates a region-locked role, not globally remote
+- **Apollo Hospitals Enterprises Limited** - [Senior Product Manager- Retention](https://in.linkedin.com/jobs/view/senior-product-manager-retention-at-apollo-hospitals-enterprises-limited-4426029548) (Score: 67)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **Apollo.io** - [Senior Product Manager, Expansion](https://www.linkedin.com/jobs/view/senior-product-manager-expansion-at-apollo-io-4413591677) (Score: 67)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote
+- **Atlys** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-atlys-4445533307) (Score: 67)
+  - *Reason*: Location "Delhi, Delhi, India" indicates a region-locked role, not globally remote
+- **Macquarie Group** - [Data Management Product Owner Manager](https://www.jobstreet.co.id/job/92690659) (Score: 67)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Macquarie Group** - [Engineering Product Owner - Digital Channels](https://www.jobstreet.co.id/job/91119170) (Score: 67)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Ramp Talent** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-ramp-talent-4446849149) (Score: 67)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote
+- **SupplyHouse.com** - [Technical Product Manager](https://remoteOK.com/remote-jobs/remote-technical-product-manager-supplyhouse-com-1131077) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Decile Group** - [Product Manager (Remote)](https://jobs.lever.co/decilegroup/7819b869-34a0-4455-9fcb-b5cf686bb76d) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Activate Interactive** - [Product Manager](https://sg.linkedin.com/jobs/view/product-manager-at-activate-interactive-4437765003) (Score: 66)
+  - *Reason*: Location "Singapore, Singapore" indicates a region-locked role, not globally remote
+- **adly** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-adly-4418851157) (Score: 66)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote
+- **ASUS** - [[Consumer] Product Manager](https://id.linkedin.com/jobs/view/consumer-product-manager-at-asus-4440625594) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **ASUS** - [[OPBG] Product Manager](https://id.linkedin.com/jobs/view/opbg-product-manager-at-asus-4440613926) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Beauty World Indonesia** - [Product Manager Aesthetic (Mechine Device)](https://id.linkedin.com/jobs/view/product-manager-aesthetic-mechine-device-at-beauty-world-indonesia-4439143287) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Catalyst** - [Product Manager](https://id.linkedin.com/jobs/view/product-manager-at-catalyst-4431219424) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **CBI Credit Bureau Indonesia** - [Product Manager](https://id.linkedin.com/jobs/view/product-manager-at-cbi-credit-bureau-indonesia-4412885938) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **CBI Credit Bureau Indonesia** - [Product Manager (SME)](https://id.linkedin.com/jobs/view/product-manager-sme-at-cbi-credit-bureau-indonesia-4398376630) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Confidential** - [Digital Product Manager](https://id.linkedin.com/jobs/view/digital-product-manager-at-confidential-4432222686) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Dealls – Jobs, CV & Mentoring** - [Product Manager](https://id.linkedin.com/jobs/view/product-manager-at-dealls-%E2%80%93-jobs-cv-mentoring-4415122386) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Exclusive Networks** - [Product Manager](https://id.linkedin.com/jobs/view/product-manager-at-exclusive-networks-4419121969) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Flip** - [Product Manager - Financial Services](https://id.linkedin.com/jobs/view/product-manager-financial-services-at-flip-4425742942) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Golrox** - [Product Manager – Marketplace](https://id.linkedin.com/jobs/view/product-manager-%E2%80%93-marketplace-at-golrox-4429390522) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Halojasa Indonesia** - [Product Manager](https://id.linkedin.com/jobs/view/product-manager-at-halojasa-indonesia-4296548006) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Jobgether** - [Group Product Manager](https://www.linkedin.com/jobs/view/group-product-manager-at-jobgether-4435445008) (Score: 66)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote
+- **JoVE** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-jove-4422052880) (Score: 66)
+  - *Reason*: Location "Delhi, India" indicates a region-locked role, not globally remote
+- **Luxehouze** - [Product Manager](https://id.linkedin.com/jobs/view/product-manager-at-luxehouze-4430007740) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Mobius Digital** - [Product Manager](https://id.linkedin.com/jobs/view/product-manager-at-mobius-digital-4432023947) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Orang Tua Group** - [Product Manager - Balaraja](https://id.linkedin.com/jobs/view/product-manager-balaraja-at-orang-tua-group-4415113545) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Paper** - [Product Manager (Revenue & Growth)](https://id.linkedin.com/jobs/view/product-manager-revenue-growth-at-paper-4435220283) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **PT Abadi Sejahtera Finansindo (Singa Fintech)** - [Product Manager](https://id.linkedin.com/jobs/view/product-manager-at-pt-abadi-sejahtera-finansindo-singa-fintech-4427479048) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **PT Bank Neo Commerce Tbk** - [Product Manager](https://id.linkedin.com/jobs/view/product-manager-at-pt-bank-neo-commerce-tbk-4440666440) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Saleshandy** - [Product Manager, Growth (Outreach)](https://in.linkedin.com/jobs/view/product-manager-growth-outreach-at-saleshandy-4414335579) (Score: 66)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **SeaBank Indonesia** - [Customer Related Product Manager](https://id.linkedin.com/jobs/view/customer-related-product-manager-at-seabank-indonesia-4430865733) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **SeaBank Indonesia** - [Data & Reporting Product Manager](https://id.linkedin.com/jobs/view/data-reporting-product-manager-at-seabank-indonesia-4419147666) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **SeaBank Indonesia** - [Product Manager Transfer, Payment & Cards](https://id.linkedin.com/jobs/view/product-manager-transfer-payment-cards-at-seabank-indonesia-4419138715) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Sprout Digital Labs** - [Product Manager](https://id.linkedin.com/jobs/view/product-manager-at-sprout-digital-labs-4415108661) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Sun Life** - [Product Manager](https://id.linkedin.com/jobs/view/product-manager-at-sun-life-4430385066) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Sun Life** - [Product Manager — Digital Enablement](https://id.linkedin.com/jobs/view/product-manager-%E2%80%94-digital-enablement-at-sun-life-4430391037) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **TACO Group** - [Brand & Product Manager](https://id.linkedin.com/jobs/view/brand-product-manager-at-taco-group-4429013132) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Terumo Asia Pacific** - [Product Manager (MCS)](https://id.linkedin.com/jobs/view/product-manager-mcs-at-terumo-asia-pacific-4409767583) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Tripledot Studios** - [Product Manager](https://id.linkedin.com/jobs/view/product-manager-at-tripledot-studios-4427180953) (Score: 66)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **SoFi** - [Director of Product Management, Commercial Banking](https://sofi.com/careers/job/7639014003?gh_jid=7639014003) (Score: 65)
+  - *Reason*: Location "WA - Seattle; CA - San Francisco" indicates a region-locked role, not globally remote
+- **Monday.com** - [Senior Product Manager - Agentic Surfaces](https://jobs.ashbyhq.com/monday.com/155e01ba-1263-44d0-a1fe-b40d97001d61) (Score: 65)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Monday.com** - [Senior Product Manager - AI Agentic Solutions](https://jobs.ashbyhq.com/monday.com/350d3ba9-0061-4f3d-b8a2-2d812cfde430) (Score: 65)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Monday.com** - [Senior Product Manager - Analytics](https://jobs.ashbyhq.com/monday.com/55ea3b77-ea55-46e0-b5c7-d8e2fb5cb4b6) (Score: 65)
+  - *Reason*: Location "London" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Monday.com** - [Senior Product Manager](https://jobs.ashbyhq.com/monday.com/6dee62d8-e392-4585-8fb8-600147b2d7af) (Score: 65)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Monday.com** - [Lead AI Product Manager - AI Trust](https://jobs.ashbyhq.com/monday.com/c81ed7e8-f365-417e-a1fa-f683a9376c50) (Score: 65)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Runway ML** - [Sr/Staff Product Manager, Developer Platform](https://jobs.ashbyhq.com/runway-ml/90a95d63-ce92-42c4-a3dc-51f0f7cd281b) (Score: 65)
+  - *Reason*: Location "New York" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Smartsheet** - [Senior Product Manager, Field Systems (Salesforce)](https://job-boards.greenhouse.io/smartsheet/jobs/7684865) (Score: 65)
+  - *Reason*: Location "-REMOTE, USA-" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **ClickUp** - [Staff Product Manager](https://jobs.ashbyhq.com/clickup/7d03744f-2b83-4371-b248-e8fd9e04d1a7) (Score: 65)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Cosuno** - [Senior Product Manager - Marketplace](https://jobs.ashbyhq.com/cosuno/d9715024-9d46-46ab-9293-749caecf89bb) (Score: 65)
+  - *Reason*: Location "Berlin/Remote" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Amar Bank** - [Product Tunaiku Circle Lead](https://id.linkedin.com/jobs/view/product-tunaiku-circle-lead-at-amar-bank-4318126487) (Score: 65)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **DrinkPrime** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-drinkprime-4429647376) (Score: 65)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote
+- **PT. Indosat Tbk** - [Sr. Officer-Fixed Data Product Development](https://id.linkedin.com/jobs/view/sr-officer-fixed-data-product-development-at-pt-indosat-tbk-4444855816) (Score: 65)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **SoFi** - [Group Product Manager, Invest](https://sofi.com/careers/job/7701322003?gh_jid=7701322003) (Score: 64)
+  - *Reason*: Location "NY - New York City; CA - San Francisco" indicates a region-locked role, not globally remote
+- **YipitData** - [AI Product Manager](https://job-boards.greenhouse.io/yipitdata/jobs/7246074) (Score: 64)
+  - *Reason*: Low experience requirement (junior level) | Does not match target domains (SaaS/FinTech)
+- **ANKER INDONESIA** - [Product Manager / GTM Eufy](https://id.linkedin.com/jobs/view/product-manager-gtm-eufy-at-anker-indonesia-4432544205) (Score: 64)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **CODE.ID** - [Product Manager Banking Industry](https://id.linkedin.com/jobs/view/product-manager-banking-industry-at-code-id-4436910022) (Score: 64)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Lascade** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-lascade-4436642146) (Score: 64)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **NAKIVO** - [Product Manager](https://vn.linkedin.com/jobs/view/product-manager-at-nakivo-4429837742) (Score: 64)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **Vision Waves** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-vision-waves-4432359125) (Score: 64)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **Linear** - [Product Manager](https://jobs.ashbyhq.com/linear/b7669c4b-eeca-421d-ba9a-d90203f6fcb2) (Score: 63)
+  - *Reason*: Location "North America" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Linear** - [Product Manager](https://jobs.ashbyhq.com/linear/86abcce0-04b2-405c-9a8e-e0ca84813914) (Score: 63)
+  - *Reason*: Location "Europe" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Lemon.io** - [Senior Product Manager](https://remotive.com/remote-jobs/product/senior-product-manager-2090984) (Score: 63)
+  - *Reason*: Location "Americas, Europe, Asia, Oceania" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Staff Product Manager, ML Foundations and GenAI](https://stripe.com/jobs/search?gh_jid=7517535) (Score: 63)
+  - *Reason*: Location "Seattle, San Francisco, New York, US - Remote" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Figma** - [Product Manager - Figma Weave (Tel-Aviv, Israel)](https://boards.greenhouse.io/figma/jobs/5991338004?gh_jid=5991338004) (Score: 63)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Smartsheet** - [Principal Product Manager - AI Creation & Growth (Remote Eligible)](https://job-boards.greenhouse.io/smartsheet/jobs/8080890) (Score: 63)
+  - *Reason*: Location "-REMOTE, USA-" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **PancakeSwap** - [Product Manager](https://remoteOK.com/remote-jobs/remote-product-manager-pancakeswap-1129483) (Score: 61)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Ecosystem Risk](https://stripe.com/jobs/search?gh_jid=7943244) (Score: 61)
+  - *Reason*: Location "Dublin" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Ecosystem Risk](https://stripe.com/jobs/search?gh_jid=7947422) (Score: 61)
+  - *Reason*: Location "London" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, EMEA Payments Lead](https://stripe.com/jobs/search?gh_jid=7768979) (Score: 61)
+  - *Reason*: Location "Dublin, Ireland" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Local Processor Acquiring](https://stripe.com/jobs/search?gh_jid=8018427) (Score: 61)
+  - *Reason*: Location "London" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Staff Product Manager, Cards Monetization](https://stripe.com/jobs/search?gh_jid=7980498) (Score: 61)
+  - *Reason*: Location "Seattle, San Francisco, New York, US - Remote" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Staff Product Manager, Dashboard](https://stripe.com/jobs/search?gh_jid=7913702) (Score: 61)
+  - *Reason*: Location "San Francisco, Seattle, NYC, Chicago, Atlanta, US Remote" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Staff Product Manager, Enterprise (Industries)](https://stripe.com/jobs/search?gh_jid=7812856) (Score: 61)
+  - *Reason*: Location "San Francisco, Seattle, New York, Chicago, Atlanta, Remote" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Staff Product Manager, Local Processor Acquiring](https://stripe.com/jobs/search?gh_jid=7953691) (Score: 61)
+  - *Reason*: Location "Dublin" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Staff Product Manager, Local Processor Acquiring](https://stripe.com/jobs/search?gh_jid=7977719) (Score: 61)
+  - *Reason*: Location "Barcelona" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Staff Product Manager, Support Experience](https://stripe.com/jobs/search?gh_jid=7920219) (Score: 61)
+  - *Reason*: Location "San Francisco, California, United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Figma** - [Product Manager, CMS](https://boards.greenhouse.io/figma/jobs/6092802004?gh_jid=6092802004) (Score: 61)
+  - *Reason*: Location "San Francisco, CA • New York, NY • United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Coinbase** - [Senior Product Manager, CX & AI Tooling](https://www.coinbase.com/careers/positions/8008033?gh_jid=8008033) (Score: 61)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Coinbase** - [Staff Product Manager, CX Automation](https://www.coinbase.com/careers/positions/8001275?gh_jid=8001275) (Score: 61)
+  - *Reason*: Location "Remote - USA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Discord** - [Senior Product Manager, Scaled Abuse](https://job-boards.greenhouse.io/discord/jobs/8581126002) (Score: 61)
+  - *Reason*: Location "San Francisco Bay Area" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, EMEA Local Payment Methods](https://stripe.com/jobs/search?gh_jid=8010011) (Score: 61)
+  - *Reason*: Location "London" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Smartsheet** - [Product Manager II - Growth (Remote Eligible)](https://job-boards.greenhouse.io/smartsheet/jobs/7951915) (Score: 61)
+  - *Reason*: Location "-REMOTE, USA-" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **SoFi** - [Principal Product Manager, Ads & Measurement](https://sofi.com/careers/job/7580153003?gh_jid=7580153003) (Score: 61)
+  - *Reason*: Location "CA - San Francisco, WA - Seattle" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **SoFi** - [Senior Product Manager, Member Account Safety](https://sofi.com/careers/job/7616217003?gh_jid=7616217003) (Score: 61)
+  - *Reason*: Location "CA - San Francisco; WA - Seattle" indicates a region-locked role, not globally remote
+- **Voltus** - [Director of Product, Customer Experience](https://jobs.lever.co/voltus/a7d9918d-c8e1-4009-872e-98953b4986e6) (Score: 61)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Cohere** - [Product Manager, Integrations](https://jobs.ashbyhq.com/cohere/87e9fd4e-49ac-4242-97be-7da6f718020d) (Score: 61)
+  - *Reason*: Location "Toronto" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Airbnb** - [Product Manager, Incubations](https://careers.airbnb.com/positions/8044715?gh_jid=8044715) (Score: 61)
+  - *Reason*: Location "San Francisco, CA, New York, NY" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Airbnb** - [Product Manager, Wallet](https://careers.airbnb.com/positions/8082854?gh_jid=8082854) (Score: 61)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **AIFISE** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-aifise-4443566321) (Score: 61)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **Aperia** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-aperia-4405252821) (Score: 61)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote
+- **Dinii, inc** - [プロダクトマネージャー](https://id.linkedin.com/jobs/view/%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC-at-dinii-inc-4413549759) (Score: 61)
+  - *Reason*: Job title does not clearly match a Product Management role
+- **Dinii, inc** - [プロダクトマネージャー（ToC）](https://id.linkedin.com/jobs/view/%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC%EF%BC%88toc%EF%BC%89-at-dinii-inc-4435287278) (Score: 61)
+  - *Reason*: Job title does not clearly match a Product Management role
+- **Nas Company** - [Product Manager](https://sg.linkedin.com/jobs/view/product-manager-at-nas-company-4434443339) (Score: 61)
+  - *Reason*: Location "Singapore, Singapore" indicates a region-locked role, not globally remote
+- **LiveKit** - [Staff Product Manager Enterprise](https://remoteOK.com/remote-jobs/remote-staff-product-manager-enterprise-livekit-1131531) (Score: 60)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Airbnb** - [Staff Product Manager, AI Personalization](https://careers.airbnb.com/positions/7834495?gh_jid=7834495) (Score: 60)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Duolingo** - [Senior Product Manager, Notifications](https://careers.duolingo.com/jobs/8409034002?gh_jid=8409034002) (Score: 60)
+  - *Reason*: Location "New York, NY" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Coinbase** - [Head of Product Creative](https://www.coinbase.com/careers/positions/7304930?gh_jid=7304930) (Score: 60)
+  - *Reason*: Location "Remote - USA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **AbhiBus** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-abhibus-4433097426) (Score: 60)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **ActiveCampaign** - [Principal Product Manager](https://www.linkedin.com/jobs/view/principal-product-manager-at-activecampaign-4431862945) (Score: 60)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Adobe** - [Senior Product Manager (Enterprise Platform)](https://in.linkedin.com/jobs/view/senior-product-manager-enterprise-platform-at-adobe-4424358828) (Score: 60)
+  - *Reason*: Location "Bengaluru East, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Alation** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-alation-4314087548) (Score: 60)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Alt** - [Senior Product Manager-Growth](https://www.linkedin.com/jobs/view/senior-product-manager-growth-at-alt-4378657397) (Score: 60)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Amazon** - [Senior Product Manager, RBS Organization Excellence](https://in.linkedin.com/jobs/view/senior-product-manager-rbs-organization-excellence-at-amazon-4436433971) (Score: 60)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **ASBL** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-asbl-4418228991) (Score: 60)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Confidential Company** - [Sr. Manager of Product](https://www.linkedin.com/jobs/view/sr-manager-of-product-at-confidential-company-4434006370) (Score: 60)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote
+- **D2L** - [Product Manager (H5P Group)](https://no.linkedin.com/jobs/view/product-manager-h5p-group-at-d2l-4393219457) (Score: 60)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Experian** - [Senior Product Manager – Behavioral Analytics](https://in.linkedin.com/jobs/view/senior-product-manager-%E2%80%93-behavioral-analytics-at-experian-4444961798) (Score: 60)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Globhut** - [Senior Product Manager](https://ca.linkedin.com/jobs/view/senior-product-manager-at-globhut-4447719770) (Score: 60)
+  - *Reason*: Location "Greater Toronto Area, Canada" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Google** - [Senior Product Manager, Business Platforms, Sales and Support](https://in.linkedin.com/jobs/view/senior-product-manager-business-platforms-sales-and-support-at-google-4439872918) (Score: 60)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **GovTech Singapore** - [Senior Product Manager (MFA)](https://sg.linkedin.com/jobs/view/senior-product-manager-mfa-at-govtech-singapore-4414602146) (Score: 60)
+  - *Reason*: Location "Singapore, Singapore" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Halodoc** - [Product Manager II](https://www.jobstreet.co.id/job/93041614) (Score: 60)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **Jobgether** - [Principal Product Manager](https://www.linkedin.com/jobs/view/principal-product-manager-at-jobgether-4432606599) (Score: 60)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Macquarie Group** - [Product Owner | Cyber Security](https://www.jobstreet.co.id/job/92898019) (Score: 60)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Mindbody** - [Group Product Manager, Growth & CRM](https://www.linkedin.com/jobs/view/group-product-manager-growth-crm-at-mindbody-4372600666) (Score: 60)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **NawaData** - [Product Owner](https://id.linkedin.com/jobs/view/product-owner-at-nawadata-4330207508) (Score: 60)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **POSe** - [IT Product Owner](https://www.jobstreet.co.id/job/93662182) (Score: 60)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **PT Bank Digital BCA (BCA Digital)** - [Product Owner](https://id.linkedin.com/jobs/view/product-owner-at-pt-bank-digital-bca-bca-digital-4415106666) (Score: 60)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **QAD** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-qad-4417308171) (Score: 60)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **r3 Consultant** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-r3-consultant-4346198663) (Score: 60)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **NeuraLink Systems** - [Senior Product Manager - AI Infrastructure](https://example.com/job1) (Score: 60)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **TALENT Software Services** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-talent-software-services-3825240526) (Score: 60)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Tremendous** - [Senior Product Manager - Platform](https://www.linkedin.com/jobs/view/senior-product-manager-platform-at-tremendous-4432505305) (Score: 60)
+  - *Reason*: Location "New York, NY" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **TrueAccord is hiring engineers (SF, Kansas City, San Jose, r** - [Trueaccord Is Hiring Engineers (Sf, Kansas City, San Jose, Remote) And Product - Two Pms, One Director Of Product, And Vp Of Product.](https://news.ycombinator.com/item?id=22668986) (Score: 60)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Wati** - [Senior Product Manager/Product Manager - Platform](https://in.linkedin.com/jobs/view/senior-product-manager-product-manager-platform-at-wati-4405801999) (Score: 60)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Zenoti** - [Senior Manager - Product Management (AI Workflows)](https://in.linkedin.com/jobs/view/senior-manager-product-management-ai-workflows-at-zenoti-4416087794) (Score: 60)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **Voltus** - [Product Manager - Market Platform](https://jobs.lever.co/voltus/d2dac708-c864-4f43-89cf-6220c1387e38) (Score: 59)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Cash Platform](https://stripe.com/jobs/search?gh_jid=8064900) (Score: 59)
+  - *Reason*: Location "New York" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Figma** - [Product Manager, Acquisition](https://boards.greenhouse.io/figma/jobs/6119781004?gh_jid=6119781004) (Score: 59)
+  - *Reason*: Location "San Francisco, CA • New York, NY • United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Figma** - [Product Manager, Code](https://boards.greenhouse.io/figma/jobs/6100482004?gh_jid=6100482004) (Score: 59)
+  - *Reason*: Location "San Francisco, CA • New York, NY • United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Addition** - [Product Manager](https://uk.linkedin.com/jobs/view/product-manager-at-addition-4445732717) (Score: 59)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **GitLab** - [Product Manager](https://news.ycombinator.com/item?id=22694568) (Score: 59)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **iStreamPlanet** - [Product Manager](https://news.ycombinator.com/item?id=22732158) (Score: 59)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **strongDM** - [Product Manager](https://news.ycombinator.com/item?id=22668880) (Score: 59)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Discord** - [Senior Product Manager, Platform Analytics](https://job-boards.greenhouse.io/discord/jobs/8529800002) (Score: 58)
+  - *Reason*: Location "San Francisco Bay Area" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Discord** - [Staff Product Manager, Safety Experience](https://job-boards.greenhouse.io/discord/jobs/8502993002) (Score: 58)
+  - *Reason*: Location "San Francisco Bay Area" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Duolingo** - [Senior Product Manager, DET](https://careers.duolingo.com/jobs/8530395002?gh_jid=8530395002) (Score: 58)
+  - *Reason*: Location "Pittsburgh, PA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **SoFi** - [Principal Product Manager, AI Features](https://sofi.com/careers/job/7670800003?gh_jid=7670800003) (Score: 58)
+  - *Reason*: Location "CA - San Francisco, WA - Seattle" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **SoFi** - [Principal Product Manager, Marketing Technology](https://sofi.com/careers/job/7687964003?gh_jid=7687964003) (Score: 58)
+  - *Reason*: Location "CA - San Francisco, WA - Seattle" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Global Expansion (MENA)](https://stripe.com/jobs/search?gh_jid=8081418) (Score: 58)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Airbnb** - [Product Manager, Services](https://careers.airbnb.com/positions/8081925?gh_jid=8081925) (Score: 58)
+  - *Reason*: Location "San Francisco, CA, Seattle WA, New York, NY" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **TecAlliance** - [Product Owner (2-Wheeler Data & Market Research)](https://id.linkedin.com/jobs/view/product-owner-2-wheeler-data-market-research-at-tecalliance-4428071727) (Score: 58)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Oportun** - [Principal Product Manager](https://remoteOK.com/remote-jobs/remote-principal-product-manager-oportun-1131262) (Score: 57)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Voltus** - [Product Manager Market Platform](https://remoteOK.com/remote-jobs/remote-product-manager-market-platform-voltus-1131098) (Score: 57)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Boostlingo** - [Senior Product Manager AI Products](https://remoteOK.com/remote-jobs/remote-senior-product-manager-ai-products-boostlingo-1130815) (Score: 57)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Cogent Security** - [Director of Product Marketing](https://remoteOK.com/remote-jobs/remote-director-of-product-marketing-cogent-security-1130384) (Score: 57)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager - Compliance, Bridge](https://stripe.com/jobs/search?gh_jid=7979422) (Score: 57)
+  - *Reason*: Location "New York, San Francisco or Remote" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Ecosystem Risk](https://stripe.com/jobs/search?gh_jid=7984866) (Score: 57)
+  - *Reason*: Location "New-York, Atlanta, Remote, Toronto" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Growth AI Outreach Motion](https://stripe.com/jobs/search?gh_jid=7809139) (Score: 57)
+  - *Reason*: Location "Toronto, Remote- Canada" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Infrastructure](https://stripe.com/jobs/search?gh_jid=6651889) (Score: 57)
+  - *Reason*: Location "Remote in the US" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Link - Consumer](https://stripe.com/jobs/search?gh_jid=7392697) (Score: 57)
+  - *Reason*: Location "SF, SEA, NY, Remote-US" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Link - Local Payment Methods](https://stripe.com/jobs/search?gh_jid=7981330) (Score: 57)
+  - *Reason*: Location "USA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Sail Core](https://stripe.com/jobs/search?gh_jid=7913698) (Score: 57)
+  - *Reason*: Location "Toronto" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Startup Products](https://stripe.com/jobs/search?gh_jid=7901987) (Score: 57)
+  - *Reason*: Location "NYC, Chicago, Seattle, San Francisco" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Support Products—Support Experience](https://stripe.com/jobs/search?gh_jid=7440429) (Score: 57)
+  - *Reason*: Location "Dublin" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Terminal Device Expansion](https://stripe.com/jobs/search?gh_jid=7397265) (Score: 57)
+  - *Reason*: Location "Seattle, San Francisco" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Stripe** - [Product Manager, Terminal Device Expansion](https://stripe.com/jobs/search?gh_jid=7927089) (Score: 57)
+  - *Reason*: Location "San Francisco" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Figma** - [Product Manager, Design Tools](https://boards.greenhouse.io/figma/jobs/5505263004?gh_jid=5505263004) (Score: 57)
+  - *Reason*: Location "San Francisco, CA • New York, NY • United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Coinbase** - [Group Product Manager, Compliance Automation](https://www.coinbase.com/careers/positions/7701642?gh_jid=7701642) (Score: 57)
+  - *Reason*: Location "Remote - USA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Coinbase** - [Group Product Manager, Core Infrastructure & Reliability](https://www.coinbase.com/careers/positions/7997785?gh_jid=7997785) (Score: 57)
+  - *Reason*: Location "Remote - USA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Coinbase** - [Group Product Manager, Developer Infrastructure](https://www.coinbase.com/careers/positions/8017607?gh_jid=8017607) (Score: 57)
+  - *Reason*: Location "Remote - USA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Coinbase** - [Group Product Manager, Financial Engineering](https://www.coinbase.com/careers/positions/7789404?gh_jid=7789404) (Score: 57)
+  - *Reason*: Location "Remote - USA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Airtable** - [Product Manager](https://job-boards.greenhouse.io/airtable/jobs/8400814002) (Score: 57)
+  - *Reason*: Location "San Francisco, CA; New York, NY" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Amplitude** - [Head of Product Design](https://job-boards.greenhouse.io/amplitude/jobs/8622704002) (Score: 57)
+  - *Reason*: Location "San Francisco, CA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **AIQU** - [Senior Product Manager](https://ae.linkedin.com/jobs/view/senior-product-manager-at-aiqu-4435534764) (Score: 57)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Applause** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-applause-4410863074) (Score: 57)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **AppsForBharat** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-appsforbharat-4417559467) (Score: 57)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Attentive** - [Lead Product Manager, First-Party Data Platform](https://www.linkedin.com/jobs/view/lead-product-manager-first-party-data-platform-at-attentive-4380582187) (Score: 57)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Crypto.com** - [Senior Product Manager, AI Transformation](https://au.linkedin.com/jobs/view/senior-product-manager-ai-transformation-at-crypto-com-4400485924) (Score: 57)
+  - *Reason*: Location "Sydney, New South Wales, Australia" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Google** - [Senior Product Manager, AI Garage](https://in.linkedin.com/jobs/view/senior-product-manager-ai-garage-at-google-4428050826) (Score: 57)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Hanger, Inc.** - [Senior Product Manager - Lower Limb](https://www.linkedin.com/jobs/view/senior-product-manager-lower-limb-at-hanger-inc-4442187879) (Score: 57)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Kinara Group** - [Senior Product Manager](https://de.linkedin.com/jobs/view/senior-product-manager-at-kinara-group-4437036408) (Score: 57)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Nasscomm** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-nasscomm-4444612150) (Score: 57)
+  - *Reason*: Location "New York, United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Netomi** - [Senior Product Manager - Autonomous Agents](https://in.linkedin.com/jobs/view/senior-product-manager-autonomous-agents-at-netomi-4401611055) (Score: 57)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **OMNIYAT** - [Senior Product Manager](https://ae.linkedin.com/jobs/view/senior-product-manager-at-omniyat-4434121026) (Score: 57)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Trinusa Travelindo** - [Senior Technical Product Manager - PayLater](https://www.jobstreet.co.id/job/91450092) (Score: 57)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Snoonu** - [Senior Product Manager- Smart Campaign](https://qa.linkedin.com/jobs/view/senior-product-manager-smart-campaign-at-snoonu-4440216527) (Score: 57)
+  - *Reason*: Location "Lusail, Qatar" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Streamroot** - [Technical Product Manager, Lead Dashboard Developer, Sre Engineer](https://news.ycombinator.com/item?id=22687114) (Score: 57)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Surge Group** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-surge-group-4424878844) (Score: 57)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Wayfair** - [Senior Product Manager, Platforms](https://in.linkedin.com/jobs/view/senior-product-manager-platforms-at-wayfair-4419945165) (Score: 57)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **PadSplit** - [Product Manager](https://remoteOK.com/remote-jobs/remote-product-manager-padsplit-1133393) (Score: 56)
+  - *Reason*: Location "Atlanta, Atlanta, Georgia, United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Neon Pagamentos** - [Tech Product Manager Data Plataform Products](https://remoteOK.com/remote-jobs/remote-tech-product-manager-data-plataform-products-neon-pagamentos-1130105) (Score: 56)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Airbnb** - [Product Manager, Relevance and Personalization](https://careers.airbnb.com/positions/7905365?gh_jid=7905365) (Score: 56)
+  - *Reason*: Location "San Francisco, United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Figma** - [Product Manager, AI Platform](https://boards.greenhouse.io/figma/jobs/5830640004?gh_jid=5830640004) (Score: 56)
+  - *Reason*: Location "San Francisco, CA • New York, NY • United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Datadog** - [Product Manager II - Security Graph Foundations](https://careers.datadoghq.com/detail/7950121/?gh_jid=7950121) (Score: 56)
+  - *Reason*: Location "New York, New York, USA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Aerones** - [Technical Product Manager](https://lv.linkedin.com/jobs/view/technical-product-manager-at-aerones-4437359835) (Score: 56)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Airbnb** - [Product Manager, Relevance and Personalization](https://www.linkedin.com/jobs/view/product-manager-relevance-and-personalization-at-airbnb-4411849551) (Score: 56)
+  - *Reason*: Location "San Francisco, CA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Amartha Financial** - [Product Manager - Amartha Empower](https://id.linkedin.com/jobs/view/product-manager-amartha-empower-at-amartha-financial-4402246721) (Score: 56)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **Dyson** - [Data Product Manager](https://sg.linkedin.com/jobs/view/data-product-manager-at-dyson-4403196887) (Score: 56)
+  - *Reason*: Location "Singapore, Singapore" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Edgebot** - [Product Manager](https://lb.linkedin.com/jobs/view/product-manager-at-edgebot-4446058030) (Score: 56)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Lumenci** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-lumenci-4446052184) (Score: 56)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **RG Talent Inc** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-rg-talent-inc-4446443878) (Score: 56)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **The Flex** - [Founding Software Engineer](https://id.linkedin.com/jobs/view/founding-software-engineer-at-the-flex-4429161712) (Score: 56)
+  - *Reason*: Job title does not clearly match a Product Management role
+- **The Multiple** - [Product Manager](https://mt.linkedin.com/jobs/view/product-manager-at-the-multiple-4444930914) (Score: 56)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **Traveloka** - [Product Manager - Travel Activities](https://id.linkedin.com/jobs/view/product-manager-travel-activities-at-traveloka-4440927576) (Score: 56)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Ethos** - [Director, Product Management, Consumer](https://www.linkedin.com/jobs/view/director-product-management-consumer-at-ethos-4432172200) (Score: 55)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote
+- **Home Credit Indonesia** - [Head of Insurance Product](https://id.linkedin.com/jobs/view/head-of-insurance-product-at-home-credit-indonesia-4432520920) (Score: 55)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **PT SMART Tbk** - [Digital Product Development Lead](https://id.linkedin.com/jobs/view/digital-product-development-lead-at-pt-smart-tbk-4443318624) (Score: 55)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Simbadda Group** - [Product & Procurement Manager](https://id.linkedin.com/jobs/view/product-procurement-manager-at-simbadda-group-4429018692) (Score: 55)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Airtable** - [Product Manager, Funnel & Activation](https://job-boards.greenhouse.io/airtable/jobs/8475571002) (Score: 54)
+  - *Reason*: Location "San Francisco, CA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Catena Media** - [Product Manager](https://mt.linkedin.com/jobs/view/product-manager-at-catena-media-4438083761) (Score: 54)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Niural AI** - [Product Manager](https://np.linkedin.com/jobs/view/product-manager-at-niural-ai-4414516035) (Score: 54)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT. Tirtamas Coldstorindo Logistik** - [Product Manager](https://www.jobstreet.co.id/job/93192945) (Score: 54)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **symplr** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-symplr-4443870644) (Score: 54)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Trential** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-trential-4340125785) (Score: 54)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **RBC** - [Product Manager Retail Lending &amp; Enablement](https://remoteOK.com/remote-jobs/remote-product-manager-retail-lending-amp-enablement-rbc-1132348) (Score: 53)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **YipitData** - [Product Manager Data Feeds](https://remoteOK.com/remote-jobs/remote-product-manager-data-feeds-yipitdata-1131452) (Score: 53)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Lively** - [Product Manager](https://remoteOK.com/remote-jobs/remote-product-manager-lively-1131146) (Score: 53)
+  - *Reason*: Location "San Francisco" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Accurate Background** - [Enterprise Product Manager](https://remoteOK.com/remote-jobs/remote-enterprise-product-manager-accurate-background-1130061) (Score: 53)
+  - *Reason*: Location "Remote, United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Airbnb** - [Product Manager, API Platform](https://careers.airbnb.com/positions/7607680?gh_jid=7607680) (Score: 53)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Airbnb** - [Product Manager, Guest Discovery & Homepage](https://careers.airbnb.com/positions/7968122?gh_jid=7968122) (Score: 53)
+  - *Reason*: Location "San Francisco, CA, Los Angeles, CA, Seattle, WA, New York, NY" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Airbnb** - [Product Manager, Merchandising Platform](https://careers.airbnb.com/positions/7724793?gh_jid=7724793) (Score: 53)
+  - *Reason*: Location "San Francisco, CA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Figma** - [Product Manager, AI Growth](https://boards.greenhouse.io/figma/jobs/5989185004?gh_jid=5989185004) (Score: 53)
+  - *Reason*: Location "San Francisco, CA • New York, NY • United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Airbnb** - [Product Manager, Guest Discovery & Homepage](https://www.linkedin.com/jobs/view/product-manager-guest-discovery-homepage-at-airbnb-4421279635) (Score: 53)
+  - *Reason*: Location "New York, United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **CareRev** - [Product Manager](https://news.ycombinator.com/item?id=22668203) (Score: 53)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Curate Partners** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-curate-partners-4435807783) (Score: 53)
+  - *Reason*: Location "New York, NY" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **GEA Group** - [Digital Product Manager](https://id.linkedin.com/jobs/view/digital-product-manager-at-gea-group-4421330444) (Score: 53)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Grexa AI** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-grexa-ai-4406861245) (Score: 53)
+  - *Reason*: Location "Mumbai Metropolitan Region" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Hello. I&#x27;m really interested in the Public Cloud Produc** - [Hello. I&#X27;M Really Interested In The Public Cloud Product Manager Role. Unfortunately, Even After Trying To Apply From 2 Different Devices, One Windows And One Mac, On 3 Different Browsers, I Keep Getting A 413 Request Entity Too Large Error. Would Love To Apply And Continue Canonical&#X27;S Mission.](https://news.ycombinator.com/item?id=22690242) (Score: 53)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Hitachi Energy** - [Product Manager](https://th.linkedin.com/jobs/view/product-manager-at-hitachi-energy-4430926518) (Score: 53)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Noise** - [Product Manager - Growth](https://in.linkedin.com/jobs/view/product-manager-growth-at-noise-4445794807) (Score: 53)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **talabat** - [Product Manager - Beauty](https://ae.linkedin.com/jobs/view/product-manager-beauty-at-talabat-4415792279) (Score: 53)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Tribe Group** - [Product Manager](https://nz.linkedin.com/jobs/view/product-manager-at-tribe-group-4428420886) (Score: 53)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Airbnb** - [Product Manager, Tickets](https://careers.airbnb.com/positions/8082161?gh_jid=8082161) (Score: 51)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **BAT** - [Product Development Manager I- Heated Product](https://id.linkedin.com/jobs/view/product-development-manager-i-heated-product-at-bat-4439914429) (Score: 51)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Kawan Lama Group** - [Product Category Manager](https://id.linkedin.com/jobs/view/product-category-manager-at-kawan-lama-group-4438061384) (Score: 51)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **PT. Erajaya Swasembada, Tbk.** - [Product Management Assistant Manager (F&B)](https://id.linkedin.com/jobs/view/product-management-assistant-manager-f-b-at-pt-erajaya-swasembada-tbk-4421076216) (Score: 51)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **PT HM Sampoerna Tbk.** - [Digital Product Executive](https://id.linkedin.com/jobs/view/digital-product-executive-at-pt-hm-sampoerna-tbk-4426341189) (Score: 51)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **PT. Indosat Tbk** - [Officer-Product Channel Enhancement and Engagement-Roaming](https://id.linkedin.com/jobs/view/officer-product-channel-enhancement-and-engagement-roaming-at-pt-indosat-tbk-4417888001) (Score: 51)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **PT Tempo Scan Pacific Tbk** - [Packaging Development Manager (Cosmetic and Personal Care Product)](https://id.linkedin.com/jobs/view/packaging-development-manager-cosmetic-and-personal-care-product-at-pt-tempo-scan-pacific-tbk-4433215586) (Score: 51)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Sea** - [Product Management (S&R&A&C - Promotion) - Sea Labs](https://id.linkedin.com/jobs/view/product-management-s-r-a-c-promotion-sea-labs-at-sea-4422353707) (Score: 51)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Sea** - [Product Management (S&R&A&C - Regional Trust & Safety) - Sea Labs](https://id.linkedin.com/jobs/view/product-management-s-r-a-c-regional-trust-safety-sea-labs-at-sea-4335970537) (Score: 51)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Shopee** - [Product Management (S&R&A&C - Promotion) - Sea Labs](https://id.linkedin.com/jobs/view/product-management-s-r-a-c-promotion-sea-labs-at-shopee-4423909591) (Score: 51)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **TikTok** - [Product Manager (Paid User Growth) - TikTok LIVE](https://sg.linkedin.com/jobs/view/product-manager-paid-user-growth-tiktok-live-at-tiktok-4424677540) (Score: 51)
+  - *Reason*: Location "Singapore, Singapore" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Trip.com Group** - [Product Growth Manager, ID](https://id.linkedin.com/jobs/view/product-growth-manager-id-at-trip-com-group-4425072329) (Score: 51)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **Tripadvisor** - [Senior Product Manager Checkout & Post Booking](https://remoteOK.com/remote-jobs/remote-senior-product-manager-checkout-post-booking-tripadvisor-1130888) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Duolingo** - [Senior Product Manager, In-App Purchases](https://careers.duolingo.com/jobs/8400738002?gh_jid=8400738002) (Score: 50)
+  - *Reason*: Location "New York, NY" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Duolingo** - [Senior Product Manager, Learning](https://careers.duolingo.com/jobs/8377539002?gh_jid=8377539002) (Score: 50)
+  - *Reason*: Location "New York, NY" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Duolingo** - [Senior Product Manager, Learning](https://careers.duolingo.com/jobs/7833425002?gh_jid=7833425002) (Score: 50)
+  - *Reason*: Location "Pittsburgh, PA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Duolingo** - [Senior Product Manager, Monetization](https://careers.duolingo.com/jobs/8474673002?gh_jid=8474673002) (Score: 50)
+  - *Reason*: Location "New York, NY" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Attentive** - [Lead Product Manager, Product Recommendations](https://www.linkedin.com/jobs/view/lead-product-manager-product-recommendations-at-attentive-4372114887) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Auror** - [Senior Product Manager](https://nz.linkedin.com/jobs/view/senior-product-manager-at-auror-4427182990) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Avenue Code** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-avenue-code-4416190731) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Birdeye** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-birdeye-4416853480) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Boldin** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-boldin-4430758327) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Booksy** - [Senior Product Manager - Payments (m/f/d)](https://uk.linkedin.com/jobs/view/senior-product-manager-payments-m-f-d-at-booksy-4415251384) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **BusRight** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-busright-4392933640) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **CapitexAI** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-capitexai-4425293472) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **CAVALLO** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-cavallo-4424613128) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Celigo** - [Lead Product Manager](https://in.linkedin.com/jobs/view/lead-product-manager-at-celigo-4415247253) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Cint** - [Senior Product Manager, Exchange](https://uk.linkedin.com/jobs/view/senior-product-manager-exchange-at-cint-4418089600) (Score: 50)
+  - *Reason*: Location "London, England, United Kingdom" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Circle Digital Ventures** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-circle-digital-ventures-4432090577) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Clari** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-clari-4415291216) (Score: 50)
+  - *Reason*: Location "Bangalore Urban, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **ClassPass** - [Senior Product Manager, New Verticals](https://www.linkedin.com/jobs/view/senior-product-manager-new-verticals-at-classpass-4417664481) (Score: 50)
+  - *Reason*: Location "New York, NY" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **CloudEagle.ai** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-cloudeagle-ai-4377658101) (Score: 50)
+  - *Reason*: Location "Mumbai Metropolitan Region" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Cortex** - [Principal Product Manager](https://www.linkedin.com/jobs/view/principal-product-manager-at-cortex-4376700772) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Crossing Hurdles** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-crossing-hurdles-4393026489) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Crypto.com** - [Senior Product Manager, Predictions (Exchange)](https://www.linkedin.com/jobs/view/senior-product-manager-predictions-exchange-at-crypto-com-4415249908) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Crypto.com** - [Senior Product Manager, Trading](https://www.linkedin.com/jobs/view/senior-product-manager-trading-at-crypto-com-4429437519) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Crypto.com** - [Senior Product Manager, Trading(Crypto.com App)](https://au.linkedin.com/jobs/view/senior-product-manager-trading-crypto-com-app-at-crypto-com-4409229124) (Score: 50)
+  - *Reason*: Location "Sydney, New South Wales, Australia" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **CTC** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-ctc-4441076728) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **CTeBS** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-ctebs-4426771722) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Deliveroo** - [Senior Product Manager](https://uk.linkedin.com/jobs/view/senior-product-manager-at-deliveroo-4380604413) (Score: 50)
+  - *Reason*: Location "London, England, United Kingdom" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **DISCO** - [Senior Product Manager - India](https://in.linkedin.com/jobs/view/senior-product-manager-india-at-disco-4426617242) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **eBay** - [Senior Product Manager - Mobile](https://in.linkedin.com/jobs/view/senior-product-manager-mobile-at-ebay-4398802865) (Score: 50)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **eBay** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-ebay-4409292453) (Score: 50)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **eBay** - [Sr Product Manager](https://in.linkedin.com/jobs/view/sr-product-manager-at-ebay-4409280923) (Score: 50)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **eBay** - [Sr. Product Manager, Caramel](https://www.linkedin.com/jobs/view/sr-product-manager-caramel-at-ebay-4413630660) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Electronic Arts (EA)** - [Senior Product Manager, Creator Tools](https://sg.linkedin.com/jobs/view/senior-product-manager-creator-tools-at-electronic-arts-ea-4423632379) (Score: 50)
+  - *Reason*: Location "Singapore, Singapore" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Elevate** - [Senior Product Manager (India)](https://in.linkedin.com/jobs/view/senior-product-manager-india-at-elevate-4407589892) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Fam** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-fam-4430592290) (Score: 50)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **FinAccel** - [Product Manager - User](https://id.linkedin.com/jobs/view/product-manager-user-at-finaccel-4401412241) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **fintex** - [Senior Product Manager](https://ca.linkedin.com/jobs/view/senior-product-manager-at-fintex-4425263981) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **foodpanda** - [Senior Product Manager](https://sg.linkedin.com/jobs/view/senior-product-manager-at-foodpanda-4417876198) (Score: 50)
+  - *Reason*: Location "Singapore, Singapore" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Google** - [Senior Product Manager, Google Wallet](https://sg.linkedin.com/jobs/view/senior-product-manager-google-wallet-at-google-4437556939) (Score: 50)
+  - *Reason*: Location "Singapore" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Google** - [Senior Product Manager, Search Platforms](https://in.linkedin.com/jobs/view/senior-product-manager-search-platforms-at-google-4427000560) (Score: 50)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **GoTo** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-goto-4431686181) (Score: 50)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Grab** - [Lead Product Manager - Smart Payment](https://id.linkedin.com/jobs/view/lead-product-manager-smart-payment-at-grab-4423916395) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Grab** - [Lead Product Manager - Wallet](https://id.linkedin.com/jobs/view/lead-product-manager-wallet-at-grab-4423907721) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **HackerRank** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-hackerrank-4424889582) (Score: 50)
+  - *Reason*: Location "Bengaluru East, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Hem Securities Ltd.** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-hem-securities-ltd-4431685805) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **IDS Medical Systems Group** - [Product Manager (Oncology)](https://www.jobstreet.co.id/job/93316461) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Igloo** - [Country Manager - Indonesia](https://id.linkedin.com/jobs/view/country-manager-indonesia-at-igloo-4382750944) (Score: 50)
+  - *Reason*: Job title does not clearly match a Product Management role
+- **Impax Recruitment** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-impax-recruitment-4419933217) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Infomedia Nusantara** - [Product Manager - Senior](https://www.jobstreet.co.id/job/93719026) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **INSPYR Solutions** - [Sr. Product Manager](https://www.linkedin.com/jobs/view/sr-product-manager-at-inspyr-solutions-4431263328) (Score: 50)
+  - *Reason*: Location "San Francisco, CA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Instacart** - [Senior Product Manager, In-Store Tasks](https://www.linkedin.com/jobs/view/senior-product-manager-in-store-tasks-at-instacart-4420610018) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Integra Connect** - [Sr. Product Manager](https://www.linkedin.com/jobs/view/sr-product-manager-at-integra-connect-4425647894) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Internova Travel Group** - [Sr. Product Manager](https://www.linkedin.com/jobs/view/sr-product-manager-at-internova-travel-group-4432431304) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Invenia** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-invenia-4429270990) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **IP Author** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-ip-author-4414555490) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Josys** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-josys-4425371656) (Score: 50)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Justlife** - [Senior Product Manager](https://ae.linkedin.com/jobs/view/senior-product-manager-at-justlife-4431796835) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Kredivo Group** - [Senior Product Manager - Transaction](https://id.linkedin.com/jobs/view/senior-product-manager-transaction-at-kredivo-group-4401426227) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Leena AI** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-leena-ai-4415667647) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **LexisNexis** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-lexisnexis-4415952435) (Score: 50)
+  - *Reason*: Location "Delhi, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Loyalty Juggernaut** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-loyalty-juggernaut-4417591673) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Lucidya | لوسيديا** - [Senior Product Manager - Monitoring & Research](https://qa.linkedin.com/jobs/view/senior-product-manager-monitoring-research-at-lucidya-%D9%84%D9%88%D8%B3%D9%8A%D8%AF%D9%8A%D8%A7-4423372949) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Lyric** - [Product Manager, Senior](https://in.linkedin.com/jobs/view/product-manager-senior-at-lyric-4422868459) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Mastercard** - [Senior Product Manager - Technical](https://in.linkedin.com/jobs/view/senior-product-manager-technical-at-mastercard-4404688759) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Medallion** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-medallion-4418819004) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Meratus Group** - [Lead Product Manager (Surabaya)](https://id.linkedin.com/jobs/view/lead-product-manager-surabaya-at-meratus-group-4372241181) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Meta** - [Product Manager (Leadership)](https://www.linkedin.com/jobs/view/product-manager-leadership-at-meta-4390540411) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Microsoft** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-microsoft-4426793153) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Mindbody** - [Lead Product Manager](https://www.linkedin.com/jobs/view/lead-product-manager-at-mindbody-4406712808) (Score: 50)
+  - *Reason*: Location "New York, NY" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **MissionStaff** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-missionstaff-4428039685) (Score: 50)
+  - *Reason*: Location "Pennsylvania, United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Mitratech** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-mitratech-4388514932) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Mitti Labs** - [Country Lead - Indonesia](https://id.linkedin.com/jobs/view/country-lead-indonesia-at-mitti-labs-4413422637) (Score: 50)
+  - *Reason*: Job title does not clearly match a Product Management role | Does not match target domains (SaaS/FinTech)
+- **Momence** - [Senior Product Manager](https://cz.linkedin.com/jobs/view/senior-product-manager-at-momence-4419155609) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Mount Talent Consulting Pvt Ltd.** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-mount-talent-consulting-pvt-ltd-4424096229) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Navi** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-navi-4418570429) (Score: 50)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Netflix** - [Principal Product Manager - Games, Social Platform](https://www.linkedin.com/jobs/view/principal-product-manager-games-social-platform-at-netflix-4310705703) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Netomi** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-netomi-4387095574) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **New Relic** - [Senior Product Manager - R115](https://in.linkedin.com/jobs/view/senior-product-manager-r115-at-new-relic-4377129141) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Nextiva** - [Principal Product Manager (Omnichannel CX)](https://www.linkedin.com/jobs/view/principal-product-manager-omnichannel-cx-at-nextiva-4431154059) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Nielsen** - [Senior Product Manager II](https://in.linkedin.com/jobs/view/senior-product-manager-ii-at-nielsen-4419242904) (Score: 50)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Optum India** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-optum-india-4432881361) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Paytm** - [Product Management - Senior Product Manager - Travel](https://in.linkedin.com/jobs/view/product-management-senior-product-manager-travel-at-paytm-4380265278) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Paytm** - [Senior Product Manager - Recharges](https://in.linkedin.com/jobs/view/senior-product-manager-recharges-at-paytm-4387914170) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Pine Labs** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-pine-labs-4408170027) (Score: 50)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **PointClickCare** - [Canada- Product Manager (Senior Living)](https://ca.linkedin.com/jobs/view/canada-product-manager-senior-living-at-pointclickcare-4410418577) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PointClickCare** - [(Canada) - Product Manager (Senior Care)](https://ca.linkedin.com/jobs/view/canada-product-manager-senior-care-at-pointclickcare-4403309442) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PointClickCare** - [Sr. Product Manager - Senior Living](https://www.linkedin.com/jobs/view/sr-product-manager-senior-living-at-pointclickcare-4425857900) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **PointClickCare** - [(US) - Product Manager (Senior Care)](https://www.linkedin.com/jobs/view/us-product-manager-senior-care-at-pointclickcare-4403316379) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Priceline** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-priceline-4425296556) (Score: 50)
+  - *Reason*: Location "Mumbai, Maharashtra, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Prosum** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-prosum-4432091596) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Provisions Group** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-provisions-group-4444607663) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **PRYPCO** - [Senior Product Manager](https://ae.linkedin.com/jobs/view/senior-product-manager-at-prypco-4417705678) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Teknologi Merlin Sejahtera** - [IT & Product Manager (level Mid-Senior)](https://www.jobstreet.co.id/job/93346507) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Publicis Sapient** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-publicis-sapient-4410164086) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PW (PhysicsWallah)** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-pw-physicswallah-4410568480) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **qlub** - [Senior Product Manager - Singapore](https://sg.linkedin.com/jobs/view/senior-product-manager-singapore-at-qlub-4428492395) (Score: 50)
+  - *Reason*: Location "Singapore, Singapore" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **qlub** - [Senior Product Manager](https://ae.linkedin.com/jobs/view/senior-product-manager-at-qlub-4428704320) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Quanata** - [Senior Product Manager [Remote-US]](https://www.linkedin.com/jobs/view/senior-product-manager-remote-us-at-quanata-4415114391) (Score: 50)
+  - *Reason*: Location "San Francisco, CA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Qventus, Inc** - [Sr Product Manager](https://www.linkedin.com/jobs/view/sr-product-manager-at-qventus-inc-4421201543) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **R360 Group** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-r360-group-4430836582) (Score: 50)
+  - *Reason*: Location "Bengaluru East, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Redpin** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-redpin-4432956675) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Responsive** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-responsive-4417931019) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Rithum** - [Senior Product Manager - Catalog](https://www.linkedin.com/jobs/view/senior-product-manager-catalog-at-rithum-4423554161) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Samsara** - [Senior Product Manager, Growth](https://www.linkedin.com/jobs/view/senior-product-manager-growth-at-samsara-4383046364) (Score: 50)
+  - *Reason*: Location "San Francisco Bay Area" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Saransh Inc** - [Product Manager (Mid to Senior Level) - Remote (US)](https://www.linkedin.com/jobs/view/product-manager-mid-to-senior-level-remote-us-at-saransh-inc-4408530599) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Seeq Corporation** - [Principal Product Manager](https://www.linkedin.com/jobs/view/principal-product-manager-at-seeq-corporation-4403537428) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Sensi.AI** - [Lead Product Manager](https://www.linkedin.com/jobs/view/lead-product-manager-at-sensi-ai-4404207702) (Score: 50)
+  - *Reason*: Location "Austin, TX" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Shakers** - [Senior Product Manager (B2B)](https://es.linkedin.com/jobs/view/senior-product-manager-b2b-at-shakers-4429881258) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Shipturtle** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-shipturtle-4441037074) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Sia** - [[UAE] Senior Product Manager](https://ae.linkedin.com/jobs/view/uae-senior-product-manager-at-sia-4429018907) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **SiftHub** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-sifthub-4426478644) (Score: 50)
+  - *Reason*: Location "Mumbai Metropolitan Region" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **SIXT Research & Development India** - [Senior Product Manager I](https://in.linkedin.com/jobs/view/senior-product-manager-i-at-sixt-research-development-india-4407585851) (Score: 50)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Skillz** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-skillz-4420609239) (Score: 50)
+  - *Reason*: Location "Greater Bengaluru Area" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Snoonu** - [Senior Product Manager(SnooLaundry & Snoosend)](https://qa.linkedin.com/jobs/view/senior-product-manager-snoolaundry-snoosend-at-snoonu-4406996168) (Score: 50)
+  - *Reason*: Location "Lusail, Qatar" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Soch Street** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-soch-street-4428483763) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Spence** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-spence-4425263776) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Spotnana** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-spotnana-4402981678) (Score: 50)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Spotted Zebra** - [Senior Product Manager | Remote (UK)](https://uk.linkedin.com/jobs/view/senior-product-manager-remote-uk-at-spotted-zebra-4419408300) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Storable** - [Sr. Product Manager](https://www.linkedin.com/jobs/view/sr-product-manager-at-storable-4424264330) (Score: 50)
+  - *Reason*: Location "Austin, TX" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Terzo** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-terzo-4422112410) (Score: 50)
+  - *Reason*: Location "San Francisco, CA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Tethered Talent** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-tethered-talent-4429692410) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **The Product Highway** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-the-product-highway-4428222211) (Score: 50)
+  - *Reason*: Location "Bengaluru, Karnataka, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Toast** - [Senior Product Manager, Toast Now](https://www.linkedin.com/jobs/view/senior-product-manager-toast-now-at-toast-4426572537) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Torticity** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-torticity-4422999622) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Trinka.ai** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-trinka-ai-4432223756) (Score: 50)
+  - *Reason*: Location "Mumbai, Maharashtra, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Typeform** - [Senior Product Manager - Growth](https://www.linkedin.com/jobs/view/senior-product-manager-growth-at-typeform-4423654016) (Score: 50)
+  - *Reason*: Location "European Union" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Unitary** - [Senior Product Manager](https://uk.linkedin.com/jobs/view/senior-product-manager-at-unitary-4411865866) (Score: 50)
+  - *Reason*: Location "London, England, United Kingdom" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **U.S. Bank** - [Senior Digital Product Manager](https://in.linkedin.com/jobs/view/senior-digital-product-manager-at-u-s-bank-4432144177) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Vahan.ai** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-vahan-ai-4432453011) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **WSA – Wonderful Sound for All** - [Senior Product Manager - Mobile Apps](https://in.linkedin.com/jobs/view/senior-product-manager-mobile-apps-at-wsa-%E2%80%93-wonderful-sound-for-all-4416177873) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Zendesk** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-zendesk-4411190803) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Zeta Global** - [Senior Product Manager - Addressability](https://www.linkedin.com/jobs/view/senior-product-manager-addressability-at-zeta-global-4404446165) (Score: 50)
+  - *Reason*: Location "New York, NY" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Zillow** - [Principal Product Manager](https://www.linkedin.com/jobs/view/principal-product-manager-at-zillow-4419579368) (Score: 50)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Zuper** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-zuper-4423349271) (Score: 50)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Airbnb** - [Product Manager, Identity](https://careers.airbnb.com/positions/8055637?gh_jid=8055637) (Score: 49)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Jalin Pembayaran Nusantara** - [Officer E-Channel Product](https://id.linkedin.com/jobs/view/officer-e-channel-product-at-pt-jalin-pembayaran-nusantara-4433673377) (Score: 49)
+  - *Reason*: Does not match target domains (SaaS/FinTech)
+- **PT Edubuild Pratama Indonesia** - [IT Product Specialist](https://www.jobstreet.co.id/job/93061002) (Score: 48)
+  - *Reason*: No explicit worldwide or region-free remote availability found
+- **Cambridge Spark** - [Product Manager](https://remoteOK.com/remote-jobs/remote-product-manager-cambridge-spark-1133737) (Score: 47)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Medallion** - [Director of Product Marketing](https://remoteOK.com/remote-jobs/remote-director-of-product-marketing-medallion-1130948) (Score: 47)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Celsior** - [Product Owner](https://in.linkedin.com/jobs/view/product-owner-at-celsior-4435848489) (Score: 47)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Confidential** - [Country Manager / Business Development Manager – Infrastructure & Road Construction 🌍](https://id.linkedin.com/jobs/view/country-manager-business-development-manager-%E2%80%93-infrastructure-road-construction-%F0%9F%8C%8D-at-confidential-4439923029) (Score: 47)
+  - *Reason*: Job title does not clearly match a Product Management role | Does not match target domains (SaaS/FinTech)
+- **Consensus Cloud Solutions** - [Senior Director of Product: Fax](https://www.linkedin.com/jobs/view/senior-director-of-product-fax-at-consensus-cloud-solutions-4365263444) (Score: 47)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **DOKU, PT NUSA SATU INTI ARTHA** - [Product Owner (PayChat Utility Billing Service)](https://id.linkedin.com/jobs/view/product-owner-paychat-utility-billing-service-at-doku-pt-nusa-satu-inti-artha-4423107005) (Score: 47)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Erajaya Group** - [Head of Product Management - General manager](https://www.jobstreet.co.id/job/93705165) (Score: 47)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT. Berca Hardayaperkasa** - [E-Proc Product Owner Consultant](https://www.jobstreet.co.id/job/93546945) (Score: 47)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **RYZ Labs** - [Product Manager Customer Care](https://remoteOK.com/remote-jobs/remote-product-manager-customer-care-ryz-labs-1130495) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Airbnb** - [Product Manager, EMEA](https://careers.airbnb.com/positions/7775427?gh_jid=7775427) (Score: 46)
+  - *Reason*: Location "London, United Kingdom" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **AltaML** - [Growth Product Manager (Brilliant Harvest)](https://jobs.lever.co/altaml/c13c65aa-5311-45d4-84bb-38d9380de48f) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PadSplit** - [Product Manager (Fully Remote)](https://jobs.lever.co/padsplit/3c0a2057-71ea-45f0-8a19-3f40021ebad1) (Score: 46)
+  - *Reason*: Location "Atlanta, GA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **10x Genomics** - [Product Manager](https://news.ycombinator.com/item?id=22669670) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **360Dialog** - [Product Manager | Remote](https://uk.linkedin.com/jobs/view/product-manager-remote-at-360dialog-4442721850) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Aha! (** - [Product Manager](https://news.ycombinator.com/item?id=22669584) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Airbnb** - [Product Manager, EMEA](https://uk.linkedin.com/jobs/view/product-manager-emea-at-airbnb-4418125795) (Score: 46)
+  - *Reason*: Location "London, England, United Kingdom" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **ARRISE** - [Product Manager, Ecosystem](https://mt.linkedin.com/jobs/view/product-manager-ecosystem-at-arrise-4383936157) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **ASUS** - [Product Manager (Consumer Market)](https://sg.linkedin.com/jobs/view/product-manager-consumer-market-at-asus-4424333233) (Score: 46)
+  - *Reason*: Location "Singapore, Singapore" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Balance** - [Product Manager](https://es.linkedin.com/jobs/view/product-manager-at-balance-4430429153) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Banyan Software** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-banyan-software-4415114617) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Brex** - [Product Manager](https://news.ycombinator.com/item?id=22671061) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Bridgit** - [Product Manager](https://ca.linkedin.com/jobs/view/product-manager-at-bridgit-4432834043) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Cambridge Spark** - [Product Manager](https://remoteok.com/remote-jobs/remote-product-manager-cambridge-spark-1133737) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **ClassPass** - [Product Manager](https://mx.linkedin.com/jobs/view/product-manager-at-classpass-4418756694) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **ClassWallet** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-classwallet-4418184965) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **DigniFi** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-dignifi-4424428985) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Duolingo** - [Product Manager](https://news.ycombinator.com/item?id=22668340) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **DUÄAST** - [Product manager](https://remoteok.com/remote-jobs/remote-product-manager-dueast-1134144) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **EaseMyTrip.com** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-easemytrip-com-4434546333) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Edmunds** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-edmunds-4406793825) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Enumerate** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-enumerate-4419633373) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **EVONA** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-evona-4428554521) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Fazz** - [Product Manager - Lending](https://id.linkedin.com/jobs/view/product-manager-lending-at-fazz-4382506090) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **ForceMetrics** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-forcemetrics-4425644096) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Fore Coffee** - [Product Manager](https://id.linkedin.com/jobs/view/product-manager-at-fore-coffee-4374590824) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Golden Opportunities** - [Product Manager - Healthcare](https://in.linkedin.com/jobs/view/product-manager-healthcare-at-golden-opportunities-4430180737) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Hanwha Vision America** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-hanwha-vision-america-4428069532) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Hilti Asia Pacific** - [Product Manager (Talent Pool)](https://id.linkedin.com/jobs/view/product-manager-talent-pool-at-hilti-asia-pacific-4382033026) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Home Credit Indonesia** - [Insurance Product Manager](https://id.linkedin.com/jobs/view/insurance-product-manager-at-home-credit-indonesia-4424066791) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Howden** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-howden-4419073114) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **I can confirm that Amazon is aggressively hiring across our** - [Product Manager](https://news.ycombinator.com/item?id=22669085) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Infomedia Nusantara** - [Product Manager - Middle](https://www.jobstreet.co.id/job/93719034) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Insight Global** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-insight-global-4431268729) (Score: 46)
+  - *Reason*: Location "Delhi, India" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Instagram** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-instagram-4199406968) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **I&#x27;m interested in Product Manager role, could you refer** - [I&#X27;M Interested In Product Manager Role, Could You Refer Me? Myemailum14 At Gmail](https://news.ycombinator.com/item?id=22684830) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Kolonial.no &#x2F; Senior Software Engineers &#x2F; Fulltime** - [Product Manager](https://news.ycombinator.com/item?id=22728441) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Kredivo Group** - [Product Manager - B2B](https://id.linkedin.com/jobs/view/product-manager-b2b-at-kredivo-group-4254100734) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Kredivo Group** - [Product Manager - Kredifazz](https://id.linkedin.com/jobs/view/product-manager-kredifazz-at-kredivo-group-4403334812) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Kredivo Group** - [Product Manager - Platform & Growth](https://id.linkedin.com/jobs/view/product-manager-platform-growth-at-kredivo-group-4416520311) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Kredivo Group** - [Product Manager - Risk](https://id.linkedin.com/jobs/view/product-manager-risk-at-kredivo-group-4400720753) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Kredivo Group** - [Product Manager - User](https://id.linkedin.com/jobs/view/product-manager-user-at-kredivo-group-4401433136) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **LinkedIn** - [Product Manager Paid Consultant - Launch & Deployment](https://www.linkedin.com/jobs/view/product-manager-paid-consultant-launch-deployment-at-linkedin-4409211196) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **LinkedIn** - [Product Manager Paid Consultant - Product Lifecycle](https://www.linkedin.com/jobs/view/product-manager-paid-consultant-product-lifecycle-at-linkedin-4408455458) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **LinkedIn** - [Product Manager Paid Consultant - Product Strategy, Roadmap & Portfolio Decisions](https://www.linkedin.com/jobs/view/product-manager-paid-consultant-product-strategy-roadmap-portfolio-decisions-at-linkedin-4426427789) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **LinkedIn** - [Product Manager Paid Consultant - Scaling & Lifecycle Transitions](https://www.linkedin.com/jobs/view/product-manager-paid-consultant-scaling-lifecycle-transitions-at-linkedin-4409204414) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **LogicGate** - [Product Manager](https://news.ycombinator.com/item?id=22674944) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **LUXASIA** - [Assistant Product Manager (PR & Category Focus) - Parfums Christian Dior](https://id.linkedin.com/jobs/view/assistant-product-manager-pr-category-focus-parfums-christian-dior-at-luxasia-4384110225) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Mainz Brady Group** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-mainz-brady-group-4425850874) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **MedZed** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-medzed-4409372357) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Meta** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-meta-4197551516) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Meta** - [Product Manager, Central Products](https://www.linkedin.com/jobs/view/product-manager-central-products-at-meta-4376622463) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Netflix** - [Product Manager - Games, TV as a Platform](https://www.linkedin.com/jobs/view/product-manager-games-tv-as-a-platform-at-netflix-4406428027) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Netflix** - [Product Manager, Core Discovery](https://www.linkedin.com/jobs/view/product-manager-core-discovery-at-netflix-4430283824) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Netflix** - [Product Manager, Games Discovery](https://www.linkedin.com/jobs/view/product-manager-games-discovery-at-netflix-4388875879) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Omada Health** - [Product Manager, Billing](https://www.linkedin.com/jobs/view/product-manager-billing-at-omada-health-4423177368) (Score: 46)
+  - *Reason*: Location "San Francisco, CA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **PadSplit** - [Product Manager (Fully Remote)](https://www.linkedin.com/jobs/view/product-manager-fully-remote-at-padsplit-4428195927) (Score: 46)
+  - *Reason*: Location "Atlanta, GA" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Peek** - [Product Manager](https://mx.linkedin.com/jobs/view/product-manager-at-peek-4424020039) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PokerAtlas** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-pokeratlas-4414007620) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **PT AIM MEDICAL TECHNOLOGY INDONESIA** - [Product Manager Aesthetic](https://www.jobstreet.co.id/job/93193074) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Aneka Kelola Unggul** - [Marketing & Product Manager](https://www.jobstreet.co.id/job/93721930) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Darya Varia Laboratoria, Tbk** - [Product Manager - Ethical Division (Gastro & Wound Care)](https://www.jobstreet.co.id/job/93570532) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Galva Galindra Multi Cipta** - [Product Manager](https://www.jobstreet.co.id/job/93166808) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT. GIRI MAS INDAH** - [Product Manager (Automotive Spare Parts)](https://www.jobstreet.co.id/job/93146920) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Green Fashion Group** - [Product Manager (Fashion)](https://www.jobstreet.co.id/job/93646998) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Kompas Media Nusantara** - [Product Manager](https://www.jobstreet.co.id/job/92954447) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT LUCKY MOM INDONESIA** - [Product Manager (Baby Care)](https://www.jobstreet.co.id/job/93517449) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Transisi Mobile Indonesia** - [Product Manager](https://www.jobstreet.co.id/job/92952241) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Qwiik** - [Product Manager](https://id.linkedin.com/jobs/view/product-manager-at-qwiik-4352585449) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Robert Half** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-robert-half-4431231615) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Rydoo** - [Product Manager](https://nl.linkedin.com/jobs/view/product-manager-at-rydoo-4432245179) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Sapio Sciences** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-sapio-sciences-4408895507) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Shakers** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-shakers-4419253154) (Score: 46)
+  - *Reason*: Location "European Economic Area" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Skylight** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-skylight-4429128549) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **SoftServe** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-softserve-4429160569) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Sourcegraph (** - [Product Manager](https://news.ycombinator.com/item?id=22667973) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Swoon** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-swoon-4428757334) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **The Lifetime Value Co.** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-the-lifetime-value-co-4363000181) (Score: 46)
+  - *Reason*: Location "New York, NY" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **TKO** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-tko-4429530876) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **TrueLearn** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-truelearn-4429338043) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Unified** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-unified-4388359776) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Unknown ()** - [Product Manager Paid Consultant - Roadmap Cadence, Governance & Operating Rhythm](https://www.linkedin.com/jobs/view/product-manager-paid-consultant-roadmap-cadence-governance-operating-rhythm-at-linkedin-4426429785) (Score: 46)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Zaya Care** - [Product Manager](https://ca.linkedin.com/jobs/view/product-manager-at-zaya-care-4430126672) (Score: 46)
+  - *Reason*: Location "Toronto, Ontario, Canada" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Zocdoc is hiring in NYC and PHX. We are looking to hire acro** - [Product Manager](https://news.ycombinator.com/item?id=22771374) (Score: 46)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **FinAccel** - [Product Manager - Platform & Growth](https://id.linkedin.com/jobs/view/product-manager-platform-growth-at-finaccel-4367832060) (Score: 44)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **NowPurchase** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-nowpurchase-4393555417) (Score: 44)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Private Advertiser** - [Product Manager](https://www.jobstreet.co.id/job/93597466) (Score: 44)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Bara Sangray Sehati** - [Product Manager](https://www.jobstreet.co.id/job/93429384) (Score: 44)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Deptech Digital Indonesia** - [Product Owner](https://www.jobstreet.co.id/job/93668468) (Score: 44)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Global Medik Persada** - [Product Manager Aesthetic](https://www.jobstreet.co.id/job/93672910) (Score: 44)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Pasifik Global Integrasi** - [Product Manager for Cybersecurity](https://www.jobstreet.co.id/job/93690308) (Score: 44)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **TMEIC Corporation Americas** - [Product Manager Solar Inverters](https://remoteok.com/remote-jobs/remote-product-manager-solar-inverters-tmeic-corporation-americas-1134410) (Score: 44)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Jubelio** - [QA Tester (Manual)](https://id.linkedin.com/jobs/view/qa-tester-manual-at-jubelio-4415112595) (Score: 43)
+  - *Reason*: Job title does not clearly match a Product Management role | Does not match target domains (SaaS/FinTech)
+- **PT. Trimegah Sekuritas Indonesia, Tbk** - [IT Product Team Lead](https://www.jobstreet.co.id/job/93545006) (Score: 42)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **EVYD Technology** - [Manager, Product](https://bn.linkedin.com/jobs/view/manager-product-at-evyd-technology-4445004075) (Score: 41)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **RELX** - [Sr Product Mgr I](https://cn.linkedin.com/jobs/view/sr-product-mgr-i-at-relx-4446769815) (Score: 41)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Arya Noble** - [Product Development Jr. Manager](https://id.linkedin.com/jobs/view/product-development-jr-manager-at-arya-noble-4434300547) (Score: 40)
+  - *Reason*: Seniority matches Junior/Associate/Intern (exclusionary) | Does not match target domains (SaaS/FinTech)
+- **PERI** - [Managing Director (m/f/d) PERI Indonesia](https://id.linkedin.com/jobs/view/managing-director-m-f-d-peri-indonesia-at-peri-4365043567) (Score: 40)
+  - *Reason*: Job title does not clearly match a Product Management role | Does not match target domains (SaaS/FinTech)
+- **PT Cycent Inovasi Kaizen** - [Product Owner](https://www.jobstreet.co.id/job/93150810) (Score: 40)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT IDStar Cipta Teknologi** - [Product Owner](https://www.jobstreet.co.id/job/93372162) (Score: 40)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Inovasi Karya International** - [Product Owner](https://www.jobstreet.co.id/job/93636883) (Score: 40)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Talenta Eksekutif Asia (Matcha Talent)** - [Financial Controller | Director (Global FinTech - Financial Services)](https://www.jobstreet.co.id/job/93558023) (Score: 40)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found
+- **Sea** - [COO Office (Project Manager)](https://id.linkedin.com/jobs/view/coo-office-project-manager-at-sea-4433305002) (Score: 40)
+  - *Reason*: Job title does not clearly match a Product Management role | Does not match target domains (SaaS/FinTech)
+- **tiket.com** - [Account Manager (MICE) - tiketPlus](https://id.linkedin.com/jobs/view/account-manager-mice-tiketplus-at-tiket-com-4440634191) (Score: 40)
+  - *Reason*: Job title does not clearly match a Product Management role | Does not match target domains (SaaS/FinTech)
+- **Tilaka Nusa Teknologi** - [Product Owner](https://www.jobstreet.co.id/job/93505927) (Score: 40)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT. SIGMA GLOBAL TEKNOLOGI (SIGMATECH)** - [Product Owner - Banking Industry (Can Join Immediately)](https://www.jobstreet.co.id/job/93614415) (Score: 38)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT. SIGMA GLOBAL TEKNOLOGI (SIGMATECH)** - [Product Owner (from Banking Syariah is Mandatory ) - ASAP](https://www.jobstreet.co.id/job/93654068) (Score: 38)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT UMAX HUB INDONESIA** - [Product Analyst](https://www.jobstreet.co.id/job/93724143) (Score: 38)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PFC Technologies** - [Strategy Manger (한국인 채용)](https://www.jobstreet.co.id/job/93722892) (Score: 37)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found
+- **Godrej Consumer Products Limited** - [Packaging Manager](https://id.linkedin.com/jobs/view/packaging-manager-at-godrej-consumer-products-limited-4425094118) (Score: 36)
+  - *Reason*: Job title does not clearly match a Product Management role | Does not match target domains (SaaS/FinTech)
+- **MODENA** - [Subscription Manager](https://id.linkedin.com/jobs/view/subscription-manager-at-modena-4410954865) (Score: 36)
+  - *Reason*: Job title does not clearly match a Product Management role | Does not match target domains (SaaS/FinTech)
+- **PT. Indosat Tbk** - [Service Design & Delivery](https://id.linkedin.com/jobs/view/service-design-delivery-at-pt-indosat-tbk-4395264738) (Score: 36)
+  - *Reason*: Job title does not clearly match a Product Management role | Does not match target domains (SaaS/FinTech)
+- **Agung Sedayu Group** - [IT Product Analyst](https://www.jobstreet.co.id/job/93722626) (Score: 35)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Private Advertiser** - [PRODUCT GROUP MANAGER](https://www.jobstreet.co.id/job/93271302) (Score: 35)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Bridgestone Tire Indonesia** - [Product Development Staff](https://www.jobstreet.co.id/job/93355801) (Score: 35)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Harrisma Informatika Jaya** - [Senior Account Manager for IT Product - Chinese Account Division](https://www.jobstreet.co.id/job/93549134) (Score: 35)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Indomobil Global Transportasi** - [Product Quality Staff](https://www.jobstreet.co.id/job/93518637) (Score: 35)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Rinnai Indonesia** - [Engineering / Product Engineering (PE) Staff](https://www.jobstreet.co.id/job/93319598) (Score: 35)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT TDK ELECTRONICS INDONESIA** - [PRODUCT DEVELOPMENT SENIOR TECHNICIAN](https://www.jobstreet.co.id/job/93645771) (Score: 35)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Victoria Care Indonesia TBK** - [Product Development Executive](https://www.jobstreet.co.id/job/93688273) (Score: 35)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Erajaya Group** - [Product Management Assistant Manager - Assistant Manager](https://www.jobstreet.co.id/job/93705177) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **GrammyTech Ltd** - [Ecommerce Procurement Manager, Industrial Products, Jakarta](https://www.jobstreet.co.id/job/93554040) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Infomedia Nusantara** - [Product Management - Middle](https://www.jobstreet.co.id/job/93718713) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PayPal** - [Sr Manager, Product Management](https://in.linkedin.com/jobs/view/sr-manager-product-management-at-paypal-4418968188) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Private Advertiser** - [R & D Product Designer](https://www.jobstreet.co.id/job/93718131) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT. Datascrip** - [Business Executive (IT Product)](https://www.jobstreet.co.id/job/93723136) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Fujifilm Indonesia** - [Medical Endoscopy Product Assistant Manager](https://www.jobstreet.co.id/job/93253579) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Glodon Technical Indonesia** - [Product Business Expert – Cost Management (Indonesia)](https://www.jobstreet.co.id/job/93493259) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Intergastra Nusantara** - [Product Specialist](https://www.jobstreet.co.id/job/93084999) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Kahar Duta Sarana** - [ACCOUNT MANAGER (Label Product)](https://www.jobstreet.co.id/job/93688046) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Maja Estetika Sejahtera** - [Product Development Manager](https://www.jobstreet.co.id/job/93277600) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Mulia Raya Agrijaya** - [Product Development Manager](https://www.jobstreet.co.id/job/93098211) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT. ONDA MEGA INTEGRA** - [SPV Product & Program Development](https://www.jobstreet.co.id/job/93505761) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Pesta Pora Abadi** - [Product Audit Manager](https://www.jobstreet.co.id/job/93388514) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Tamara Overseas Corporindo** - [Product Specialist](https://www.jobstreet.co.id/job/93716288) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Telinco Networks Indonesia** - [IT Product Management (Supervisor)](https://www.jobstreet.co.id/job/93058390) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Revolut** - [Product Strategy Manager](https://uk.linkedin.com/jobs/view/product-strategy-manager-at-revolut-3962908643) (Score: 31)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Square** - [Product Partnerships Manager - Square](https://www.linkedin.com/jobs/view/product-partnerships-manager-square-at-square-4419220922) (Score: 31)
+  - *Reason*: Location "United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **PT Propan Raya Industrial Coating Chemicals** - [Digital Transformation & System Solution Head](https://www.jobstreet.co.id/job/93591993) (Score: 30)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Jacquelle Beaute** - [Supply Chain & Product Operations Coordinator](https://www.jobstreet.co.id/job/93593721) (Score: 29)
+  - *Reason*: No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Nusantara Compnet Integrator** - [Cloud Business Development Manager](https://www.jobstreet.co.id/job/93722916) (Score: 27)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Pico TBA Indonesia** - [Senior Graphic Designer (Events and Activations)](https://www.jobstreet.co.id/job/93594806) (Score: 27)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Private Advertiser** - [IT Manager](https://www.jobstreet.co.id/job/93722066) (Score: 26)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Fusion Dinamika** - [IT Project Manager](https://www.jobstreet.co.id/job/93659620) (Score: 26)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT URC Indonesia** - [Brand Manager](https://www.jobstreet.co.id/job/93491081) (Score: 23)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT CLOUD DREAM MARKETING** - [Account Manager / Manajer Akun](https://www.jobstreet.co.id/job/93491961) (Score: 21)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Agung Sedayu Group** - [IT Transformation Officer](https://www.jobstreet.co.id/job/93692507) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **British American Tobacco Indonesia** - [Senior Laboratory Analyst](https://www.jobstreet.co.id/job/93518630) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Dorskin_id** - [Brand Leader (New Brand)](https://www.jobstreet.co.id/job/93164556) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Apex Nusantara Indo** - [Senior operations Manager](https://www.jobstreet.co.id/job/93677550) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Bali Hai Brewery Indonesia** - [Brand Manager](https://www.jobstreet.co.id/job/93530656) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Bank CTBC Indonesia** - [Support Application Lead (IT)](https://www.jobstreet.co.id/job/93218518) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Bank Danamon Indonesia Tbk** - [Relationship Manager Senior (Jakarta & Tangerang)](https://id.linkedin.com/jobs/view/relationship-manager-senior-jakarta-tangerang-at-pt-bank-danamon-indonesia-tbk-4425083921) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Berkah Kawasan Manyar Sejahtera** - [CORPORATE LEGAL (SENIOR MANAGER)](https://www.jobstreet.co.id/job/93302420) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT CRIF Lembaga Informasi Keuangan** - [Senior IT Developer Officer](https://www.jobstreet.co.id/job/93518185) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT DIC Graphics** - [Chemical Technology Senior Staff](https://www.jobstreet.co.id/job/93382922) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT. DREAME TECHNOLOGY INDONESIA** - [Senior Marketing Manager (Air Purifier )](https://www.jobstreet.co.id/job/93674839) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Ruang Kencana Indonesia** - [Visual Merchandiser / Senior Visual Merchandiser](https://www.jobstreet.co.id/job/93386454) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Score Energy Indonesia** - [Senior Finance & Tax Accountant](https://www.jobstreet.co.id/job/93457152) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Sepuluh Sumber Anugrah** - [Senior Project Manager](https://www.jobstreet.co.id/job/93554168) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Solar Orchid Indonesia** - [Offline Channel Manager](https://www.jobstreet.co.id/job/93676296) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Surya Timur Sakti Jatim [Distributor Motor Yamaha : Jatim,Kalimantan,NTB,NTT]** - [SENIOR SPV PROJECT & PROPERTY](https://www.jobstreet.co.id/job/93492133) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Representaciones del caribe** - [lead Generator](https://remoteok.com/remote-jobs/remote-lead-generator-representaciones-del-caribe-1135815) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Vercel** - [Staff Software Engineer - Frontend](https://example.com/job2) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Uchromatic** - [Graphic Designer](https://remoteok.com/remote-jobs/remote-graphic-designer-uchromatic-1135767) (Score: 20)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Bayer** - [Kerendia Task Force](https://remoteok.com/remote-jobs/remote-kerendia-task-force-bayer-1134145) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Biztech** - [hh2](https://remoteok.com/remote-jobs/remote-hh2-biztech-1134146) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **CUBE Construction Group Ltd.** - [Accounts Assistant](https://remoteok.com/remote-jobs/remote-accounts-assistant-cube-construction-group-ltd-1135829) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **FamilyMart Indonesia** - [Assistant Category Manager (Assistant Buyer Non Food)](https://www.jobstreet.co.id/job/93115185) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Glowies Beauty** - [Brand Manager](https://www.jobstreet.co.id/job/93505452) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **GMGN** - [產品經理](https://in.linkedin.com/jobs/view/%E7%94%A2%E5%93%81%E7%B6%93%E7%90%86-at-gmgn-4438306951) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Harvey Nash** - [Human Resources Specialist](https://remoteok.com/remote-jobs/remote-human-resources-specialist-harvey-nash-1135675) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | Location "California, California, United States" indicates a region-locked role, not globally remote | Does not match target domains (SaaS/FinTech)
+- **Lozy** - [Manager Research & Development](https://www.jobstreet.co.id/job/93548065) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **OUTSIDE GRUP INDONESIA** - [Brand manager](https://www.jobstreet.co.id/job/93493423) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **OUTSIDE GRUP INDONESIA** - [Sales Manager](https://www.jobstreet.co.id/job/93493249) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Portales Fire Department** - [LABORER](https://remoteok.com/remote-jobs/remote-laborer-portales-fire-department-1134147) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Private Advertiser** - [Brand Manager](https://www.jobstreet.co.id/job/93637244) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Private Advertiser** - [National 3PL Manager](https://www.jobstreet.co.id/job/93453772) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Private Advertiser** - [Quality Manager](https://www.jobstreet.co.id/job/93399340) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Private Advertiser** - [Regulatory Affairs Manager](https://www.jobstreet.co.id/job/93672651) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Amcor Specialty Cartons Indonesia** - [Printing Technologist (Offset)](https://www.jobstreet.co.id/job/93314082) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Centrin Online Prima** - [Manager Project](https://www.jobstreet.co.id/job/93715146) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Container Maritime Activities** - [IT Business Engagement Analyst](https://www.jobstreet.co.id/job/93225596) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT. Daewoong Pharmaceutical Indonesia** - [Brand Manager](https://www.jobstreet.co.id/job/93361469) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Exaque Mandiri Makmur** - [Business Solution Analyst / Pre-Sales Consultant](https://www.jobstreet.co.id/job/93492546) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Good Sale Tech** - [Brand Manager](https://www.jobstreet.co.id/job/93482424) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT GREENFIELDS INDONESIA** - [Brand Manager](https://www.jobstreet.co.id/job/93422546) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT JJX TECH INDONESIA** - [Program Manager](https://www.jobstreet.co.id/job/93367479) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Kao Indonesia** - [Brand Manager](https://www.jobstreet.co.id/job/93436390) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT. Kharisma Sukses Persada** - [Brand Marketing Manager (Fragrance & Skincare)](https://www.jobstreet.co.id/job/93724149) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Mecosin Indonesia** - [Brand Manager](https://www.jobstreet.co.id/job/93390547) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Multi Citra Rasa** - [Brand & Marketing Manager](https://www.jobstreet.co.id/job/93494140) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Pesta Pora Abadi** - [Technology Implementation Manager](https://www.jobstreet.co.id/job/93521746) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Primagraha Keramindo** - [Data Analyst Manager](https://www.jobstreet.co.id/job/93720246) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Royal Pesona Indonesia (Somethinc – Beautyhaul)** - [Brand Manager](https://www.jobstreet.co.id/job/93244335) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Santos Jaya Abadi** - [Brand Manager](https://www.jobstreet.co.id/job/92974576) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Sasa Inti** - [BRAND MANAGER](https://www.jobstreet.co.id/job/93360513) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT Velari Movement Media** - [Developer](https://www.jobstreet.co.id/job/93293289) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Temu** - [Business Development Manager](https://remoteok.com/remote-jobs/remote-business-development-manager-temu-1135291) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **UP Consultorias** - [Pedreiro Cristalina Cristalina Novas Vagas Hoje](https://remoteok.com/remote-jobs/remote-pedreiro-cristalina-cristalina-novas-vagas-hoje-up-consultorias-1135807) (Score: 16)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **PT GREENFIELDS INDONESIA** - [Innovation Assistant Manager](https://www.jobstreet.co.id/job/93422905) (Score: 14)
+  - *Reason*: Job title does not clearly match a Product Management role | No explicit worldwide or region-free remote availability found | Does not match target domains (SaaS/FinTech)
+- **Worth AI** - [Technical Product Manager](https://remoteOK.com/remote-jobs/remote-technical-product-manager-worth-ai-1133012) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Automox** - [Associate Product Manager](https://remoteOK.com/remote-jobs/remote-associate-product-manager-automox-1131256) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **WorkOS** - [Product Manager](https://remoteOK.com/remote-jobs/remote-product-manager-workos-1131100) (Score: 0)
+  - *Reason*: Hard Reject: Found exclusionary location keyword 'us only'
+- **Verse** - [Product Manager Energy Storage Controls & Telemetry](https://remoteOK.com/remote-jobs/remote-product-manager-energy-storage-controls-telemetry-verse-1130985) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Discord** - [Senior Product Manager, Ad Formats](https://job-boards.greenhouse.io/discord/jobs/8530692002) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Cloudflare** - [Product Manager, AI Access](https://boards.greenhouse.io/cloudflare/jobs/7904142?gh_jid=7904142) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Cloudflare** - [Senior Product Manager - Ad Fraud (Application Security)](https://boards.greenhouse.io/cloudflare/jobs/8007326?gh_jid=8007326) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Gusto** - [Head of Product, Payroll](https://job-boards.greenhouse.io/gusto/jobs/7083259) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Gusto** - [Principal Product Manager, Agentic Benefits Operations](https://job-boards.greenhouse.io/gusto/jobs/7665272) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Gusto** - [Principal Product Manager, Cash Flow](https://job-boards.greenhouse.io/gusto/jobs/7581996) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Gusto** - [Principal Product Manager, Customer Onboarding](https://job-boards.greenhouse.io/gusto/jobs/7312754) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Gusto** - [Principal Product Manager, Reporting](https://job-boards.greenhouse.io/gusto/jobs/7843112) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Gusto** - [Senior Product Manager, Contractor Products](https://job-boards.greenhouse.io/gusto/jobs/7562102) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Gusto** - [Senior Product Manager, Document Studio](https://job-boards.greenhouse.io/gusto/jobs/7759823) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Gusto** - [Senior Product Manager, Gusto Pro Workflows](https://job-boards.greenhouse.io/gusto/jobs/7673980) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Gusto** - [Senior Product Manager, Symmetry New Tax Products](https://job-boards.greenhouse.io/gusto/jobs/7532277) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Gusto** - [Senior Product Manager, Web Experiences](https://job-boards.greenhouse.io/gusto/jobs/7467602) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Group Product Manager - Threat Detection and Incident Response (Cloud SIEM)](https://careers.datadoghq.com/detail/7608826/?gh_jid=7608826) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Product Manager II, AI & Data Security](https://careers.datadoghq.com/detail/7982288/?gh_jid=7982288) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Product Manager II, AI & Data Security](https://careers.datadoghq.com/detail/8012549/?gh_jid=8012549) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Product Manager II - Identity Security](https://careers.datadoghq.com/detail/7776413/?gh_jid=7776413) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Product Manager II - Model Lab](https://careers.datadoghq.com/detail/7144556/?gh_jid=7144556) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Senior Platform Product Manager - AI SDLC Trusted Throughput](https://careers.datadoghq.com/detail/7947683/?gh_jid=7947683) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Senior Product Manager, AAA/Enterprise Growth](https://careers.datadoghq.com/detail/7983465/?gh_jid=7983465) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Senior Product Manager - AI & Data Security](https://careers.datadoghq.com/detail/7808839/?gh_jid=7808839) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Senior Product Manager - Data Agent](https://careers.datadoghq.com/detail/7785350/?gh_jid=7785350) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Senior Product Manager - Database AI Optimization](https://careers.datadoghq.com/detail/7065807/?gh_jid=7065807) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Senior Product Manager - Integrations & Ecosystem](https://careers.datadoghq.com/detail/7723988/?gh_jid=7723988) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Senior Product Manager - Network Path](https://careers.datadoghq.com/detail/7763117/?gh_jid=7763117) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Senior Product Manager - Search](https://careers.datadoghq.com/detail/7974481/?gh_jid=7974481) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Senior Product Manager - Serverless](https://careers.datadoghq.com/detail/7905006/?gh_jid=7905006) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Senior Product Manager, SQL & Sheets Growth](https://careers.datadoghq.com/detail/7560326/?gh_jid=7560326) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Squarespace** - [Product Manager, Domains](http://www.squarespace.com/about/careers?gh_jid=7855009) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Squarespace** - [Senior Product Manager](http://www.squarespace.com/about/careers?gh_jid=7783230) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Squarespace** - [Senior Product Manager, Acuity Scheduling, (Classes)](http://www.squarespace.com/about/careers?gh_jid=7699712) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Squarespace** - [Senior Product Manager, Commerce](http://www.squarespace.com/about/careers?gh_jid=7789053) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Cockroach Labs** - [Sr. Product Manager - Business Continuity & Disaster Recovery (BCDR)](https://www.cockroachlabs.com/careers/job/?gh_jid=7852398) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Cockroach Labs** - [Staff Product Manager (Data Onboarding)](https://www.cockroachlabs.com/careers/job/?gh_jid=7852365) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Cockroach Labs** - [Staff Product Manager (Efficient & Always-on Transactions)](https://www.cockroachlabs.com/careers/job/?gh_jid=7287672) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Ramp** - [Product Manager | Agentic CX](https://jobs.ashbyhq.com/ramp/a3afd259-ba6b-4eb0-a1b6-05d01dddacd8) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Ramp** - [Product Manager | Generalist (All Levels)](https://jobs.ashbyhq.com/ramp/9972df9e-4133-4e2c-9305-49c285b76506) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in-office' detected
+- **Ramp** - [Product Manager | Vendor Intelligence & Marketplace](https://jobs.ashbyhq.com/ramp/cf3516f6-4d6b-4872-831f-c8ef4a3078ee) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in-office' detected
+- **Notion** - [Product Manager, Workspaces](https://jobs.ashbyhq.com/notion/35785e61-c4c3-44ec-a401-6741d89dd16a) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Notion** - [Product Manager, AI Governance and Admin Experience](https://jobs.ashbyhq.com/notion/2dd301f6-42da-40a2-a064-0f6fcfbdca77) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Cloudflare** - [Senior Product Manager - Enterprise](https://boards.greenhouse.io/cloudflare/jobs/7589006?gh_jid=7589006) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in-office' detected
+- **Datadog** - [Group Product Manager - Bring Your Own Cloud](https://careers.datadoghq.com/detail/8024863/?gh_jid=8024863) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Group Product Manager, Cloud Security](https://careers.datadoghq.com/detail/8029539/?gh_jid=8029539) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Group Product Manager - Code Security](https://careers.datadoghq.com/detail/8023763/?gh_jid=8023763) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Product Manager II - Application Performance Monitoring](https://careers.datadoghq.com/detail/8021327/?gh_jid=8021327) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Product Manager II - Application Performance Monitoring](https://careers.datadoghq.com/detail/8028422/?gh_jid=8028422) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Senior Product Manager - Agent Integrations](https://careers.datadoghq.com/detail/8030599/?gh_jid=8030599) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Affirm** - [Director of Product Management, Financial Platforms](https://job-boards.greenhouse.io/affirm/jobs/7718659003) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Affirm** - [Director of Product Management, Financial Platforms](https://job-boards.greenhouse.io/affirm/jobs/7718661003) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Affirm** - [Senior Product Manager, Card Experience](https://job-boards.greenhouse.io/affirm/jobs/7620527003) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Affirm** - [Senior Product Manager, Card Experience](https://job-boards.greenhouse.io/affirm/jobs/7620529003) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Affirm** - [Senior Product Manager, Financial Platforms](https://job-boards.greenhouse.io/affirm/jobs/7605852003) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Affirm** - [Senior Product Manager, Financial Platforms](https://job-boards.greenhouse.io/affirm/jobs/7605850003) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Affirm** - [Senior Product Manager, Shopping Experiences](https://job-boards.greenhouse.io/affirm/jobs/7622734003) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Affirm** - [Senior Product Manager, Shopping Experiences](https://job-boards.greenhouse.io/affirm/jobs/7622736003) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Affirm** - [Staff Product Manager, Affirm Bank](https://job-boards.greenhouse.io/affirm/jobs/7694938003) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Affirm** - [Staff Product Manager, Affirm Bank](https://job-boards.greenhouse.io/affirm/jobs/7694940003) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Affirm** - [Staff Product Manager, App Platform & Experience](https://job-boards.greenhouse.io/affirm/jobs/7776437003) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Affirm** - [Staff Product Manager, App Platform & Experience](https://job-boards.greenhouse.io/affirm/jobs/7776439003) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Anthropic** - [Product Manager, API Growth](https://job-boards.greenhouse.io/anthropic/jobs/5181852008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Anthropic** - [Product Manager, Claude Code Model Performance](https://job-boards.greenhouse.io/anthropic/jobs/5247640008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Anthropic** - [Product Manager, Compute Platform](https://job-boards.greenhouse.io/anthropic/jobs/5124623008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Anthropic** - [Product Manager, Developer Productivity](https://job-boards.greenhouse.io/anthropic/jobs/5220143008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Anthropic** - [Product Manager, GTM Experiences](https://job-boards.greenhouse.io/anthropic/jobs/5254623008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Anthropic** - [Product Manager, Multi-Cloud Growth - Google](https://job-boards.greenhouse.io/anthropic/jobs/5153924008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Anthropic** - [Product Manager, Safeguards Rare Harms](https://job-boards.greenhouse.io/anthropic/jobs/5139628008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Anthropic** - [Research Product Manager, Model Behaviors](https://job-boards.greenhouse.io/anthropic/jobs/5247407008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Anthropic** - [Web Product Manager](https://job-boards.greenhouse.io/anthropic/jobs/5281348008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Asana** - [Enterprise Product Manager](https://www.asana.com/jobs/apply/7863427?gh_jid=7863427) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Asana** - [Product Manager](https://www.asana.com/jobs/apply/7586960?gh_jid=7586960) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Asana** - [Senior Product Manager, Agent Context](https://www.asana.com/jobs/apply/7663184?gh_jid=7663184) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Asana** - [Senior Product Manager, Payment Platform](https://www.asana.com/jobs/apply/7977983?gh_jid=7977983) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Asana** - [Senior Product Manager, Project & Task Experience](https://www.asana.com/jobs/apply/7392230?gh_jid=7392230) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Boostlingo** - [Senior Product Manager, AI Products](https://job-boards.greenhouse.io/boostlingo/jobs/5156439008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Chime** - [Product Manager, AI & App Experience](https://boards.greenhouse.io/chime/jobs/8478204002?gh_jid=8478204002) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Chime** - [Product Manager, AI & App Experience](https://boards.greenhouse.io/chime/jobs/8530421002?gh_jid=8530421002) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Chime** - [Product Manager, MyPay](https://boards.greenhouse.io/chime/jobs/8530438002?gh_jid=8530438002) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Chime** - [Product Manager, Trust & Safety](https://boards.greenhouse.io/chime/jobs/8530184002?gh_jid=8530184002) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in-office' detected
+- **Mesh** - [Senior Product Manager, Core Infrastructure](https://job-boards.greenhouse.io/mesh/jobs/5159418008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Smartsheet** - [Principal Product Manager, Data & AI Platforms ( Hybrid in Bangalore )](https://job-boards.greenhouse.io/smartsheet/jobs/7794964) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Smartsheet** - [Sr. Product Manager, Audit & History (Hybrid, Bangalore)](https://job-boards.greenhouse.io/smartsheet/jobs/7941950) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Smartsheet** - [Sr, Product Manager II - Data Links (Hybrid, Bangalore)](https://job-boards.greenhouse.io/smartsheet/jobs/7978806) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Smartsheet** - [Sr, Product Manager II - Gantt View (Hybrid in Bangalore)](https://job-boards.greenhouse.io/smartsheet/jobs/7746709) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Verse** - [Product Manager - Buyer Solutions](https://job-boards.greenhouse.io/verse/jobs/5170016008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Verse** - [Product Manager - Commercial Modeling & Simulation](https://job-boards.greenhouse.io/verse/jobs/5173722008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Verse** - [Product Manager - Energy Storage Controls & Telemetry](https://job-boards.greenhouse.io/verse/jobs/5173757008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **YipitData** - [Associate Product Manager](https://job-boards.greenhouse.io/yipitdata/jobs/7892101) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **Cohere** - [Product Manager, Agent Harness & Modelling](https://jobs.ashbyhq.com/cohere/1d1b300d-254b-48c4-958f-99c6b907f295) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Cohere** - [Product Manager, Safety Research](https://jobs.ashbyhq.com/cohere/a8122632-cc3b-4a1a-bd78-4b4b9466cb38) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Cohere** - [Product Manager, Native Experience & Growth](https://jobs.ashbyhq.com/cohere/d9d2740b-8869-462d-85df-21c1941bc13d) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Cohere** - [Product Manager, Platform Experience & Developer Product](https://jobs.ashbyhq.com/cohere/fe2e2971-e2c0-43fd-9ab1-187571776a5d) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Cosuno** - [Technical Product Manager](https://jobs.ashbyhq.com/cosuno/1061464f-148c-4d8c-a3e3-c0224a8a47c0) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'on-site' detected
+- **Monday.com** - [Group Product Manager (Growth)](https://jobs.ashbyhq.com/monday.com/74eac774-6b78-4f50-bdc8-c45c09fd4787) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Monday.com** - [Group Product Manager](https://jobs.ashbyhq.com/monday.com/c99ce4be-8b12-4623-b98f-bbc6ea210479) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Synthesia** - [Product Manager, Enterprise (Senior/Staff-level)](https://jobs.ashbyhq.com/synthesia/31e1dca3-74fd-4f74-8f40-5bb19f4034bb) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Synthesia** - [Product Manager, New Product Bet (Staff/Principal)](https://jobs.ashbyhq.com/synthesia/c2ba6d4d-f991-4432-a9c8-1514a93b08bb) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Synthesia** - [Product Manager, Video Creation & Editing (Principal-level)](https://jobs.ashbyhq.com/synthesia/fd3617a1-b117-417d-bee5-416ea9193150) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **WorkOS** - [Product Manager](https://jobs.ashbyhq.com/workos/5550ddd5-c3eb-459a-aa4d-8b1216346d88) (Score: 0)
+  - *Reason*: Hard Reject: Found exclusionary location keyword 'us only'
+- **Cloudflare** - [Senior Product Manager - FinTech](https://boards.greenhouse.io/cloudflare/jobs/8064473?gh_jid=8064473) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in-office' detected
+- **Gusto** - [Legal & Compliance Tech IT Product Manager](https://job-boards.greenhouse.io/gusto/jobs/8039574) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Gusto** - [Senior Product Manager, Tax Payments and Filing](https://job-boards.greenhouse.io/gusto/jobs/7674093) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Product Manager II - Alerting](https://careers.datadoghq.com/detail/8076871/?gh_jid=8076871) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Product Manager II - Developer Engagement](https://careers.datadoghq.com/detail/8064898/?gh_jid=8064898) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Product Manager II - Security Graph Experience](https://careers.datadoghq.com/detail/8052135/?gh_jid=8052135) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Senior Product Manager - Fleet and Lifecycle Management](https://careers.datadoghq.com/detail/8077142/?gh_jid=8077142) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Senior Product Manager – Observability Data Platform](https://careers.datadoghq.com/detail/8065192/?gh_jid=8065192) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Senior Product Manager - Regulated Industries, Data Center and New Market Expansions](https://careers.datadoghq.com/detail/8069340/?gh_jid=8069340) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Staff Product Manager, Observability Data Platforms](https://careers.datadoghq.com/detail/8065187/?gh_jid=8065187) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Datadog** - [Staff Product Manager, Threat Detection and Incident Response (Cloud SIEM)](https://careers.datadoghq.com/detail/8077676/?gh_jid=8077676) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Affirm** - [Senior Product Manager, Credit & Pricing](https://job-boards.greenhouse.io/affirm/jobs/7773693003) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Affirm** - [Senior Product Manager, Credit & Pricing](https://job-boards.greenhouse.io/affirm/jobs/7773691003) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Anthropic** - [[Pipeline] Product Manager, Research (Code)](https://job-boards.greenhouse.io/anthropic/jobs/5324349008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Anthropic** - [Product Manager, Enterprise](https://job-boards.greenhouse.io/anthropic/jobs/5253339008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Anthropic** - [Product Manager, Safeguards (Child Safety)](https://job-boards.greenhouse.io/anthropic/jobs/5164820008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Anthropic** - [Product Manager, Safeguards (Verticals)](https://job-boards.greenhouse.io/anthropic/jobs/5097490008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Anthropic** - [Research Product Manager, Labs](https://job-boards.greenhouse.io/anthropic/jobs/5096878008) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Asana** - [Head of Product Operations](https://www.asana.com/jobs/apply/7875083?gh_jid=7875083) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Asana** - [Product Manager, Adapt](https://www.asana.com/jobs/apply/8017552?gh_jid=8017552) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Asana** - [Product Manager, Work Intake](https://www.asana.com/jobs/apply/8022094?gh_jid=8022094) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Asana** - [Senior Product Manager, AI](https://www.asana.com/jobs/apply/8070671?gh_jid=8070671) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Asana** - [Senior Product Manager, AI Agents](https://www.asana.com/jobs/apply/8070622?gh_jid=8070622) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Asana** - [Senior Product Manager, Enterprise Data Governance](https://www.asana.com/jobs/apply/8072508?gh_jid=8072508) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Asana** - [Staff Product Manager, Enterprise Resource Management](https://www.asana.com/jobs/apply/7977197?gh_jid=7977197) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Chime** - [Product Manager, Growth](https://boards.greenhouse.io/chime/jobs/8343779002?gh_jid=8343779002) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in-office' detected
+- **Smartsheet** - [Sr. Product Manager II, Audit & History (Hybrid, Bangalore)](https://job-boards.greenhouse.io/smartsheet/jobs/8064530) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Smartsheet** - [Sr, Product Manager II - Gantt View (Hybrid, Bangalore)](https://job-boards.greenhouse.io/smartsheet/jobs/8064552) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Tripadvisor** - [Associate Product Manager - B2B](https://job-boards.greenhouse.io/tripadvisor/jobs/8038210) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'on-site' detected
+- **YipitData** - [Associate Director of Product Classification](https://job-boards.greenhouse.io/yipitdata/jobs/8050053) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **LiveKit** - [Staff Product Manager, Agent Observability](https://jobs.ashbyhq.com/livekit/dc2e64b8-15fd-4d88-b2dd-c3106f76df4d) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **WorkOS** - [Product Manager - Growth](https://jobs.ashbyhq.com/workos/257e30d0-eaa3-4ce1-a47d-2b2c4f65cf1a) (Score: 0)
+  - *Reason*: Hard Reject: Found exclusionary location keyword 'us only'
+- **Ably** - [Product Manager](https://news.ycombinator.com/item?id=22673744) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Adoreal** - [Product Manager, HealthTech](https://www.linkedin.com/jobs/view/product-manager-healthtech-at-adoreal-4424746475) (Score: 0)
+  - *Reason*: Hard Reject: Found exclusionary location keyword 'us only'
+- **Agoda** - [Technical Product Manager, Observability Domain](https://id.linkedin.com/jobs/view/technical-product-manager-observability-domain-at-agoda-4404849432) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Alquiler Argentina** - [Associate Product Manager](https://ar.linkedin.com/jobs/view/associate-product-manager-at-alquiler-argentina-4426849006) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **American Express** - [Senior Manager Digital Product Management](https://in.linkedin.com/jobs/view/senior-manager-digital-product-management-at-american-express-4431732841) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Apollo Hospitals** - [Senior Product Manager- Retention](https://in.linkedin.com/jobs/view/senior-product-manager-retention-at-apollo-hospitals-4424806420) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'on-site' detected
+- **ASTRO** - [Senior Product Manager (WMS)](https://id.linkedin.com/jobs/view/senior-product-manager-wms-at-astro-4435530118) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **AWS Developer Tools** - [Product Manager](https://news.ycombinator.com/item?id=22670409) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **B. Braun Group** - [Junior Product Manager - Acute Therapy (based in Jakarta)](https://id.linkedin.com/jobs/view/junior-product-manager-acute-therapy-based-in-jakarta-at-b-braun-group-4429337328) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'junior' detected in title
+- **BAGS CITY** - [Ecommerce Product Manager (Associate Level)](https://id.linkedin.com/jobs/view/ecommerce-product-manager-associate-level-at-bags-city-4422236418) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **Cachet** - [Product Manager, Gig Work](https://ee.linkedin.com/jobs/view/product-manager-gig-work-at-cachet-4443232734) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Cakap** - [Associate Product Manager](https://id.linkedin.com/jobs/view/associate-product-manager-at-cakap-4425178564) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **CareTalk Health** - [Associate Product Manager](https://remoteok.com/remote-jobs/remote-associate-product-manager-caretalk-health-1133979) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **Change.org** - [Product Manager](https://news.ycombinator.com/item?id=22676584) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Channable -** - [Product Manager](https://news.ycombinator.com/item?id=22683272) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Chronosphere** - [Product Manager](https://news.ycombinator.com/item?id=22668255) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **ClearOne Advantage** - [Senior Product Manager](https://www.linkedin.com/jobs/view/senior-product-manager-at-clearone-advantage-4425646419) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **cmlabs** - [Product Manager](https://id.linkedin.com/jobs/view/product-manager-at-cmlabs-4058324309) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **CMS (US Gov)** - [Product Managers](https://news.ycombinator.com/item?id=22674508) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Contentsquare** - [Senior Product Manager](https://es.linkedin.com/jobs/view/senior-product-manager-at-contentsquare-4417647926) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'on-site' detected
+- **Course Hero** - [Product Manager](https://news.ycombinator.com/item?id=22670282) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Delivery Hero** - [Associate Product Manager](https://in.linkedin.com/jobs/view/associate-product-manager-at-delivery-hero-4421632644) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **donotbuy.com** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-donotbuy-com-4447470879) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Ema** - [Product Manager](https://in.linkedin.com/jobs/view/product-manager-at-ema-4410906084) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Evermos** - [Associate Product Manager (SaaS) - Everpro](https://id.linkedin.com/jobs/view/associate-product-manager-saas-everpro-at-evermos-4424845998) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **FinAccel** - [Associate Product Manager - Data](https://id.linkedin.com/jobs/view/associate-product-manager-data-at-finaccel-4435400812) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **Flexera** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-flexera-4426652151) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Flip** - [Lead Product Manager - Business Solutions](https://id.linkedin.com/jobs/view/lead-product-manager-business-solutions-at-flip-4443688332) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Flow Commerce** - [Senior Backend &#X2F; Senior Frontend &#X2F; Senior Machine Learning&#X2F; Senior Product Designer &#X2F; Senior Product Manager &#X2F; Solutions Engineer](https://news.ycombinator.com/item?id=22667528) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Fore Coffee** - [Associate Product Manager](https://id.linkedin.com/jobs/view/associate-product-manager-at-fore-coffee-4404178565) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **Gaia Platform (** - [Product Manager](https://news.ycombinator.com/item?id=22668169) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Gentoo Media** - [Product Manager](https://mt.linkedin.com/jobs/view/product-manager-at-gentoo-media-4445744229) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **GovTech Singapore** - [Product Manager](https://sg.linkedin.com/jobs/view/product-manager-at-govtech-singapore-4414441517) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Happy5** - [Associate Product Manager (Remote)](https://id.linkedin.com/jobs/view/associate-product-manager-remote-at-happy5-4427539182) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **Healex** - [Experienced Product Owners](https://news.ycombinator.com/item?id=22669054) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Insight Global** - [Junior Product Manager](https://www.linkedin.com/jobs/view/junior-product-manager-at-insight-global-4426077879) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'junior' detected in title
+- **Kraft Heinz** - [Associate Product Technologist](https://id.linkedin.com/jobs/view/associate-product-technologist-at-kraft-heinz-4427728411) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **Kredivo Group** - [Product Manager - Internal Tools (Ops)](https://id.linkedin.com/jobs/view/product-manager-internal-tools-ops-at-kredivo-group-4400712918) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'intern' detected in title
+- **Kyndryl** - [Product Manager](https://sg.linkedin.com/jobs/view/product-manager-at-kyndryl-4436235001) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Lambda School (YC S17)** - [Product Managers, Salesforce Admins, Engineers](https://news.ycombinator.com/item?id=22667420) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Luxehouze** - [Associate Product Manager (APM)](https://id.linkedin.com/jobs/view/associate-product-manager-apm-at-luxehouze-4442625950) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **MantriAI** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-mantriai-4448112523) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **MeetMinded** - [Product Manager](https://si.linkedin.com/jobs/view/product-manager-at-meetminded-4417882305) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'on-site' detected
+- **MU ENERGY** - [Associate Product Manager](https://news.ycombinator.com/item?id=22719947) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Neo** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-neo-4435049938) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'on-site' detected
+- **Nova Credit (YC W12)** - [Product Manager](https://news.ycombinator.com/item?id=22667928) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Orang Tua Group** - [Internal Control, Compliance & Business Process Senior Supervisor](https://www.jobstreet.co.id/job/93653057) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'intern' detected in title
+- **Ovoko** - [Product Manager](https://lt.linkedin.com/jobs/view/product-manager-at-ovoko-4411255267) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Paxel Indonesia** - [Junior Product Manager](https://id.linkedin.com/jobs/view/junior-product-manager-at-paxel-indonesia-4393467423) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'junior' detected in title
+- **Paytm** - [Travel - Product Management - Senior Product Manager](https://in.linkedin.com/jobs/view/travel-product-management-senior-product-manager-at-paytm-4382791241) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Peakflo (YC W22)** - [Product Manager Intern - (Paid - India/Remote)](https://www.linkedin.com/jobs/view/product-manager-intern-paid-india-remote-at-peakflo-yc-w22-4430729761) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'intern' detected in title
+- **People Profilers Pte Ltd** - [Management Consultant (Senior Associate & Senior Level)](https://www.jobstreet.co.id/job/93344770) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **Perk Motivation (** - [Product Manager](https://news.ycombinator.com/item?id=22668367) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Pinhome** - [Associate Product Manager](https://id.linkedin.com/jobs/view/associate-product-manager-at-pinhome-4419362727) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **PointClickCare** - [US- Product Manager (Senior Living)](https://www.linkedin.com/jobs/view/us-product-manager-senior-living-at-pointclickcare-4410417580) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Prescreen** - [Devops&#X2F;Be&#X2F;Qa Engineers Product Managers](https://news.ycombinator.com/item?id=22667792) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Presidential Innovation Fellows** - [Product Manager](https://news.ycombinator.com/item?id=22667987) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Private Advertiser** - [JUNIOR PRODUCT MANAGER - ETHICAL](https://www.jobstreet.co.id/job/92996876) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'junior' detected in title
+- **Private Advertiser** - [Manager Operational](https://www.jobstreet.co.id/job/93692054) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'on-site' detected
+- **PropertyGuru Group** - [Senior Product Manager](https://in.linkedin.com/jobs/view/senior-product-manager-at-propertyguru-group-4443208428) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **PT Bank Digital BCA (BCA Digital)** - [Product Owner (Internship)](https://id.linkedin.com/jobs/view/product-owner-internship-at-pt-bank-digital-bca-bca-digital-4415123377) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'intern' detected in title
+- **PT BUMI INDO JAYA** - [Associate Product Manager IT](https://www.jobstreet.co.id/job/93163313) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **PT Dwi Cermat Indonesia** - [Product Owner (Associate - Senior/Lead Levels)](https://www.jobstreet.co.id/job/93665442) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **PT FOSUN HEALTH TECHNOLOGY INDONESIA** - [Patient Services & On-site Operations Manager](https://www.jobstreet.co.id/job/93428708) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'on-site' detected
+- **PT GLOBAL DISTRIBUTION PARTNER** - [Marketing Manager E-cigarette](https://www.jobstreet.co.id/job/93624176) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **PT Gondowangi Tradisional Kosmetika** - [Associate Brand Manager](https://www.jobstreet.co.id/job/93484391) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **PT Horizon Internusa Persada** - [Product Owner](https://www.jobstreet.co.id/job/93567599) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'on-site' detected
+- **PT IBM Indonesia** - [Junior Product Owner](https://www.jobstreet.co.id/job/92675713) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'junior' detected in title
+- **PT Imperium Happy Puppy** - [Junior Product Manager](https://www.jobstreet.co.id/job/93510946) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'junior' detected in title
+- **PT Infinity GGG Indonesia** - [Product & Consumer Experience Improvement Specialist](https://www.jobstreet.co.id/job/93706550) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'on-site' detected
+- **PT Jakarta Digital Nusantara** - [Product Manager](https://www.jobstreet.co.id/job/93243377) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **PT. KOPI BINTANG INDONESIA** - [Associate Product Manager (APM) Senior Staff (Mandarin Speaker)](https://www.jobstreet.co.id/job/93465251) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **PT Perangkat Lunak Indonesia** - [Junior Business Analyst](https://www.jobstreet.co.id/job/93059586) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'junior' detected in title
+- **PT Pesta Pora Abadi** - [PRODUCT DEVELOPMENT JUNIOR MANAGER](https://www.jobstreet.co.id/job/93578939) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'junior' detected in title
+- **PT Sentra Vidya Utama (SEVIMA)** - [Associate Product Manager (SFT) - Surabaya](https://id.linkedin.com/jobs/view/associate-product-manager-sft-surabaya-at-pt-sentra-vidya-utama-sevima-4434371002) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **PT Sqiva Infotech Nusantara** - [Product Management Intern](https://www.jobstreet.co.id/job/93652372) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **PT. TYMY TEH INDONESIA** - [Senior Product Manager](https://www.jobstreet.co.id/job/93063922) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Qwiik** - [Product Manager Intern](https://id.linkedin.com/jobs/view/product-manager-intern-at-qwiik-4382500351) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'intern' detected in title
+- **Reap** - [Senior Product Manager, Corporate Cards (Reap Card)](https://id.linkedin.com/jobs/view/senior-product-manager-corporate-cards-reap-card-at-reap-4435079284) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **RedDoorz** - [Associate Product Manager](https://id.linkedin.com/jobs/view/associate-product-manager-at-reddoorz-4428443590) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **Redpin** - [Senior Product Manager >](https://in.linkedin.com/jobs/view/senior-product-manager-at-redpin-4433232714) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **Revolut** - [Product Strategy Manager (6-month Internship)](https://uk.linkedin.com/jobs/view/product-strategy-manager-6-month-internship-at-revolut-4418234913) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'intern' detected in title
+- **Sensor Tower** - [Product Manager](https://news.ycombinator.com/item?id=22675988) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Skillful** - [Senior Product Manager | £50k-£60k + Bonus](https://uk.linkedin.com/jobs/view/senior-product-manager-%C2%A350k-%C2%A360k-%2B-bonus-at-skillful-4426762317) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'in office' detected
+- **Skydio** - [Product Manager](https://news.ycombinator.com/item?id=22750767) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Sotheby&#x27;s** - [Product Manager](https://news.ycombinator.com/item?id=22675967) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Sprout Digital Labs** - [Junior Product Manager](https://id.linkedin.com/jobs/view/junior-product-manager-at-sprout-digital-labs-4415110660) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'junior' detected in title
+- **TeamViewer** - [Product Manager - Platform](https://gr.linkedin.com/jobs/view/product-manager-platform-at-teamviewer-4447031376) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **The Economist** - [Associate Product Manager - Subs Growth and Lifecycle](https://id.linkedin.com/jobs/view/associate-product-manager-subs-growth-and-lifecycle-at-the-economist-4395640645) (Score: 0)
+  - *Reason*: Hard Reject: Junior/Intern seniority 'associate' detected in title
+- **tiket.com** - [Product Manager (Payment)](https://id.linkedin.com/jobs/view/product-manager-payment-at-tiket-com-4440692352) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected
+- **United States Digital Service** - [Senior Product Managers, Senior Designers, Senior Software Engineers, Senior Site Reliability Engineers, And More!](https://news.ycombinator.com/item?id=22674407) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Uplers** - [Sr Product Manager](https://in.linkedin.com/jobs/view/sr-product-manager-at-uplers-4436306735) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'onsite' detected
+- **Zest Health** - [Product Manager](https://www.linkedin.com/jobs/view/product-manager-at-zest-health-4435327230) (Score: 0)
+  - *Reason*: Hard Reject: Non-remote work type 'hybrid' detected

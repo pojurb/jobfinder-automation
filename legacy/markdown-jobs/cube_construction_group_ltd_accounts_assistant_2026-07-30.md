@@ -1,0 +1,15 @@
+---
+title: "Accounts Assistant"
+company: "CUBE Construction Group Ltd."
+match_score: 16
+score_breakdown: '[{"category": "Domain Match", "matched": 1, "total": 22, "weight": 2, "pct": 20, "keywords_hit": ["ai"]}, {"category": "AI & Tech Skills", "matched": 1, "total": 24, "weight": 2.5, "pct": 20, "keywords_hit": ["ai"]}, {"category": "Soft Skills", "matched": 2, "total": 15, "weight": 1, "pct": 67, "keywords_hit": ["remote", "communication"]}, {"category": "Location Preference", "matched": 1, "total": 12, "weight": 1.5, "pct": 33, "keywords_hit": ["remote"]}, {"category": "Business Impact", "matched": 1, "total": 18, "weight": 1.5, "pct": 25, "keywords_hit": ["growth"]}]'
+description_quality: "full"
+status: "Ready to Apply"
+url: "https://remoteok.com/remote-jobs/remote-accounts-assistant-cube-construction-group-ltd-1135829"
+date_added: "2026-07-30"
+source: "RemoteOK"
+location: "Bridgetown,"
+work_type: "Remote"
+---
+### Job Description
+About the Role CUBE Construction Group Ltd is seeking a detail-oriented and reliable Accounts Assistant to support the day to day financial operations of our growing construction business. This role is critical to ensuring that our accounting processes remain accurate, organized, and efficient, supporting multiple projects running simultaneously. We are looking for someone who is structured, proactive, and takes ownership of their work. Key Responsibilities â¢ process and verify supplier invoices â¢ assist with accounts payable and receivable â¢ prepare and issue client invoices â¢ record and post payments accurately â¢ assist with weekly payroll processing and payroll journals â¢ reconcile bank transactions and petty cash â¢ maintain accurate financial records and filing systems â¢ assist with month-end reporting and financial tasks â¢ generate reports as required by management What Weâre Looking For â¢ BSc Degree in Accounting â¢ minimum 3 yearsâ experience in a similar role â¢ working knowledge of QuickBooks and Microsoft Excel â¢ strong attention to detail and accuracy â¢ ability to meet deadlines and manage multiple tasks â¢ strong organizational and communication skills This Role Requires Someone Who â¢ takes responsibility for accuracy and timelines â¢ works efficiently without constant supervision â¢ is organized and methodical â¢ can operate in a fast-paced environment Why Join CUBE We are building a structured, high-performance construction company with strong systems and processes. You will be part of a team that values: â¢ accountability â¢ efficiency â¢ growth â¢ professionalism How to Apply Send your CV along with a short note explaining: âHow you ensure accuracy when handling financial data.â jobs@cubeconstructiongroup.com Please mention the word **ENTHUSIAST** and tag RMTgyLjI1My4yNTEuOTY= when applying to show you read the job post completely (#RMTgyLjI1My4yNTEuOTY=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.

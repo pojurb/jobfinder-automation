@@ -1,0 +1,10 @@
+[Unit]
+Description=Run the Job Finder daily pipeline every five hours
+
+[Timer]
+OnCalendar=*-*-* 00,05,10,15,20:00:00
+Persistent=true
+Unit=job-finder-daily.service
+
+[Install]
+WantedBy=timers.target

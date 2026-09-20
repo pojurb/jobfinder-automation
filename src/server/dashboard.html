@@ -21,6 +21,14 @@
       --warning: #fbbf24;
       --danger: #fb7185;
       --shadow: 0 24px 80px rgba(0, 0, 0, 0.46);
+      /* Application-status hues are a separate palette from the score
+         hues above — a status badge and a score pill must never read as
+         the same signal on one card. */
+      --st-none: #9fb0c8;
+      --st-applied: #a5b4fc; --st-applied-bg: rgba(129, 140, 248, 0.16); --st-applied-bd: rgba(129, 140, 248, 0.4);
+      --st-interviewing: #5eead4; --st-interviewing-bg: rgba(45, 212, 191, 0.16); --st-interviewing-bd: rgba(45, 212, 191, 0.38);
+      --st-passed: #cbd5e1; --st-passed-bg: rgba(148, 163, 184, 0.14); --st-passed-bd: rgba(148, 163, 184, 0.32);
+      --st-ghosted: #94a3b8; --st-ghosted-bg: rgba(100, 116, 139, 0.12); --st-ghosted-bd: rgba(100, 116, 139, 0.28);
     }
 
     * { box-sizing: border-box; }
@@ -150,7 +158,7 @@
 
     .controls {
       display: grid;
-      grid-template-columns: minmax(220px, 1fr) auto;
+      grid-template-columns: minmax(220px, 1fr) auto auto;
       gap: 12px;
       padding: 14px;
       margin-bottom: 12px;
@@ -179,6 +187,29 @@
     }
 
     .search::placeholder { color: #71849f; }
+
+    .fetched-month-filter {
+      display: grid;
+      gap: 3px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+    }
+
+    .fetched-month-filter select {
+      min-height: 42px;
+      max-width: 220px;
+      padding: 0 30px 0 10px;
+      border: 1px solid var(--border);
+      border-radius: 11px;
+      background: var(--surface-soft);
+      color: var(--text);
+      font: inherit;
+      font-size: 12px;
+      cursor: pointer;
+    }
 
     .dataset {
       display: flex;
@@ -227,6 +258,72 @@
       background: rgba(251, 113, 133, 0.09);
       color: #fecdd3;
     }
+
+    .glance {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .glance-tile {
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: 11px;
+      background: rgba(16, 27, 46, 0.94);
+    }
+
+    .glance-tile strong { display: block; font-size: 19px; font-weight: 800; line-height: 1; }
+    .glance-tile span { display: block; margin-top: 3px; color: var(--muted); font-size: 11.5px; line-height: 1.35; }
+    .glance-tile.warn strong { color: var(--warning); }
+    .glance-tile.ok strong { color: var(--success); }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11px;
+      font-weight: 750;
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--st-none);
+      white-space: nowrap;
+    }
+    .status-badge.applied { color: var(--st-applied); background: var(--st-applied-bg); border-color: var(--st-applied-bd); }
+    .status-badge.interviewing { color: var(--st-interviewing); background: var(--st-interviewing-bg); border-color: var(--st-interviewing-bd); }
+    .status-badge.rejected { color: var(--st-passed); background: var(--st-passed-bg); border-color: var(--st-passed-bd); }
+    .status-badge.ghosted { color: var(--st-ghosted); background: var(--st-ghosted-bg); border-color: var(--st-ghosted-bd); }
+    .status-badge.followup { color: var(--warning); background: rgba(251, 191, 36, 0.14); border-color: rgba(251, 191, 36, 0.35); }
+
+    .card-why {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 12.5px;
+      line-height: 1.5;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 8px;
+      flex-wrap: wrap;
+    }
+
+    .card-open {
+      margin-left: auto;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--primary);
+      cursor: pointer;
+      padding: 3px 4px;
+      border-radius: 6px;
+    }
+    .card-open:hover, .card-open:focus-visible { text-decoration: underline; }
 
     .tabs {
       display: grid;
@@ -504,6 +601,26 @@
     }
 
     .detail-column .listing-link:hover { text-decoration: underline; }
+
+    .detail-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 0 0 18px;
+    }
+
+    .detail-copy-button {
+      min-height: 36px;
+      padding: 0 11px;
+      font-size: 12px;
+    }
+
+    .copy-feedback {
+      color: var(--success);
+      font-size: 12px;
+      line-height: 1.4;
+    }
 
     .detail-column .detail-section { margin-top: 18px; }
 
@@ -810,6 +927,12 @@
         <span class="search-icon" aria-hidden="true">⌕</span>
         <input id="search-box" class="search" type="search" placeholder="Search title, company, location, or match reason..." autocomplete="off">
       </div>
+      <label class="fetched-month-filter" for="fetched-month-select">
+        <span>Fetched</span>
+        <select id="fetched-month-select" aria-label="Filter jobs by fetched month">
+          <option value="all">All fetched dates</option>
+        </select>
+      </label>
       <div id="dataset-status" class="dataset">
         <span class="status-dot" aria-hidden="true"></span>
         <div>
@@ -821,17 +944,24 @@
 
     <p id="status-text" class="status" role="status" aria-live="polite">Looking for reports/latest-jobs.js…</p>
 
+    <div class="glance" id="glance" hidden>
+      <div class="glance-tile"><strong id="glance-none">0</strong><span>Not tracked yet</span></div>
+      <div class="glance-tile ok"><strong id="glance-applied">0</strong><span>Applied</span></div>
+      <div class="glance-tile" id="glance-followup-tile"><strong id="glance-followup">0</strong><span>Follow-up due (7+ days)</span></div>
+      <div class="glance-tile"><strong id="glance-passed">0</strong><span>Passed or ghosted</span></div>
+    </div>
+
     <nav class="tabs panel" aria-label="Job categories">
       <button class="tab active" type="button" data-category="top" aria-pressed="true">
-        <strong>Top Matches</strong>
+        <strong>Worth Applying</strong>
         <span id="badge-top">0 jobs</span>
       </button>
       <button class="tab" type="button" data-category="manual" aria-pressed="false">
-        <strong>Manual Review</strong>
+        <strong>Your Call</strong>
         <span id="badge-manual">0 jobs</span>
       </button>
       <button class="tab" type="button" data-category="rejected" aria-pressed="false">
-        <strong>Rejected</strong>
+        <strong>Not a Fit</strong>
         <span id="badge-rejected">0 jobs</span>
       </button>
     </nav>
@@ -874,10 +1004,13 @@
       lastFocusedElement: null,
       detailHideTimer: null,
       sortMode: 'score',
+      fetchedMonth: new Date().toISOString().slice(0, 7),
     };
 
     const AUTO_DATA_SCRIPT_PATH = '../../reports/latest-jobs.js';
-    const categoryLabels = { top: 'Top Matches', manual: 'Manual Review', rejected: 'Rejected' };
+    const categoryLabels = { top: 'Worth Applying', manual: 'Your Call', rejected: 'Not a Fit' };
+    const STATUS_LABELS = { none: 'Not tracked', applied: 'Applied', interviewing: 'Interviewing', rejected: 'Passed', ghosted: 'Ghosted' };
+    const FOLLOWUP_DAYS = 7;
 
     function escapeHtml(value) {
       return String(value ?? '')
@@ -921,13 +1054,16 @@
 
     function jobCategory(job) {
       const hasRejectReasons = job.rejectionReasons.length > 0;
-      if (job.totalScore === 0 || job.totalScore <= 30 || (hasRejectReasons && job.totalScore < 70)) return 'rejected';
-      if (job.totalScore >= 70) return 'top';
+      const remoteScore = Number(job.rawSource?.remoteScore ?? 0);
+      if (job.totalScore === 0 || job.totalScore <= 30 || hasRejectReasons) return 'rejected';
+      if (job.totalScore >= 70 && remoteScore >= 25) return 'top';
       return 'manual';
     }
 
     function normalizeJob(raw, index) {
       const totalScore = Number(raw.totalScore ?? raw.Score ?? 0) || 0;
+      const appStatus = String(raw.appStatus ?? raw['App Status'] ?? 'none').trim() || 'none';
+      const appliedAt = String(raw.appliedAt ?? raw['Applied At'] ?? '').trim();
       return {
         key: `job-${index}`,
         id: raw.id ?? index + 1,
@@ -942,8 +1078,71 @@
         rejectionReasons: normalizeList(raw.rejectionReasons ?? raw['Rejection Reasons']),
         fetchedAt: String(raw.fetchedAt ?? raw.FetchedAt ?? '').trim(),
         description: String(raw.description ?? raw.Description ?? '').trim(),
+        // 'rejected' is the CLI's own status value for "the human passed on this job" —
+        // display it as STATUS_LABELS.rejected ("Passed") so it never reads as the
+        // same thing as this job's scorer-assigned category (jobCategory()).
+        appStatus: appStatus in STATUS_LABELS ? appStatus : 'none',
+        appliedAt: appliedAt || null,
+        appNotes: String(raw.appNotes ?? raw['App Notes'] ?? '').trim(),
         rawSource: raw,
       };
+    }
+
+    function daysSince(iso) {
+      if (!iso) return null;
+      const then = new Date(iso).getTime();
+      if (Number.isNaN(then)) return null;
+      return Math.floor((Date.now() - then) / 86400000);
+    }
+
+    function isFollowUpDue(job) {
+      if (job.appStatus !== 'applied') return false;
+      const days = daysSince(job.appliedAt);
+      return days !== null && days >= FOLLOWUP_DAYS;
+    }
+
+    function fetchedMonthKey(job) {
+      const timestamp = new Date(job.fetchedAt || '').getTime();
+      if (Number.isNaN(timestamp)) return '';
+      return new Date(timestamp).toISOString().slice(0, 7);
+    }
+
+    function jobsForFetchedMonth() {
+      if (state.fetchedMonth === 'all') return state.jobs;
+      return state.jobs.filter(job => fetchedMonthKey(job) === state.fetchedMonth);
+    }
+
+    function formatFetchedMonth(month) {
+      const parsed = new Date(`${month}-01T00:00:00Z`);
+      return Number.isNaN(parsed.getTime())
+        ? month
+        : new Intl.DateTimeFormat(undefined, { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(parsed);
+    }
+
+    function populateFetchedMonthOptions() {
+      const select = document.getElementById('fetched-month-select');
+      const counts = new Map();
+      state.jobs.forEach(job => {
+        const month = fetchedMonthKey(job);
+        if (month) counts.set(month, (counts.get(month) || 0) + 1);
+      });
+
+      const months = [...counts.keys()].sort().reverse();
+      const selectedMonth = months.includes(state.fetchedMonth)
+        ? state.fetchedMonth
+        : (months[0] || 'all');
+      state.fetchedMonth = selectedMonth;
+      select.innerHTML = [
+        `<option value="all">All fetched dates (${state.jobs.length})</option>`,
+        ...months.map(month => `<option value="${month}">${escapeHtml(formatFetchedMonth(month))} (${counts.get(month)})</option>`),
+      ].join('');
+      select.value = selectedMonth;
+      select.disabled = months.length === 0;
+    }
+
+    function statusBadgeHtml(job) {
+      const cssClass = job.appStatus === 'none' ? '' : job.appStatus;
+      return `<span class="status-badge ${cssClass}">${escapeHtml(STATUS_LABELS[job.appStatus] || 'Not tracked')}</span>`;
     }
 
     function parseCsv(text) {
@@ -1010,19 +1209,38 @@
 
     function updateSummary() {
       const counts = { top: 0, manual: 0, rejected: 0 };
-      state.jobs.forEach(job => { counts[jobCategory(job)] += 1; });
+      const scopedJobs = jobsForFetchedMonth();
+      scopedJobs.forEach(job => { counts[jobCategory(job)] += 1; });
 
       document.getElementById('meta-source').textContent = state.sourceLabel;
-      document.getElementById('meta-total').textContent = `${state.jobs.length} ${state.jobs.length === 1 ? 'job' : 'jobs'}`;
+      document.getElementById('meta-total').textContent = state.fetchedMonth === 'all'
+        ? `${state.jobs.length} ${state.jobs.length === 1 ? 'job' : 'jobs'}`
+        : `${scopedJobs.length} shown of ${state.jobs.length}`;
       document.getElementById('dataset-status').classList.toggle('loaded', state.jobs.length > 0);
       document.getElementById('badge-top').textContent = `${counts.top} jobs`;
       document.getElementById('badge-manual').textContent = `${counts.manual} jobs`;
       document.getElementById('badge-rejected').textContent = `${counts.rejected} jobs`;
+
+      const glance = document.getElementById('glance');
+      glance.hidden = scopedJobs.length === 0;
+      if (!glance.hidden) {
+        let none = 0, applied = 0, followUp = 0, passedGhosted = 0;
+        scopedJobs.forEach(job => {
+          if (job.appStatus === 'none') none++;
+          else if (job.appStatus === 'applied') { applied++; if (isFollowUpDue(job)) followUp++; }
+          else if (job.appStatus === 'rejected' || job.appStatus === 'ghosted') passedGhosted++;
+        });
+        document.getElementById('glance-none').textContent = none;
+        document.getElementById('glance-applied').textContent = applied;
+        document.getElementById('glance-followup').textContent = followUp;
+        document.getElementById('glance-passed').textContent = passedGhosted;
+        document.getElementById('glance-followup-tile').classList.toggle('warn', followUp > 0);
+      }
     }
 
     function filteredJobs() {
       const query = document.getElementById('search-box').value.trim().toLowerCase();
-      const result = state.jobs.filter(job => {
+      const result = jobsForFetchedMonth().filter(job => {
         if (jobCategory(job) !== state.activeCategory) return false;
         if (!query) return true;
         return [
@@ -1056,13 +1274,18 @@
       if (jobs.length === 0) {
         const message = state.jobs.length === 0
           ? 'No report loaded. Open a CSV or JSON file to start browsing.'
-          : 'No jobs match this category and search.';
+          : 'No jobs match this category, fetched-month filter, and search.';
         container.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
         return;
       }
 
       container.innerHTML = jobs.map(job => {
         const location = job.remoteRegion || job.location || 'Remote / location not provided';
+        const why = jobCategory(job) === 'rejected' && job.rejectionReasons.length
+          ? job.rejectionReasons[0]
+          : (job.matchReasons[0] || 'No strong signal either way.');
+        const followUp = isFollowUpDue(job);
+        const openUrl = safeListingUrl(job.url);
         return `
           <button class="job-card ${job.key === state.selectedJobKey ? 'active' : ''}" type="button" data-job-key="${escapeHtml(job.key)}" aria-pressed="${job.key === state.selectedJobKey}" aria-label="View ${escapeHtml(job.title)} at ${escapeHtml(job.company)}">
             <span class="job-main">
@@ -1072,10 +1295,28 @@
                 <span class="separator" aria-hidden="true">•</span>
                 <span>${escapeHtml(location)}</span>
               </span>
+              <span class="card-why">${jobCategory(job) === 'rejected' ? '–' : '✓'} ${escapeHtml(why)}</span>
+              <span class="card-footer">
+                ${statusBadgeHtml(job)}
+                ${followUp ? `<span class="status-badge followup">Follow up · day ${daysSince(job.appliedAt)}</span>` : ''}
+                ${openUrl ? `<span class="card-open" data-open-url="${escapeHtml(openUrl)}" role="link" tabindex="0" aria-label="Open ${escapeHtml(job.title)} listing in a new tab">Open listing ↗</span>` : ''}
+              </span>
             </span>
             <span class="score ${scoreClass(job.totalScore)}" aria-label="Score ${job.totalScore}">${job.totalScore}</span>
           </button>`;
       }).join('');
+
+      container.querySelectorAll('.card-open').forEach(el => {
+        const open = (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+          window.open(el.dataset.openUrl, '_blank', 'noopener,noreferrer');
+        };
+        el.addEventListener('click', open);
+        el.addEventListener('keydown', (event) => {
+          if (event.key === 'Enter' || event.key === ' ') open(event);
+        });
+      });
 
       container.querySelectorAll('.job-card').forEach(card => {
         card.addEventListener('click', () => selectJob(card.dataset.jobKey, card));
@@ -1089,6 +1330,50 @@
       } catch (error) {
         return '';
       }
+    }
+
+    function buildChatBrief(job) {
+      const signals = (job.matchReasons || []).slice(0, 4).map(reason => `- ${reason}`);
+      const risks = (job.rejectionReasons || []).slice(0, 3).map(reason => `- ${reason}`);
+      return [
+        'Job selected from Remote Job Radar',
+        `Job ID: ${job.id ?? 'not provided'}`,
+        `Role: ${job.title}`,
+        `Company: ${job.company}`,
+        `Score: ${job.totalScore}/100`,
+        `Location / remote: ${job.remoteRegion || job.location || 'not provided'}`,
+        job.url ? `Listing: ${job.url}` : '',
+        signals.length ? `Match signals:\n${signals.join('\n')}` : '',
+        risks.length ? `Risks:\n${risks.join('\n')}` : '',
+        'Request: Help me evaluate this specific role and tailor my application materials.',
+      ].filter(Boolean).join('\n');
+    }
+
+    async function copyJobBrief(job, button, feedback) {
+      const brief = buildChatBrief(job);
+      try {
+        if (!navigator.clipboard?.writeText) throw new Error('Clipboard API unavailable');
+        await navigator.clipboard.writeText(brief);
+      } catch (error) {
+        const fallback = document.createElement('textarea');
+        fallback.value = brief;
+        fallback.setAttribute('readonly', '');
+        fallback.style.position = 'fixed';
+        fallback.style.opacity = '0';
+        document.body.appendChild(fallback);
+        fallback.select();
+        const copied = document.execCommand('copy');
+        fallback.remove();
+        if (!copied) {
+          feedback.textContent = 'Could not access the clipboard. Copy the job ID shown above.';
+          return;
+        }
+      }
+
+      const previousLabel = button.textContent;
+      button.textContent = 'Copied';
+      feedback.textContent = `Copied job ${job.id} for chat.`;
+      window.setTimeout(() => { button.textContent = previousLabel; }, 1800);
     }
 
     function renderReasonList(items, fallback) {
@@ -1199,9 +1484,38 @@
       return `<div class="formatted-description">${html}</div>`;
     }
 
+    function fmtDate(iso) {
+      if (!iso) return '';
+      const d = new Date(iso);
+      if (Number.isNaN(d.getTime())) return '';
+      return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+    }
+
+    function renderApplicationStatus(job) {
+      const followUp = isFollowUpDue(job);
+      const appliedLine = job.appliedAt
+        ? `<div class="detail-value">Applied ${escapeHtml(fmtDate(job.appliedAt))}${followUp ? ' — <strong style="color:var(--warning);">follow-up due</strong>' : ''}</div>`
+        : '';
+      return `
+        <div class="detail-box" style="margin: 0 0 18px;">
+          <div class="detail-label">Your status</div>
+          <div class="detail-value" style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+            ${statusBadgeHtml(job)}
+            ${appliedLine}
+          </div>
+          ${job.appNotes ? `<div class="detail-value" style="margin-top:8px; color: var(--muted);">${escapeHtml(job.appNotes)}</div>` : ''}
+          <div class="detail-value" style="margin-top:8px; color: var(--muted); font-size:12px;">
+            This dashboard only displays what <code>npm run funnel</code> already knows — change it with
+            <code>npm run apply -- --job ${escapeHtml(String(job.id))} --status &lt;status&gt;</code>, then regenerate the report.
+          </div>
+        </div>
+      `;
+    }
+
     function renderExecutiveSummary(job) {
-      const isTop = job.totalScore >= 70;
-      const isRejected = job.totalScore === 0 || job.totalScore <= 30;
+      const category = jobCategory(job);
+      const isTop = category === 'top';
+      const isRejected = category === 'rejected';
       const categoryClass = isTop ? 'top-match' : isRejected ? 'rejected-match' : 'manual-match';
 
       const raw = job.rawSource || {};
@@ -1313,6 +1627,13 @@
           </div>
         </div>
 
+        <div class="detail-actions">
+          <button class="button detail-copy-button" type="button" data-copy-job-brief>Copy job brief for chat</button>
+          <span class="copy-feedback" data-copy-feedback aria-live="polite"></span>
+        </div>
+
+        ${renderApplicationStatus(job)}
+
         ${renderExecutiveSummary(job)}
 
         <section class="detail-section">
@@ -1336,6 +1657,10 @@
             <pre>${escapeHtml(rawDetails)}</pre>
           </details>
         </section>`;
+
+      const copyButton = container.querySelector('[data-copy-job-brief]');
+      const copyFeedback = container.querySelector('[data-copy-feedback]');
+      copyButton.addEventListener('click', () => copyJobBrief(job, copyButton, copyFeedback));
     }
 
     function selectJob(jobKey, triggerElement) {
@@ -1396,6 +1721,7 @@
       state.sourceLabel = sourceLabel;
       state.selectedJobKey = null;
       document.getElementById('search-box').value = '';
+      populateFetchedMonthOptions();
       setActiveCategory('top');
       updateSummary();
       setStatus(`Loaded ${state.jobs.length} jobs from ${sourceLabel}. Select any job to view its details.`);
@@ -1412,9 +1738,11 @@
       state.jobs = [];
       state.selectedJobKey = null;
       state.sourceLabel = 'Nothing loaded';
+      state.fetchedMonth = new Date().toISOString().slice(0, 7);
       document.getElementById('raw-input').value = '';
       document.getElementById('report-file').value = '';
       document.getElementById('search-box').value = '';
+      populateFetchedMonthOptions();
       setActiveCategory('top');
       updateSummary();
       setStatus('Viewer cleared. Open a CSV or JSON report to continue.');
@@ -1436,6 +1764,14 @@
     });
 
     document.getElementById('search-box').addEventListener('input', renderList);
+    document.getElementById('fetched-month-select').addEventListener('change', event => {
+      closeDetail({ restoreFocus: false });
+      state.selectedJobKey = null;
+      state.fetchedMonth = event.target.value;
+      updateSummary();
+      renderList();
+      renderDetail();
+    });
     document.getElementById('sort-select').addEventListener('change', (event) => {
       state.sortMode = event.target.value;
       renderList();

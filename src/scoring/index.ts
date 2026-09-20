@@ -1,11 +1,28 @@
-import { eq, isNull } from 'drizzle-orm';
+import { and, eq, gte, inArray, isNull, ne } from 'drizzle-orm';
 import { db } from '../db';
 import { jobs, jobScores } from '../db/schema';
 import { evaluateHardRejects, calculateFreshnessScore } from './pre-filter';
 import { evaluateJobLocally } from './local-scorer';
 import { logger } from '../utils/logger';
 
-export async function runScoringEngine() {
+export interface ScoringOptions {
+  rescoreFreshDays?: number;
+}
+
+export async function runScoringEngine(options: ScoringOptions = {}) {
+  if (options.rescoreFreshDays) {
+    const cutoff = new Date(Date.now() - options.rescoreFreshDays * 24 * 60 * 60 * 1000);
+    const freshJobs = await db
+      .select({ id: jobs.id })
+      .from(jobs)
+      .where(and(gte(jobs.fetchedAt, cutoff), ne(jobs.source, 'legacy-markdown')));
+    const freshIds = freshJobs.map((job) => job.id);
+
+    if (freshIds.length > 0) {
+      await db.delete(jobScores).where(inArray(jobScores.jobId, freshIds));
+      logger.info(`Cleared scores for ${freshIds.length} recently verified job(s) before re-scoring.`);
+    }
+  }
 
   // Find jobs that don't have a score yet
   const unscoredJobs = await db
@@ -26,7 +43,7 @@ export async function runScoringEngine() {
   logger.info(`Found ${unscoredJobs.length} unscored jobs in the database.`);
 
   let hardRejectedCount = 0;
-  let aiEvaluatedCount = 0;
+  let locallyEvaluatedCount = 0;
   let errorCount = 0;
 
   for (const job of unscoredJobs) {
@@ -97,7 +114,7 @@ export async function runScoringEngine() {
         rejectionReasons: breakdown.rejectionReasons,
       });
 
-      aiEvaluatedCount++;
+      locallyEvaluatedCount++;
     } catch (error) {
       logger.error(`Error scoring job ${job.id}: ${(error as Error).message}`);
       errorCount++;
@@ -107,7 +124,7 @@ export async function runScoringEngine() {
   logger.info('\n' + '═'.repeat(50));
   logger.info(`🎯 Scoring Complete!`);
   logger.info(`- Hard Rejected (Local): ${hardRejectedCount}`);
-  logger.info(`- AI Evaluated: ${aiEvaluatedCount}`);
+  logger.info(`- Locally Evaluated: ${locallyEvaluatedCount}`);
   logger.info(`- Errors: ${errorCount}`);
   logger.info('═'.repeat(50) + '\n');
 }

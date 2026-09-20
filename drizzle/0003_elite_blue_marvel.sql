@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `applications_job_id_idx` ON `applications` (`job_id`);

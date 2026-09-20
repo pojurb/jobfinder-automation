@@ -219,5 +219,8 @@ companies:
     industry: "SaaS"
   - name: "Worth AI"
     industry: "AI"
+  # Indonesia / Southeast Asia: verified public Greenhouse board.
+  - name: "Xendit"
+    industry: "FinTech"
   - name: "YipitData"
     industry: "FinTech"

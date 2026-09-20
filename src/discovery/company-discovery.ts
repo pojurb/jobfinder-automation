@@ -8,6 +8,7 @@ import { eq, and, sql } from 'drizzle-orm';
 import { logger } from '../utils/logger';
 import { getProjectRoot } from '../utils/paths';
 import { createHttpClient } from '../utils/http-client';
+import { AtsType } from './ats-types';
 
 interface CompanyEntry {
   name: string;
@@ -35,8 +36,6 @@ const ALLOWED_INDUSTRIES = [
   'Data',
 ];
 
-type AtsType = 'greenhouse' | 'lever' | 'ashby';
-
 interface AtsProbe {
   atsType: AtsType;
   buildUrl: (slug: string) => string;
@@ -52,6 +51,24 @@ const ATS_PROBES: AtsProbe[] = [
       typeof data === 'object' &&
       data !== null &&
       Array.isArray((data as { jobs?: unknown }).jobs),
+  },
+  {
+    atsType: 'workable',
+    buildUrl: (slug) => `https://apply.workable.com/api/v1/widget/accounts/${slug}`,
+    checkResponse: (data) =>
+      typeof data === 'object' &&
+      data !== null &&
+      Array.isArray((data as { jobs?: unknown }).jobs),
+  },
+  {
+    atsType: 'smartrecruiters',
+    buildUrl: (slug) =>
+      `https://api.smartrecruiters.com/v1/companies/${slug}/postings?limit=1`,
+    checkResponse: (data) =>
+      typeof data === 'object' &&
+      data !== null &&
+      Array.isArray((data as { content?: unknown }).content) &&
+      Number((data as { totalFound?: unknown }).totalFound) > 0,
   },
   {
     atsType: 'lever',

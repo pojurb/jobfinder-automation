@@ -1,0 +1,11 @@
+# Manual company -> career board overrides for names whose ATS slug cannot be guessed.
+# Keys are normalizeCompanyName()-normalized company names (e.g. "BJAK" -> "bjak").
+# An alias skips slug guessing but the board is still probed live before it is trusted.
+aliases:
+  # BJAK / Doit / KIRA / ActAI group share one large Ashby board (~3000 postings).
+  bjak:
+    ats_type: ashby
+    slug: bjakcareer
+  kira:
+    ats_type: ashby
+    slug: kira

@@ -23,7 +23,8 @@ async function buildCv() {
         body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 11pt; color: #333; line-height: 1.4; }
         h1 { font-size: 24pt; margin-bottom: 5px; color: #000; }
         h2 { font-size: 14pt; border-bottom: 1px solid #ccc; padding-bottom: 3px; margin-top: 15px; margin-bottom: 10px; color: #444; text-transform: uppercase; letter-spacing: 1px; }
-        h3 { font-size: 12pt; margin-bottom: 5px; margin-top: 10px; color: #000; }
+        h3 { font-size: 12pt; margin-bottom: 5px; margin-top: 10px; color: #000; break-after: avoid-page; page-break-after: avoid; }
+        .job-title { font-size: 12pt; font-weight: 700; margin-top: 10px; margin-bottom: 5px; break-inside: avoid; page-break-inside: avoid; }
         p, li { margin-bottom: 5px; }
         ul { padding-left: 20px; }
         a { color: #0366d6; text-decoration: none; }

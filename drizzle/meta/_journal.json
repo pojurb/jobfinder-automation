@@ -15,6 +15,41 @@
       "when": 1782050720272,
       "tag": "0001_nappy_mauler",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1789571139377,
+      "tag": "0002_busy_gateway",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1789571282551,
+      "tag": "0003_elite_blue_marvel",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1789826607399,
+      "tag": "0004_premium_madame_web",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1789829058423,
+      "tag": "0005_complex_abomination",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1789831926601,
+      "tag": "0006_elite_silver_sable",
+      "breakpoints": true
     }
   ]
 }

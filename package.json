@@ -18,8 +18,15 @@
     "discover": "tsx src/index.ts discover",
     "test": "vitest run",
     "build-cv": "node scripts/build-cv.js",
+    "dashboard": "tsx src/server/serve.ts",
     "review": "tsx src/index.ts review",
-    "import-legacy": "tsx src/index.ts import-legacy"
+    "apply": "tsx src/index.ts apply",
+    "funnel": "tsx src/index.ts funnel",
+    "legacy-junk": "tsx src/index.ts legacy-junk",
+    "import-legacy": "tsx src/index.ts import-legacy",
+    "resolve-careers": "tsx src/index.ts resolve-careers",
+    "promote-careers": "tsx src/index.ts promote-careers",
+    "verify-legacy": "tsx src/index.ts verify-legacy"
   },
   "keywords": [],
   "author": "",
@@ -34,6 +41,7 @@
     "dotenv": "^17.4.2",
     "drizzle-orm": "^0.45.2",
     "fast-xml-parser": "^5.9.3",
+    "md-to-pdf": "^5.2.5",
     "yaml": "^2.9.0",
     "zod": "^4.4.3"
   },

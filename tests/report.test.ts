@@ -8,12 +8,14 @@ describe('Report Generation (Categorization)', () => {
         id: 1,
         title: "Top PM",
         totalScore: 85,
+        remoteScore: 25,
         rejectionReasons: []
       },
       {
         id: 2,
         title: "Ambiguous PM",
         totalScore: 50,
+        remoteScore: 18,
         rejectionReasons: []
       },
       {

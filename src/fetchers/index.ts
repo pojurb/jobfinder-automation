@@ -6,14 +6,14 @@ import { jobs } from '../db/schema';
 import { NormalizedJob, FetchStats, JobFetcher } from './types';
 import { RemotiveFetcher } from './remotive';
 import { RemoteOKFetcher } from './remoteok';
-import { WeWorkRemotelyFetcher } from './weworkremotely';
 import { HimalayasFetcher } from './himalayas';
-import { WorkAtAStartupFetcher } from './workatastartup';
-import { WellfoundFetcher } from './wellfound';
+import { WeWorkRemotelyFetcher } from './weworkremotely';
 import { GreenhouseFetcher } from './greenhouse';
 import { LeverFetcher } from './lever';
 import { AshbyFetcher } from './ashby';
-import { WorkdayFetcher } from './workday';
+import { WorkableFetcher } from './workable';
+import { SmartRecruitersFetcher } from './smartrecruiters';
+import { matchesTitleKeywords } from './filtering';
 import { discoverCompanies, loadSeedCompanies } from '../discovery/ats-discovery';
 import { logger } from '../utils/logger';
 import { normalizeText, normalizeUrl, normalizeDate } from '../utils/normalize';
@@ -90,12 +90,10 @@ function filterJobs(jobs: NormalizedJob[], config: PipelineConfig): NormalizedJo
   const rejectedLocations = config.hard_rejects?.locations_only?.map((l) => l.toLowerCase()) ?? [];
 
   return jobs.filter((job) => {
-    const title = job.title.toLowerCase();
     const location = (job.location || '').toLowerCase();
     const remoteRegion = (job.remoteRegion || '').toLowerCase();
 
-    if (excluded.some((ex) => title.includes(ex))) return false;
-    if (!keywords.some((kw) => title.includes(kw))) return false;
+    if (!matchesTitleKeywords(job.title, { keywords, excluded_keywords: excluded })) return false;
 
     if (rejectedLocations.length > 0) {
       for (const loc of rejectedLocations) {
@@ -194,14 +192,13 @@ function printSummary(stats: FetchStats[]): void {
 }
 
 const SOURCE_PRIORITY: Record<string, number> = {
-  workday: 10,
   greenhouse: 9,
   lever: 8,
   ashby: 7,
+  workable: 7,
+  smartrecruiters: 7,
   weworkremotely: 6,
-  himalayas: 5,
-  workatastartup: 4,
-  wellfound: 3,
+  himalayas: 6,
   remotive: 2,
   remoteok: 1,
 };
@@ -287,11 +284,16 @@ export async function runFetchPipeline(options: PipelineOptions = {}): Promise<v
 
   // ── Phase 1: Aggregators ──────────────────────────────────────────────────
 
-  const aggregators: JobFetcher[] = [new RemotiveFetcher(), new RemoteOKFetcher(), new WeWorkRemotelyFetcher(), new HimalayasFetcher(), new WorkAtAStartupFetcher(), new WellfoundFetcher()];
+  const aggregators: JobFetcher[] = [
+    new RemotiveFetcher(),
+    new RemoteOKFetcher(),
+    new WeWorkRemotelyFetcher(),
+    new HimalayasFetcher(),
+  ];
   const aggregatorJobs: NormalizedJob[] = [];
   const allFilteredJobs: NormalizedJob[] = [];
 
-  if (!source || ['remotive', 'remoteok', 'weworkremotely', 'himalayas', 'workatastartup', 'wellfound'].includes(source)) {
+  if (!source || ['remotive', 'remoteok', 'weworkremotely', 'himalayas'].includes(source)) {
     logger.info('\n📡 Phase 1: Fetching from aggregators...\n');
 
     for (const fetcher of aggregators) {
@@ -305,7 +307,7 @@ export async function runFetchPipeline(options: PipelineOptions = {}): Promise<v
 
   // ── Phase 2: ATS Discovery ────────────────────────────────────────────────
 
-  if (!source || !['remotive', 'remoteok', 'weworkremotely', 'himalayas', 'workatastartup', 'wellfound'].includes(source)) {
+  if (!source || !['remotive', 'remoteok', 'weworkremotely', 'himalayas'].includes(source)) {
     logger.info('\n🔎 Phase 2: Running ATS discovery...\n');
 
     if (!dryRun) {
@@ -326,10 +328,11 @@ export async function runFetchPipeline(options: PipelineOptions = {}): Promise<v
     new GreenhouseFetcher(),
     new LeverFetcher(),
     new AshbyFetcher(),
-    new WorkdayFetcher(),
+    new WorkableFetcher(),
+    new SmartRecruitersFetcher(),
   ];
 
-  if (!source || ['greenhouse', 'lever', 'ashby', 'workday'].includes(source)) {
+  if (!source || ['greenhouse', 'lever', 'ashby', 'workable', 'smartrecruiters'].includes(source)) {
     logger.info('\n🏢 Phase 3: Fetching from ATS boards...\n');
 
     for (const fetcher of atsFetchers) {

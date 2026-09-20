@@ -7,16 +7,18 @@ import { eq, and, sql } from 'drizzle-orm';
 import { readFileSync } from 'fs';
 import { parse } from 'yaml';
 import { getConfigPath } from '../utils/paths';
+import { AtsType } from './ats-types';
 
 // URL patterns for ATS platforms
 const ATS_PATTERNS: Array<{
   regex: RegExp;
-  atsType: 'greenhouse' | 'lever' | 'ashby' | 'workday';
+  atsType: AtsType;
 }> = [
   { regex: /boards\.greenhouse\.io\/([a-zA-Z0-9_-]+)/i, atsType: 'greenhouse' },
   { regex: /jobs\.lever\.co\/([a-zA-Z0-9_-]+)/i, atsType: 'lever' },
   { regex: /jobs\.ashbyhq\.com\/([a-zA-Z0-9_-]+)/i, atsType: 'ashby' },
-  { regex: /([a-z0-9-]+)\.wd1\.myworkdayjobs\.com/i, atsType: 'workday' },
+  { regex: /apply\.workable\.com\/([a-zA-Z0-9_-]+)/i, atsType: 'workable' },
+  { regex: /jobs\.smartrecruiters\.com\/([a-zA-Z0-9_-]+)/i, atsType: 'smartrecruiters' },
 ];
 
 /**
@@ -87,22 +89,23 @@ export async function discoverCompanies(
 }
 
 /**
- * Load seed companies into the database if the table is empty (first run).
+ * Load seed companies that have not been registered yet. This is intentionally
+ * additive: a database can already contain discovered companies while still
+ * missing a newly added seed (such as a Workday board).
  */
 export async function loadSeedCompanies(): Promise<number> {
-  const countResult = await db
-    .select({ count: sql<number>`count(*)` })
+  const existingCompanies = await db
+    .select({ slug: discoveredCompanies.slug, atsType: discoveredCompanies.atsType })
     .from(discoveredCompanies);
-
-  if ((countResult[0]?.count || 0) > 0) {
-    logger.debug('Seed companies already loaded, skipping.');
-    return 0;
-  }
-
-  logger.info(`Loading ${seedCompanies.length} seed companies...`);
+  const existingKeys = new Set(
+    existingCompanies.map((company) => `${company.atsType}:${company.slug.toLowerCase()}`),
+  );
 
   let loaded = 0;
   for (const company of seedCompanies) {
+    const key = `${company.atsType}:${company.slug.toLowerCase()}`;
+    if (existingKeys.has(key)) continue;
+
     try {
       await db.insert(discoveredCompanies).values({
         slug: company.slug,
@@ -113,12 +116,13 @@ export async function loadSeedCompanies(): Promise<number> {
         failCount: 0,
       });
       loaded++;
+      existingKeys.add(key);
     } catch {
       // Skip duplicates (e.g. same slug+atsType in seed list)
     }
   }
 
-  logger.info(`Loaded ${loaded} seed companies.`);
+  logger.info(loaded > 0 ? `Loaded ${loaded} missing seed companies.` : 'All seed companies already registered.');
   return loaded;
 }
 
@@ -126,7 +130,7 @@ export async function loadSeedCompanies(): Promise<number> {
  * Get all active companies for a given ATS type.
  */
 export async function getActiveCompanies(
-  atsType: 'greenhouse' | 'lever' | 'ashby' | 'workday'
+  atsType: AtsType
 ): Promise<Array<{ id: number; slug: string; name: string | null }>> {
   return db
     .select({

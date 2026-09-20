@@ -7,3 +7,12 @@ legacy/python/.browser_data/
 legacy/python/__pycache__/
 legacy/python/**/*.pyc
 .DS_Store
+
+# Local data, backups, and personal files (never commit)
+sqlite.db.bak-*
+/=
+logs/
+candidate-evidence.md
+sources/linkedin-jobs.json
+tailored-cvs/
+reports/

@@ -1,9 +1,9 @@
 import { mkdirSync, writeFileSync } from 'fs';
 import { join } from 'path';
-import { eq, desc, sql } from 'drizzle-orm';
+import { and, eq, desc, ne, sql } from 'drizzle-orm';
 import { stringify } from 'csv-stringify/sync';
 import { db } from '../db';
-import { jobs, jobScores } from '../db/schema';
+import { jobs, jobScores, applications } from '../db/schema';
 import { logger } from '../utils/logger';
 import { getReportsDir } from '../utils/paths';
 
@@ -30,6 +30,9 @@ interface ReportJob {
   matchReasons: string[] | null;
   rejectionReasons: string[] | null;
   fetchedAt: Date;
+  appStatus: string | null;
+  appliedAt: Date | null;
+  appNotes: string | null;
 }
 
 export function categorizeJobs(scoredJobs: ReportJob[]) {
@@ -39,9 +42,11 @@ export function categorizeJobs(scoredJobs: ReportJob[]) {
 
   for (const job of scoredJobs) {
     const score = job.totalScore || 0;
-    if (score === 0 || score <= REJECTED_THRESHOLD || (job.rejectionReasons && job.rejectionReasons.length > 0 && score < TOP_MATCH_THRESHOLD)) {
+    const hasRejectionReasons = Boolean(job.rejectionReasons && job.rejectionReasons.length > 0);
+    const hasExplicitEligibility = (job.remoteScore || 0) >= 25;
+    if (score === 0 || score <= REJECTED_THRESHOLD || hasRejectionReasons) {
       rejected.push(job);
-    } else if (score >= TOP_MATCH_THRESHOLD) {
+    } else if (score >= TOP_MATCH_THRESHOLD && hasExplicitEligibility) {
       topMatches.push(job);
     } else {
       manualReview.push(job);
@@ -65,7 +70,7 @@ function generateMarkdown(
 ): string {
   let md = `# Remote Job Shortlist — Johannes Purba (${dateString})\n\n`;
 
-  md += `## 🌟 Top Matches (${topMatches.length})\n\n`;
+  md += `## 🌟 Apply Today — explicit eligibility (${topMatches.length})\n\n`;
   if (topMatches.length === 0) md += `*No top matches found today.*\n\n`;
   
   topMatches.forEach((job, index) => {
@@ -152,6 +157,12 @@ function generateViewerDataset(dateString: string, scoredJobs: ReportJob[]) {
       matchReasons: job.matchReasons || [],
       rejectionReasons: job.rejectionReasons || [],
       fetchedAt: job.fetchedAt.toISOString(),
+      // 'rejected' here means the human decided to pass — the dashboard relabels
+      // it "Passed" so it stops reading as the same thing as the scorer's own
+      // rejected/"Not a Fit" bucket.
+      appStatus: job.appStatus || 'none',
+      appliedAt: job.appliedAt ? job.appliedAt.toISOString() : null,
+      appNotes: job.appNotes || '',
     })),
   };
 }
@@ -166,27 +177,25 @@ export interface ReportOptions {
   all?: boolean;
 }
 
-export async function generateDailyReport(options: ReportOptions = {}) {
-  const reportsDir = getReportsDir();
-  mkdirSync(reportsDir, { recursive: true });
-
-  const today = new Date();
-  const dateString = today.toISOString().split('T')[0];
-
+/**
+ * Runs the same scored-jobs query used by every report output (Markdown, CSV,
+ * and the dashboard JSON/JS). Shared so the live dashboard server can pull the
+ * current database state without writing anything to disk first.
+ */
+async function fetchScoredJobs(options: ReportOptions = {}): Promise<{ jobs: ReportJob[]; scopeLabel: string }> {
   const scopeLabel = options.all
     ? 'all time'
     : options.since
       ? `since ${options.since}`
       : 'the last 24 hours';
-  logger.info(`Fetching scored jobs for ${dateString} (${scopeLabel})...`);
 
   let whereClause;
   if (options.all) {
     whereClause = undefined;
   } else if (options.since) {
-    whereClause = sql`date(${jobScores.createdAt}, 'unixepoch') >= date(${options.since})`;
+    whereClause = sql`date(${jobs.fetchedAt}, 'unixepoch') >= date(${options.since})`;
   } else {
-    whereClause = sql`date(${jobScores.createdAt}, 'unixepoch') >= date('now', '-1 day')`;
+    whereClause = sql`date(${jobs.fetchedAt}, 'unixepoch') >= date('now', '-1 day')`;
   }
 
   let query = db
@@ -209,12 +218,46 @@ export async function generateDailyReport(options: ReportOptions = {}) {
       matchReasons: jobScores.matchReasons,
       rejectionReasons: jobScores.rejectionReasons,
       fetchedAt: jobs.fetchedAt,
+      appStatus: applications.status,
+      appliedAt: applications.appliedAt,
+      appNotes: applications.notes,
     })
     .from(jobs)
     .innerJoin(jobScores, eq(jobs.id, jobScores.jobId))
+    .leftJoin(applications, eq(jobs.id, applications.jobId))
     .orderBy(desc(jobScores.totalScore));
 
-  const recentJobs = whereClause ? await query.where(whereClause) : await query;
+  const visibleJobsClause = options.all
+    ? eq(jobs.isJunk, false)
+    : and(eq(jobs.isJunk, false), ne(jobs.source, 'legacy-markdown'));
+  const recentJobs = whereClause
+    ? await query.where(and(visibleJobsClause, whereClause))
+    : await query.where(visibleJobsClause);
+
+  return { jobs: recentJobs as ReportJob[], scopeLabel };
+}
+
+/**
+ * Builds the same `window.REMOTE_JOB_RADAR_DATA = ...` script that
+ * reports/latest-jobs.js contains, straight from the live database. Used by
+ * `npm run dashboard` (src/server/serve.ts) so the dashboard never shows a
+ * stale snapshot — no `npm run report` step required first.
+ */
+export async function getLiveViewerScript(): Promise<string> {
+  const { jobs: allJobs } = await fetchScoredJobs({ all: true });
+  const dateString = new Date().toISOString().split('T')[0];
+  return generateViewerScript(dateString, allJobs);
+}
+
+export async function generateDailyReport(options: ReportOptions = {}) {
+  const reportsDir = getReportsDir();
+  mkdirSync(reportsDir, { recursive: true });
+
+  const today = new Date();
+  const dateString = today.toISOString().split('T')[0];
+
+  logger.info(`Fetching scored jobs for ${dateString}...`);
+  const { jobs: recentJobs, scopeLabel } = await fetchScoredJobs(options);
 
   if (recentJobs.length === 0) {
     logger.warn(`No jobs scored ${scopeLabel}. Report will be empty.`);

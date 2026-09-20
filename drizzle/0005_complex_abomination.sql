@@ -1,0 +1,1 @@
+ALTER TABLE `company_career_sources` ADD `evidence` text;

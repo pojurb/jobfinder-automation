@@ -26,11 +26,10 @@ rate_limits:
   greenhouse: 500
   lever: 500
   ashby: 500
+  workable: 750
+  smartrecruiters: 750
   weworkremotely: 1000
   himalayas: 1000
-  workatastartup: 1000
-  wellfound: 2000
-  workday: 500
 
 # Staleness management
 staleness:

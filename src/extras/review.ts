@@ -1,4 +1,4 @@
-import { eq, and, desc, sql } from 'drizzle-orm';
+import { eq, and, desc } from 'drizzle-orm';
 import { db } from '../db';
 import { jobs, jobScores } from '../db/schema';
 import { logger } from '../utils/logger';
@@ -124,7 +124,7 @@ export async function runReviewCommand(options: ReviewOptions = {}): Promise<voi
       })
       .from(jobs)
       .innerJoin(jobScores, eq(jobs.id, jobScores.jobId))
-      .where(eq(jobs.id, numericId))
+      .where(and(eq(jobs.id, numericId), eq(jobs.isJunk, false)))
       .limit(1);
 
     if (result.length === 0) {
@@ -156,6 +156,7 @@ export async function runReviewCommand(options: ReviewOptions = {}): Promise<voi
       })
       .from(jobs)
       .innerJoin(jobScores, eq(jobs.id, jobScores.jobId))
+      .where(eq(jobs.isJunk, false))
       .orderBy(desc(jobScores.totalScore));
 
     let filtered = result as ReviewJob[];

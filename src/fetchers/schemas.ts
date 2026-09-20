@@ -40,6 +40,52 @@ export const RemoteOKResponseSchema = z.array(z.unknown());
 
 export type RemoteOKJob = z.infer<typeof RemoteOKJobSchema>;
 
+// ─── Himalayas ────────────────────────────────────────────────────────────────
+
+const HimalayasLocationRestrictionsSchema = z.union([z.string(), z.array(z.string())]);
+const HimalayasDateSchema = z
+  .union([z.string(), z.number()])
+  .nullable()
+  .optional()
+  .transform((value) =>
+    typeof value === 'number' ? new Date(value * 1000).toISOString() : value
+  );
+
+export const HimalayasJobSchema = z.object({
+  title: z.string(),
+  excerpt: z.string().optional().default(''),
+  companyName: z.string(),
+  companySlug: z.string().optional().default(''),
+  companyLogo: z.string().optional().default(''),
+  employmentType: z.string().optional().default(''),
+  minSalary: z.number().nullable().optional(),
+  maxSalary: z.number().nullable().optional(),
+  salaryPeriod: z.string().nullable().optional(),
+  seniority: z.array(z.string()).optional().default([]),
+  currency: z.string().nullable().optional(),
+  locationRestrictions: HimalayasLocationRestrictionsSchema.nullable().optional(),
+  timezoneRestrictions: z.array(z.number()).optional().default([]),
+  categories: z.array(z.string()).optional().default([]),
+  parentCategories: z.array(z.string()).optional().default([]),
+  description: z.string().optional().default(''),
+  pubDate: HimalayasDateSchema,
+  expiryDate: HimalayasDateSchema,
+  applicationLink: z.string().min(1),
+  guid: z.string().min(1),
+}).passthrough();
+
+export const HimalayasResponseSchema = z.object({
+  comments: z.string().optional(),
+  updatedAt: z.number().optional(),
+  offset: z.number().optional(),
+  limit: z.number().optional(),
+  totalCount: z.number().optional(),
+  nextCursor: z.string().nullable().optional(),
+  jobs: z.array(HimalayasJobSchema),
+});
+
+export type HimalayasJob = z.infer<typeof HimalayasJobSchema>;
+
 // ─── Greenhouse ─────────────────────────────────────────────────────────────────
 
 const GreenhouseLocationSchema = z.object({
@@ -101,3 +147,82 @@ export const AshbyResponseSchema = z.object({
 });
 
 export type AshbyJob = z.infer<typeof AshbyJobSchema>;
+
+// ─── Workable ──────────────────────────────────────────────────────────────────
+
+const WorkableJobSchema = z.object({
+  title: z.string(),
+  shortcode: z.string(),
+  url: z.string(),
+  application_url: z.string().optional().default(''),
+  published_on: z.string().optional().default(''),
+  city: z.string().nullable().optional(),
+  state: z.string().nullable().optional(),
+  country: z.string().nullable().optional(),
+  telecommuting: z.boolean().optional().default(false),
+  employment_type: z.string().optional().default(''),
+  department: z.string().nullable().optional(),
+});
+
+export const WorkableResponseSchema = z.object({
+  name: z.string().optional().default(''),
+  description: z.string().optional().default(''),
+  jobs: z.array(WorkableJobSchema),
+});
+
+export type WorkableJob = z.infer<typeof WorkableJobSchema>;
+
+// ─── SmartRecruiters ───────────────────────────────────────────────────────────
+
+const SmartRecruitersLocationSchema = z.object({
+  city: z.string().nullable().optional(),
+  region: z.string().nullable().optional(),
+  country: z.string().nullable().optional(),
+  remote: z.boolean().optional().default(false),
+  hybrid: z.boolean().optional().default(false),
+  fullLocation: z.string().nullable().optional(),
+});
+
+const SmartRecruitersPostingSchema = z.object({
+  id: z.union([z.string(), z.number()]).transform(String),
+  name: z.string(),
+  company: z
+    .object({
+      identifier: z.string().optional().default(''),
+      name: z.string().optional().default(''),
+    })
+    .optional(),
+  releasedDate: z.string().optional().default(''),
+  location: SmartRecruitersLocationSchema.optional(),
+});
+
+const SmartRecruitersSectionSchema = z.object({
+  text: z.string().optional().default(''),
+});
+
+export const SmartRecruitersListResponseSchema = z.object({
+  offset: z.number().optional().default(0),
+  limit: z.number().optional().default(100),
+  totalFound: z.number().optional().default(0),
+  content: z.array(SmartRecruitersPostingSchema).default([]),
+});
+
+export const SmartRecruitersPostingDetailSchema = SmartRecruitersPostingSchema.extend({
+  postingUrl: z.string().optional().default(''),
+  applyUrl: z.string().optional().default(''),
+  jobAd: z
+    .object({
+      sections: z
+        .object({
+          companyDescription: SmartRecruitersSectionSchema.optional(),
+          jobDescription: SmartRecruitersSectionSchema.optional(),
+          qualifications: SmartRecruitersSectionSchema.optional(),
+          additionalInformation: SmartRecruitersSectionSchema.optional(),
+        })
+        .optional(),
+    })
+    .optional(),
+});
+
+export type SmartRecruitersPosting = z.infer<typeof SmartRecruitersPostingSchema>;
+export type SmartRecruitersPostingDetail = z.infer<typeof SmartRecruitersPostingDetailSchema>;

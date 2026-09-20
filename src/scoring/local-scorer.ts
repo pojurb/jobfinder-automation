@@ -27,6 +27,12 @@ const DEFAULT_EXCLUSION_INDICATORS = [
   'north america only', 'americas only', 'us citizen', 'work authorization',
 ];
 
+// A listing can be remote while still being restricted to an employment
+// country. These are deliberately evaluated from the location field only so
+// a company mention in the description does not disqualify an otherwise
+// worldwide role.
+const COUNTRY_LOCKED_REMOTE_LOCATION = /\b(?:united states|u\.s\.|usa|us|canada|united kingdom|uk|europe|emea|north america|americas)\b/i;
+
 function buildRegex(words: string[]): RegExp {
   const escaped = words.map((w) => w.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'));
   return new RegExp(`\\b(?:${escaped.join('|')})\\b`, 'i');
@@ -97,13 +103,23 @@ export async function evaluateJobLocally(job: {
     ? new RegExp(`(?:${restrictedPatterns.map((p) => p.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')).join('|')})`, 'i')
     : null;
 
-  const isLocationRestricted = restrictedRegex !== null && restrictedRegex.test(locationLower);
+  const isLocationRestricted = (restrictedRegex !== null && restrictedRegex.test(locationLower))
+    || COUNTRY_LOCKED_REMOTE_LOCATION.test(locationLower);
   const locationIsGenuinelyGlobal = explicitlyGlobal.test(locationLower);
   const locationIsJustRemote = /\bremote\b/i.test(locationLower) && !locationIsGenuinelyGlobal;
+  // LinkedIn frequently labels a globally hireable remote role with the
+  // employer's nearest office (for example, "Singapore"). Trust only an
+  // unambiguous hiring statement in the job description, never a generic
+  // marketing mention of "global".
+  const explicitlyGlobalHiring = /\b(?:we|[a-z][a-z0-9-]*)\s+(?:hire|hires|hiring)\s+globally\b|\bglobal(?:ly)?\s+remote\b/i.test(descLower);
+  const hasCountryLockedLocation = COUNTRY_LOCKED_REMOTE_LOCATION.test(locationLower);
 
   if (excludesIndo.test(textToSearch)) {
     remoteScore = 0;
     rejectionReasons.push('Strict geographic restrictions or work authorization (US/EU/Canada only)');
+  } else if (explicitlyGlobalHiring && !hasCountryLockedLocation) {
+    remoteScore = maxRemoteScore;
+    matchReasons.push('Description explicitly states that the remote role hires globally');
   } else if (isLocationRestricted) {
     // Location names a specific city/country — this is NOT globally remote even if the description says "worldwide"
     remoteScore = Math.round(maxRemoteScore * 0.2);
@@ -176,7 +192,10 @@ export async function evaluateJobLocally(job: {
     matchReasons.push(`Matches preferred domain(s): ${matchedDomains.join(', ')}`);
   } else {
     domainScore = 0;
-    rejectionReasons.push('Does not match target domains (SaaS/FinTech)');
+    // Preferred domains are a ranking signal, not an eligibility requirement.
+    // A strong, globally eligible PM role must remain visible for human review
+    // even when its posting does not name SaaS or FinTech explicitly.
+    matchReasons.push('No preferred domain keyword found; review the domain fit manually');
   }
 
   // 4b. Anti-Domain Penalty

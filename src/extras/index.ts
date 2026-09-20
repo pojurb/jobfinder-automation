@@ -6,9 +6,17 @@ import { db } from '../db';
 import { jobs, jobScores, discoveredCompanies } from '../db/schema';
 import { logger } from '../utils/logger';
 import { getReportsDir } from '../utils/paths';
+import { importLinkedInCaptures } from './import-linkedin';
 
 export { runReviewCommand } from './review';
+export { runLegacyJunkCleanup } from '../legacy/junk';
+export { APPLICATION_STATUSES, isApplicationStatus, runApplyCommand, runFunnelCommand } from './applications';
 export type { ReviewOptions } from './review';
+
+export async function runLinkedInImportCommand(file: string, dryRun: boolean) {
+  const result = await importLinkedInCaptures(file, dryRun);
+  logger.info(`LinkedIn captures: ${result.imported} imported, ${result.skippedExisting} already present, ${result.skippedInvalid} invalid${dryRun ? ' (dry run)' : ''}.`);
+}
 
 export async function runListCommand() {
   const activeCompanies = await db

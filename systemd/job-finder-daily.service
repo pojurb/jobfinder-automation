@@ -1,0 +1,10 @@
+[Unit]
+Description=Run the Job Finder daily pipeline
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/jopurb/Projects/job-finder
+Environment=PATH=/home/jopurb/.local/share/mise/installs/node/26.8.1/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/home/jopurb/.local/share/mise/installs/node/26.8.1/bin/npm run daily
+StandardOutput=append:/home/jopurb/Projects/job-finder/logs/job-finder-daily.log
+StandardError=append:/home/jopurb/Projects/job-finder/logs/job-finder-daily.log

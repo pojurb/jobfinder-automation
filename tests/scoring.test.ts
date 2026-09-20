@@ -88,6 +88,22 @@ describe('Local Scorer — anti-domain penalty', () => {
   });
 });
 
+describe('Local Scorer — preferred domains', () => {
+  it('keeps a globally eligible PM role visible when no preferred domain keyword is present', async () => {
+    const result = await evaluateJobLocally({
+      title: 'Senior Product Manager',
+      company: 'Some Corp',
+      location: 'Worldwide',
+      description: 'Own the product roadmap, prioritization, and stakeholder delivery for a digital product.',
+    });
+
+    expect(result).not.toBeNull();
+    expect(result!.domainScore).toBe(0);
+    expect(result!.rejectionReasons.some((r) => r.includes('Does not match target domains'))).toBe(false);
+    expect(result!.matchReasons.some((r) => r.includes('review the domain fit manually'))).toBe(true);
+  });
+});
+
 describe('Local Scorer — salary signal', () => {
   it('awards bonus for disclosed salary', async () => {
     const result = await evaluateJobLocally({
@@ -210,6 +226,29 @@ describe('Local Scorer — remote eligibility location fix', () => {
     expect(result!.rejectionReasons.some((r) => r.includes('geographic restrictions'))).toBe(true);
   });
 
+  it('does not treat country-locked remote roles as Indonesia-eligible', async () => {
+    const score = await evaluateJobLocally({
+      title: 'Senior Product Manager',
+      company: 'Example',
+      location: 'Remote Canada',
+      description: 'Build product strategy for a distributed team.',
+    });
+
+    expect(score?.remoteScore).toBe(5);
+    expect(score?.rejectionReasons).toContain('Location "Remote Canada" indicates a region-locked role, not globally remote');
+  });
+
+  it('does not treat US Remote as Indonesia-eligible', async () => {
+    const score = await evaluateJobLocally({
+      title: 'Senior Product Manager',
+      company: 'Example',
+      location: 'US Remote',
+      description: 'Build product strategy for a distributed team.',
+    });
+
+    expect(score?.remoteScore).toBe(5);
+  });
+
   it('does NOT let description "worldwide" override "London" location', async () => {
     const result = await evaluateJobLocally({
       title: 'Product Manager',
@@ -219,5 +258,17 @@ describe('Local Scorer — remote eligibility location fix', () => {
     });
     expect(result).not.toBeNull();
     expect(result!.remoteScore).toBeLessThan(10);
+  });
+
+  it('accepts an explicit global-hiring statement despite LinkedIn office location metadata', async () => {
+    const result = await evaluateJobLocally({
+      title: 'Technical Product Lead',
+      company: 'Example',
+      location: 'Singapore',
+      description: 'This is a remote role. Example hires globally and works across multiple countries and time zones.',
+    });
+
+    expect(result?.remoteScore).toBe(25);
+    expect(result?.rejectionReasons.some((reason) => reason.includes('region-locked'))).toBe(false);
   });
 });
